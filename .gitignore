@@ -1,15 +1,20 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# dataset + your videos (too big for git)
+dataset_exercise_quality/
+Dataset Exercise-wise/
+Dataset Subject-wise/
+data/
+data_ext/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# generated results (CSVs, models). Remove this line if you want to commit the trained models
+outputs/
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
