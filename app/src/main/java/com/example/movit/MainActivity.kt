@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.movit.ui.theme.MovitTheme
+import com.example.movit.ui.camera.CameraScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,12 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MovitTheme {
-                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Text("MOVIT", style = MaterialTheme.typography.headlineLarge)
-                        Button(onClick = {}) { Text("Mulai latihan") }
-                    }
-                }
+                CameraScreen()
             }
         }
     }
