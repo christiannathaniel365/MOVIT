@@ -11,6 +11,9 @@ Tombol: r = kembali menunggu 5 jari, q / Esc = keluar.
 
 Ini SARAN form, bukan penilaian pasti dan bukan pengganti pelatih.
 
+Kalau --gerakan Pushup atau Pushup_on_Knees dipilih, pilihan user dipakai selama model melihat gerakan itu
+sebagai "keluarga push-up" (Pushup + Pushup_on_Knees). Penilaian form hanya untuk Pushup biasa.
+
 Contoh:
   python realtime_workout.py
   python realtime_workout.py --gerakan Pushup
@@ -30,7 +33,7 @@ import numpy as np
 
 # ---------------------------------------------------------------- pengaturan
 KELAS = ["Elbow_Plank", "High_Plank", "Pushup", "Pushup_on_Knees", "Side_Plank"]
-TARGET_FPS = 15          # data latih QEVD / multiview efektifnya 15 fps
+TARGET_FPS = 15          # semua sumber data latih disamakan ke ~15 fps (notebook v4); nilai asli dibaca dari model
 MAX_MISSING = 0.2        # window dilewati kalau >20% frame tanpa pose (sama dengan training)
 HOLD_SEC = 1.0           # lama 5 jari harus ditahan
 HOLD_GRACE = 0.3         # toleransi deteksi tangan sempat hilang sebentar
@@ -39,13 +42,20 @@ KELAS_MIN_CONF = 0.5     # di bawah ini tampil "belum yakin"
 FORM_BAIK = 0.6          # P(good) >= ini  -> "tampak baik"
 FORM_BURUK = 0.4         # P(good) <= ini  -> "perlu diperbaiki"; di antaranya "belum yakin"
 POSE_LOST_SEC = 2.0      # pose hilang selama ini -> minta user mundur / perbaiki posisi
+KELUARGA_PUSHUP = ("Pushup", "Pushup_on_Knees")
+MARGIN_LUTUT = 0.2       # kalau user pilih Pushup tapi P(On_Knees) lebih tinggi sebanyak ini -> beri petunjuk, bukan nilai form
 
 DEFAULT_MODEL_DIRS = [
     Path(r"C:\Users\hanse\OneDrive\Documents\MOVIT\Dataset\outputs"),
 ]
 
 
-# ------------------------------------------------- fitur (sama dengan notebook)
+# ------------------------------------------------- fitur (HARUS sama dengan notebook v4)
+def skala_xy(X, wh):
+    """(N,T,33,2) koordinat 0..1 + wh (N,2) = (lebar, tinggi) frame -> koordinat piksel"""
+    return X * wh[:, None, None, :]
+
+
 def angles(X, sudut_def):
     """(N, T, 33, 2) -> (N, T, 8) sudut dalam derajat"""
     out = []
@@ -56,9 +66,30 @@ def angles(X, sudut_def):
     return np.stack(out, -1).astype(np.float32)
 
 
+def fitur_posisi(X):
+    """(N,T,33,2) koordinat piksel -> (N,T,11) fitur posisi/orientasi badan"""
+    mid = lambda a, b: (X[:, :, a] + X[:, :, b]) / 2
+    bahu, pinggul, lutut, kaki = mid(11, 12), mid(23, 24), mid(25, 26), mid(27, 28)
+    L = np.linalg.norm(bahu - pinggul, axis=-1) + 1e-6
+    horiz = lambda p, q: np.degrees(np.arctan2(np.abs(q[..., 1] - p[..., 1]), np.abs(q[..., 0] - p[..., 0]) + 1e-6))
+    jarak = lambda p, q: np.linalg.norm(p - q, axis=-1) / L
+    f = [horiz(bahu, pinggul), horiz(pinggul, lutut), horiz(lutut, kaki), horiz(bahu, kaki),
+         (lutut[..., 1] - pinggul[..., 1]) / L, (kaki[..., 1] - pinggul[..., 1]) / L, (kaki[..., 1] - lutut[..., 1]) / L,
+         jarak(kaki, pinggul), jarak(kaki, lutut), jarak(lutut, pinggul), jarak(kaki, bahu)]
+    return np.clip(np.stack(f, -1), -10, 180).astype(np.float32)
+
+
 def summarize(A):
-    """(N, T, 8) -> (N, 40): min, max, mean, std, range tiap sudut"""
+    """(N, T, K) -> (N, 5K): min, max, mean, std, range tiap fitur"""
     return np.concatenate([A.min(1), A.max(1), A.mean(1), A.std(1), A.max(1) - A.min(1)], axis=1)
+
+
+def bangun_fitur(X, wh, rasio, posisi, sudut_def):
+    Xs = skala_xy(X, wh) if rasio else X
+    F = summarize(angles(Xs, sudut_def))
+    if posisi:
+        F = np.concatenate([F, summarize(fitur_posisi(Xs))], axis=1)
+    return F
 
 
 def prep_window(buf):
@@ -154,6 +185,9 @@ class Analisis:
         self.stride = int(kel.get("stride", 10))
         self.sudut = kel["sudut"]
         self.names = kel.get("kelas", KELAS)
+        self.rasio = bool(kel.get("rasio", False))        # model lama (v3) tidak punya kunci ini -> False
+        self.posisi = bool(kel.get("posisi", False))
+        self.wh = np.array([[1.0, 1.0]], np.float32)       # diisi dari ukuran frame kamera
         self.buf = deque(maxlen=self.window)
         self.baru = 0
         self.p_kelas = deque(maxlen=SMOOTH_N)
@@ -174,7 +208,7 @@ class Analisis:
         self.valid = w is not None
         if w is None:
             return
-        F = summarize(angles(w[None], self.sudut))
+        F = bangun_fitur(w[None], self.wh, self.rasio, self.posisi, self.sudut)
         cls, p = proba_dict(self.kel["model"], F)
         full = np.zeros(len(self.names), np.float32)
         full[np.asarray(cls, dtype=int)] = p
@@ -190,6 +224,12 @@ class Analisis:
         p = np.mean(self.p_kelas, axis=0)
         i = int(np.argmax(p))
         return (self.names[i], float(p[i])) if p[i] >= KELAS_MIN_CONF else (None, float(p[i]))
+
+    def prob(self, nama):
+        """rata-rata probabilitas kelas `nama` dari beberapa prediksi terakhir"""
+        if not self.p_kelas or nama not in self.names:
+            return 0.0
+        return float(np.mean(self.p_kelas, axis=0)[self.names.index(nama)])
 
     def form(self):
         """'baik' / 'perbaiki' / 'ragu' / None (belum ada / bukan pushup)"""
@@ -226,6 +266,8 @@ def main():
 
     mesin = Mesin(countdown=a.countdown, tanpa_gestur=a.tanpa_gestur)
     ana = Analisis(kel, kq)
+    target_fps = float(kel.get("target_fps", TARGET_FPS))
+    print("varian fitur model:", kel.get("varian", "lama (v3)"), "| rasio:", ana.rasio, "| posisi:", ana.posisi)
     mp_hands, mp_pose, mp_draw = mp.solutions.hands, mp.solutions.pose, mp.solutions.drawing_utils
     last_sample, last_pose, ada_pose = 0.0, time.monotonic(), False
 
@@ -261,7 +303,7 @@ def main():
                 ana.reset(); last_pose = now
 
             else:   # BERJALAN
-                if now - last_sample >= 1.0 / TARGET_FPS:
+                if now - last_sample >= 1.0 / target_fps:
                     last_sample = now
                     res = pose.process(rgb)
                     ada_pose = res.pose_landmarks is not None
@@ -271,9 +313,16 @@ def main():
                         kp = np.array([[l.x, l.y] for l in res.pose_landmarks.landmark], np.float32)
                     else:
                         kp = None
+                    ana.wh = np.array([[W, H]], np.float32)
                     ana.tambah(kp)
 
                 nama, conf = ana.kelas()
+                if a.gerakan in KELUARGA_PUSHUP and ana.p_kelas:
+                    p_kel = ana.prob("Pushup") + ana.prob("Pushup_on_Knees")
+                    if p_kel >= KELAS_MIN_CONF:           # tampak seperti push-up -> pakai pilihan user
+                        nama, conf = a.gerakan, p_kel
+                lutut = (a.gerakan == "Pushup" and
+                         ana.prob("Pushup_on_Knees") - ana.prob("Pushup") > MARGIN_LUTUT)
                 if len(ana.buf) < ana.window and not ana.p_kelas:
                     teks(cv2, frame, f"Mengumpulkan gerakan... {len(ana.buf)}/{ana.window}", 40, (200, 200, 200), 0.7)
                 elif now - last_pose > POSE_LOST_SEC:
@@ -286,6 +335,8 @@ def main():
                     teks(cv2, frame, f"Gerakan: {nama} ({conf:.0%})", 40, (0, 255, 0))
                     if a.gerakan and nama != a.gerakan:
                         teks(cv2, frame, f"Belum terlihat seperti {a.gerakan}", 75, (0, 165, 255), 0.7)
+                    elif lutut:
+                        teks(cv2, frame, "Terlihat seperti push-up di lutut. Pilih Pushup_on_Knees?", 75, (0, 165, 255), 0.65)
                     elif nama == "Pushup" and kq is not None:
                         f, g = ana.form()
                         if f == "baik":
