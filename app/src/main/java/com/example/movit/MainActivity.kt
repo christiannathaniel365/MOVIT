@@ -11,6 +11,7 @@ import androidx.compose.runtime.setValue
 import com.example.movit.ui.home.HomeScreen
 import com.example.movit.ui.splash.SplashScreen
 import com.example.movit.ui.theme.MovitTheme
+import com.example.movit.ui.main.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 if (showSplash) {
                     SplashScreen(onFinished = { showSplash = false })
                 } else {
-                    HomeScreen()
+                    MainScreen()
                 }
             }
         }
