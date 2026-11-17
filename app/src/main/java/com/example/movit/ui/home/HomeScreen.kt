@@ -30,7 +30,19 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color
 import com.example.movit.ui.theme.Emerald700
 import com.example.movit.ui.theme.MovitTheme
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.width
+import com.example.movit.ui.theme.Emerald500
 
+enum class ExerciseStatus { DONE, NEXT, TODO }
+
+data class TodayExercise(
+    val name: String,
+    val target: String,
+    val status: ExerciseStatus,
+    val score: Int? = null,   // hanya ada untuk gerakan yang sudah selesai
+)
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
     Column(
@@ -44,8 +56,13 @@ fun HomeScreen(modifier: Modifier = Modifier) {
         TodayWorkoutCard(
             programName = "Dasar Kekuatan",
             day = 3,
-            minutesDone = 16,
+            minutesDone = 9,
             minutesTarget = 15,
+            exercises = listOf(
+                TodayExercise("Squat", "3×10", ExerciseStatus.DONE, score = 86),
+                TodayExercise("Push-up", "3×8", ExerciseStatus.NEXT),
+                TodayExercise("Plank", "3×20 detik", ExerciseStatus.TODO),
+            ),
         )
         // Tahap 4: kartu Hasil terakhir
     }
@@ -97,6 +114,7 @@ fun TodayWorkoutCard(
     day: Int,
     minutesDone: Int,
     minutesTarget: Int,
+    exercises: List<TodayExercise>,   // ← baru
 ) {
     val shape = RoundedCornerShape(22.dp)
     Column(
@@ -133,6 +151,16 @@ fun TodayWorkoutCard(
         ProgressBar(progress = minutesDone.toFloat() / minutesTarget)
 
         // Tahap 3b: daftar gerakan + tombol Lanjutkan
+        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            exercises.forEachIndexed { index, exercise ->
+                ExerciseRow(number = index + 1, exercise = exercise)
+            }
+        }
+
+        val next = exercises.firstOrNull { it.status == ExerciseStatus.NEXT }
+        if (next != null) {
+            CardButton(text = "Lanjutkan: ${next.name}", onClick = { /* nanti: buka Live detection */ })
+        }
     }
 }
 
@@ -152,6 +180,83 @@ fun ProgressBar(progress: Float, modifier: Modifier = Modifier) {
                 .clip(CircleShape)
                 .background(Color.White),
         )
+    }
+}
+
+@Composable
+fun ExerciseRow(number: Int, exercise: TodayExercise) {
+    val shape = RoundedCornerShape(12.dp)
+    val isNext = exercise.status == ExerciseStatus.NEXT
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(shape)
+            .background(Color.White.copy(alpha = if (isNext) 0.22f else 0.14f))
+            .border(2.dp, if (isNext) Color.White else Color.Transparent, shape)
+            .padding(horizontal = 10.dp, vertical = 8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        StatusDot(number = number, status = exercise.status)
+        Text(
+            text = "${exercise.name} · ${exercise.target}",
+            modifier = Modifier.weight(1f),
+            style = if (isNext) MaterialTheme.typography.titleSmall else MaterialTheme.typography.bodyMedium,
+            color = if (exercise.status == ExerciseStatus.DONE) Color.White.copy(alpha = 0.75f) else Color.White,
+        )
+        when (exercise.status) {
+            ExerciseStatus.DONE -> Text(
+                "${exercise.score}%",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color.White.copy(alpha = 0.85f),
+            )
+            ExerciseStatus.NEXT -> Text(
+                "Berikutnya",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color.White,
+                modifier = Modifier
+                    .border(1.5.dp, Color.White.copy(alpha = 0.6f), CircleShape)
+                    .padding(horizontal = 8.dp, vertical = 3.dp),
+            )
+            ExerciseStatus.TODO ->{} // tidak menampilkan apa-apa di kanan
+        }
+    }
+}
+
+@Composable
+fun StatusDot(number: Int, status: ExerciseStatus) {
+    val dot = Modifier.size(24.dp).clip(CircleShape)
+    when (status) {
+        ExerciseStatus.DONE -> Box(dot.background(Color.White), contentAlignment = Alignment.Center) {
+            Icon(painterResource(R.drawable.ic_check), null, tint = Emerald700, modifier = Modifier.size(14.dp))
+        }
+        ExerciseStatus.NEXT -> Box(dot.background(Emerald500), contentAlignment = Alignment.Center) {
+            Icon(painterResource(R.drawable.ic_arrow_forward), null, tint = Color.White, modifier = Modifier.size(14.dp))
+        }
+        ExerciseStatus.TODO -> Box(dot.border(1.5.dp,Color.White.copy(alpha = 0.55f), CircleShape), contentAlignment = Alignment.Center){
+            Text("$number", style = MaterialTheme.typography.labelSmall, color = Color.White)
+        }
+    }
+}
+
+@Composable
+fun CardButton(text: String, onClick: () -> Unit) {
+    val shape = RoundedCornerShape(16.dp)
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(MovitTheme.colors.buttonShadow, shape) // bayangan bawah
+            .padding(bottom = 4.dp)
+            .clip(shape)
+            .background(Color.White)
+            .clickable(onClick = onClick)
+            .padding(vertical = 13.dp),
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(painterResource(R.drawable.ic_play), null, tint = Emerald700, modifier = Modifier.size(20.dp))
+        Spacer(Modifier.width(8.dp))
+        Text(text, style = MaterialTheme.typography.titleMedium, color = Emerald700)
     }
 }
 @Preview(showBackground = true, backgroundColor = 0xFFF9FAFB)
