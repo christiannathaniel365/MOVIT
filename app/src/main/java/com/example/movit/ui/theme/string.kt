@@ -74,7 +74,7 @@ object MovitStrings {
     // ===== 04 DAFTAR =====
     object Register {
         const val title = "Buat akun"
-        const val subtitle = "Gratis, cuma butuh satu menit."
+        const val subtitle = "Siapkan akunmu untuk mulai berlatih."
         const val nickname = "Nama panggilan"
         const val nicknameHint = "Contoh: Raka"
         const val passwordHelp = "Gunakan kombinasi huruf dan angka."

@@ -8,9 +8,19 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import com.example.movit.ui.home.HomeScreen
+import com.example.movit.ui.auth.ForgotPasswordPage
+import com.example.movit.ui.auth.LoginPage
+import com.example.movit.ui.auth.RegisterPage
+import com.example.movit.ui.main.MainScreen
 import com.example.movit.ui.splash.SplashScreen
 import com.example.movit.ui.theme.MovitTheme
+
+enum class Screen {
+    SPLASH,
+    LOGIN,
+    FORGOT,
+    REGISTER,
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,13 +28,37 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MovitTheme {
-                // true = masih di Splash, false = Splash selesai
-                var showSplash by remember { mutableStateOf(true) }
+                var currentScreen by remember { mutableStateOf(Screen.SPLASH) }
 
-                if (showSplash) {
-                    SplashScreen(onFinished = { showSplash = false })
-                } else {
-                    HomeScreen()
+                when (currentScreen) {
+
+                    // Splash → (selesai) → Login
+                    Screen.SPLASH -> SplashScreen(
+                        onFinished = { currentScreen = Screen.LOGIN }
+                    )
+
+                    // Login → "Lupa password?" → Forgot
+                    // Login → "Daftar" → Register
+                    Screen.LOGIN -> LoginPage(
+                        onForgotClick = { currentScreen = Screen.FORGOT },
+                        onRegisterClick = { currentScreen = Screen.REGISTER },
+                        onLoginClick = { email, password -> },
+                        onGoogleClick = { },
+                    )
+
+                    // Forgot → "kembali" / "Masuk" → Login
+                    Screen.FORGOT -> ForgotPasswordPage(
+                        onBackClick = { currentScreen = Screen.LOGIN },
+                        onLoginClick = { currentScreen = Screen.LOGIN },
+                        onSendLinkClick = { email -> },
+                    )
+
+                    // Register → "Masuk" → Login
+                    Screen.REGISTER -> RegisterPage(
+                        onLoginClick = { currentScreen = Screen.LOGIN },
+                        onSubmitClick = { nickname, email, password -> },
+                    )
+                    Screen.REGISTER -> TODO()
                 }
             }
         }
