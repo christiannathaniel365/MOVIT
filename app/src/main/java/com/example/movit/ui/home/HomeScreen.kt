@@ -34,7 +34,9 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.width
 import com.example.movit.ui.theme.Emerald500
-
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.ui.unit.Dp
+import kotlin.math.abs
 enum class ExerciseStatus { DONE, NEXT, TODO }
 
 data class TodayExercise(
@@ -64,7 +66,16 @@ fun HomeScreen(modifier: Modifier = Modifier) {
                 TodayExercise("Plank", "3×20 detik", ExerciseStatus.TODO),
             ),
         )
-        // Tahap 4: kartu Hasil terakhir
+        LastResultCard(
+            exerciseName = "Squat",
+            whenText = "kemarin",
+            score = 86,
+            reps = 30,
+            duration = "6:12",
+            trend = listOf(72, 76, 78, 86, 82),
+            focusTip = "Jaga punggung tetap tegak",
+            focusCount = 4,
+        )
     }
 }
 
@@ -257,6 +268,147 @@ fun CardButton(text: String, onClick: () -> Unit) {
         Icon(painterResource(R.drawable.ic_play), null, tint = Emerald700, modifier = Modifier.size(20.dp))
         Spacer(Modifier.width(8.dp))
         Text(text, style = MaterialTheme.typography.titleMedium, color = Emerald700)
+    }
+}
+
+@Composable
+fun MovitCard(
+    modifier: Modifier = Modifier,
+    cornerRadius: Dp = 20.dp,
+    contentPadding: Dp = 14.dp,
+    spacing: Dp = 12.dp,
+    horizontalAlignment: Alignment.Horizontal = Alignment.Start,
+    content: @Composable ColumnScope.() -> Unit,
+) {
+    Column(
+        modifier = modifier
+            .background(MovitTheme.colors.border, RoundedCornerShape(cornerRadius))         // warna garis tepi
+            .padding(start = 2.dp, top = 2.dp, end = 2.dp, bottom = 4.dp)                  // bawah lebih tebal
+            .background(MovitTheme.colors.surface, RoundedCornerShape(cornerRadius - 2.dp)) // isi kartu
+            .padding(contentPadding),
+        verticalArrangement = Arrangement.spacedBy(spacing),
+        horizontalAlignment = horizontalAlignment,
+        content = content,
+    )
+}
+
+@Composable
+fun LastResultCard(
+    exerciseName: String,
+    whenText: String,
+    score: Int,
+    reps: Int,
+    duration: String,
+    trend: List<Int>,
+    focusTip: String,
+    focusCount: Int,
+) {
+    MovitCard(modifier = Modifier.fillMaxWidth()) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column {
+                Text("Hasil terakhir", style = MaterialTheme.typography.titleMedium, color = MovitTheme.colors.text)
+                Text("$exerciseName · $whenText", style = MaterialTheme.typography.bodySmall, color = MovitTheme.colors.muted)
+            }
+            Text(
+                "Lihat detail ›",
+                style = MaterialTheme.typography.labelMedium,
+                color = MovitTheme.colors.accent,
+                modifier = Modifier.clickable { /* nanti: buka Hasil sesi */ },
+            )
+        }
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            StatTile(value = "$score%", label = "Postur tepat", modifier = Modifier.weight(1f), valueColor = MovitTheme.colors.accent)
+            StatTile(value = "$reps", label = "Repetisi", modifier = Modifier.weight(1f))
+            StatTile(value = duration, label = "Durasi", modifier = Modifier.weight(1f))
+        }
+
+        TrendBars(exerciseName = exerciseName, scores = trend)
+        FocusTip(tip = focusTip, count = focusCount)
+    }
+}
+
+@Composable
+fun StatTile(value: String, label: String, modifier: Modifier = Modifier, valueColor: Color = MovitTheme.colors.text) {
+    MovitCard(
+        modifier = modifier,
+        cornerRadius = 16.dp,
+        contentPadding = 10.dp,
+        spacing = 0.dp,
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Text(value, style = MaterialTheme.typography.titleLarge, color =valueColor)
+        Text(label, style = MaterialTheme.typography.labelSmall, color = MovitTheme.colors.muted)
+    }
+}
+
+@Composable
+fun TrendBars(exerciseName: String, scores: List<Int>) {
+    val change = scores.last() - scores[scores.size - 2]   // skor terakhir - skor sebelumnya
+    val trendText = when {
+        change > 0 -> "Naik $change%"
+        change < 0 -> "Turun ${abs(change)}%"
+        else -> "Sama seperti sesi lalu"
+    }
+    val trendColor = when {
+        change > 0 -> MovitTheme.colors.accent
+        change < 0 -> MovitTheme.colors.orange
+        else -> MovitTheme.colors.muted
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+        ) {
+            Text(
+                "${scores.size} sesi ${exerciseName.lowercase()} terakhir",
+                style = MaterialTheme.typography.bodySmall,
+                color = MovitTheme.colors.muted,
+            )
+            Text(trendText, style = MaterialTheme.typography.labelSmall, color = trendColor)
+        }
+
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(36.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.Bottom,   // batang tumbuh dari bawah
+        ) {
+            scores.forEachIndexed { index, score ->
+                val isLast = index == scores.lastIndex
+                Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxHeight(score / 100f)
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(if (isLast) MovitTheme.colors.selected else MovitTheme.colors.barSoft),
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun FocusTip(tip: String, count: Int) {
+    val shape = RoundedCornerShape(16.dp)
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(shape)
+            .background(MovitTheme.colors.orangeSoft)
+            .border(2.dp, MovitTheme.colors.orangeBorder, shape)
+            .padding(horizontal = 12.dp, vertical = 10.dp),
+    ) {
+        Text("Fokus berikutnya", style = MaterialTheme.typography.labelMedium, color = MovitTheme.colors.orange)
+        Text("$tip · dikoreksi $count×", style = MaterialTheme.typography.bodySmall, color = MovitTheme.colors.orange)
     }
 }
 @Preview(showBackground = true, backgroundColor = 0xFFF9FAFB)
