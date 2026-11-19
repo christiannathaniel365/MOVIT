@@ -12,14 +12,20 @@ import com.example.movit.ui.auth.ForgotPasswordPage
 import com.example.movit.ui.auth.LoginPage
 import com.example.movit.ui.auth.RegisterPage
 import com.example.movit.ui.main.MainScreen
+import com.example.movit.ui.onboarding.OnboardingPage
 import com.example.movit.ui.splash.SplashScreen
+import com.example.movit.ui.theme.MovitStrings
 import com.example.movit.ui.theme.MovitTheme
 
 enum class Screen {
     SPLASH,
+    ONBOARD1,
+    ONBOARD2,
+    ONBOARD3,
     LOGIN,
     FORGOT,
     REGISTER,
+    MAINSCREEN,
 }
 
 class MainActivity : ComponentActivity() {
@@ -32,33 +38,56 @@ class MainActivity : ComponentActivity() {
 
                 when (currentScreen) {
 
-                    // Splash → (selesai) → Login
                     Screen.SPLASH -> SplashScreen(
-                        onFinished = { currentScreen = Screen.LOGIN }
+                        onFinished = { currentScreen = Screen.ONBOARD1 }
                     )
 
-                    // Login → "Lupa password?" → Forgot
-                    // Login → "Daftar" → Register
+                    Screen.ONBOARD1 -> OnboardingPage(
+                        image = R.drawable.onboard1_element,
+                        title = MovitStrings.Onboarding.title1,
+                        body = MovitStrings.Onboarding.body1,
+                        pageIndex = 0,
+                        onSkipClick = { currentScreen = Screen.LOGIN },
+                        onNextClick = { currentScreen = Screen.ONBOARD2 },
+                    )
+
+                    Screen.ONBOARD2 -> OnboardingPage(
+                        image = R.drawable.onboard2_element,
+                        title = MovitStrings.Onboarding.title2,
+                        body = MovitStrings.Onboarding.body2,
+                        pageIndex = 1,
+                        onSkipClick = { currentScreen = Screen.LOGIN },
+                        onNextClick = { currentScreen = Screen.ONBOARD3 },
+                    )
+
+                    Screen.ONBOARD3 -> OnboardingPage(
+                        image = R.drawable.onboard3_element,
+                        title = MovitStrings.Onboarding.title3,
+                        body = MovitStrings.Onboarding.body3,
+                        pageIndex = 2,
+                        onSkipClick = { currentScreen = Screen.LOGIN },
+                        onNextClick = { currentScreen = Screen.LOGIN },
+                    )
+
                     Screen.LOGIN -> LoginPage(
                         onForgotClick = { currentScreen = Screen.FORGOT },
                         onRegisterClick = { currentScreen = Screen.REGISTER },
-                        onLoginClick = { email, password -> },
-                        onGoogleClick = { },
+                        onLoginClick = { email, password -> currentScreen = Screen.MAINSCREEN },
+                        onGoogleClick = { currentScreen = Screen.MAINSCREEN },
                     )
 
-                    // Forgot → "kembali" / "Masuk" → Login
                     Screen.FORGOT -> ForgotPasswordPage(
                         onBackClick = { currentScreen = Screen.LOGIN },
                         onLoginClick = { currentScreen = Screen.LOGIN },
-                        onSendLinkClick = { email -> },
+                        onSendLinkClick = { email -> currentScreen = Screen.LOGIN },
                     )
 
-                    // Register → "Masuk" → Login
                     Screen.REGISTER -> RegisterPage(
                         onLoginClick = { currentScreen = Screen.LOGIN },
-                        onSubmitClick = { nickname, email, password -> },
+                        onSubmitClick = { nickname, email, password -> currentScreen = Screen.LOGIN },
                     )
-                    Screen.REGISTER -> TODO()
+
+                    Screen.MAINSCREEN -> MainScreen()
                 }
             }
         }
