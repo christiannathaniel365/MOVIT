@@ -91,9 +91,3 @@ fun MovitBottomBar(
         }
     }
 }
-
-@Preview(showBackground = true)
-@Composable
-private fun MainScreenPreview() {
-    MovitTheme { MainScreen() }
-}
