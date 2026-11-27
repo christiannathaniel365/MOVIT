@@ -1,5 +1,6 @@
 package com.example.movit.ui.main
 
+import androidx.activity.compose.BackHandler
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -42,7 +43,9 @@ fun MainScreen(
 ) {
     // Tab yang sedang dipilih. Berubah → layar digambar ulang
     var selectedTab by rememberSaveable { mutableStateOf(MovitTab.BERANDA) }
-
+    BackHandler(enabled = selectedTab != MovitTab.BERANDA) {
+        selectedTab = MovitTab.BERANDA
+    }
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
         bottomBar = {

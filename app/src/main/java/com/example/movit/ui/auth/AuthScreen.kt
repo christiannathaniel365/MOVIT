@@ -1,5 +1,6 @@
 package com.example.movit.ui.auth
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -14,6 +15,12 @@ fun RegisterScreen(
 ) {
     // Baca papan skor dari ViewModel
     val state by viewModel.uiState.collectAsState()
+
+    // Tombol Back HP → kembali ke Login (bukan menutup app)
+    BackHandler {
+        viewModel.resetState()
+        onLoginClick()
+    }
 
     // Kalau sukses, beri tahu yang memanggil (nanti: pindah ke Beranda)
     LaunchedEffect(state.isSuccess) {
@@ -79,7 +86,10 @@ fun ForgotPasswordScreen(
     viewModel: AuthViewModel = viewModel(),
 ) {
     val state by viewModel.uiState.collectAsState()
-
+    BackHandler {
+        viewModel.resetState()
+        onBackClick()
+    }
     ForgotPasswordPage(
         isLoading = state.isLoading,
         errorMessage = state.errorMessage,
