@@ -41,6 +41,7 @@ fun RegisterScreen(
 fun LoginScreen(
     onLoggedIn: () -> Unit,
     onRegisterClick: () -> Unit,
+    onForgotClick: () -> Unit,
     viewModel: AuthViewModel = viewModel(),
 ) {
     // Baca papan skor dari ViewModel
@@ -64,6 +65,31 @@ fun LoginScreen(
             viewModel.resetState()   // bersihkan error sebelum pindah
             onRegisterClick()
         },
+        onForgotClick = {
+            viewModel.resetState()
+            onForgotClick()
+        }
     )
 
+}
+
+@Composable
+fun ForgotPasswordScreen(
+    onBackClick: () -> Unit,
+    viewModel: AuthViewModel = viewModel(),
+) {
+    val state by viewModel.uiState.collectAsState()
+
+    ForgotPasswordPage(
+        isLoading = state.isLoading,
+        errorMessage = state.errorMessage,
+        isSent = state.isSuccess,          // ingat: isSuccess dipakai sebagai tanda "link terkirim"
+        onSendClick = { email ->
+            viewModel.sendPasswordReset(email)
+        },
+        onBackClick = {
+            viewModel.resetState()                // reset dulu
+            onBackClick()                // baru kembali
+        },
+    )
 }

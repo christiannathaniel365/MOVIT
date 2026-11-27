@@ -67,4 +67,22 @@ class AuthViewModel (
     fun resetState() {
         _uiState.value = AuthUiState()
     }
+    fun sendPasswordReset(email: String) {
+        if (email.isBlank()){
+            _uiState.value = AuthUiState(errorMessage = "Email wajib diisi.")
+            return
+        }
+        _uiState.value = AuthUiState(isLoading = true)
+
+        viewModelScope.launch {
+            val result = authRepo.sendPasswordReset(email)
+            if (result.isFailure){
+                _uiState.value = AuthUiState(errorMessage = result.exceptionOrNull()?.message)
+                return@launch
+            }
+
+            // Daftar berhasil → simpan nickname ke users/{uid}
+            _uiState.value = AuthUiState(isSuccess = true)
+        }
+    }
 }
