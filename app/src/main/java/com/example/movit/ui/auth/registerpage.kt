@@ -16,6 +16,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -40,6 +41,8 @@ import com.example.movit.ui.theme.MovitTheme
  */
 @Composable
 fun RegisterPage(
+    isLoading: Boolean = false,
+    errorMessage: String? = null,
     onSubmitClick: (nickname: String, email: String, password: String) -> Unit = { _, _, _ -> },
     onLoginClick: () -> Unit = {},
 ) {
@@ -123,24 +126,44 @@ fun RegisterPage(
             color = colors.muted,
         )
 
+        // --- PESAN ERROR (muncul hanya kalau ada) ---
         Spacer(Modifier.height(20.dp))
+        if (errorMessage != null) {
+            Text(
+                text = errorMessage,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.error,
+            )
+            Spacer(Modifier.height(12.dp))
+        }
 
         // --- TOMBOL BUAT AKUN ---
         Button(
             onClick = { onSubmitClick(nickname, email, password) },
+            enabled = !isLoading,
             shape = MaterialTheme.shapes.medium,
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.primary,
                 contentColor = MaterialTheme.colorScheme.onPrimary,
+                disabledContainerColor = MaterialTheme.colorScheme.primary,
+                disabledContentColor = MaterialTheme.colorScheme.onPrimary,
             ),
             modifier = Modifier
                 .fillMaxWidth()
                 .height(52.dp),
         ) {
-            Text(
-                text = MovitStrings.Register.submit,
-                style = MaterialTheme.typography.titleMedium,
-            )
+            if (isLoading) {
+                CircularProgressIndicator(
+                    modifier = Modifier.size(22.dp),
+                    color = MaterialTheme.colorScheme.onPrimary,
+                    strokeWidth = 2.5.dp,
+                )
+            } else {
+                Text(
+                    text = MovitStrings.Register.submit,
+                    style = MaterialTheme.typography.titleMedium,
+                )
+            }
         }
 
         Spacer(Modifier.height(12.dp))
