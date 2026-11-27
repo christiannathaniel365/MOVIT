@@ -26,6 +26,8 @@ import androidx.compose.ui.unit.dp
 import com.example.movit.R
 import com.example.movit.ui.theme.MovitTheme
 import com.example.movit.ui.home.HomeScreen
+import com.example.movit.ui.profile.ProfileScreen
+
 // Daftar tab di bottom nav: label + ikon
 enum class MovitTab(val label: String, @DrawableRes val icon: Int) {
     BERANDA("Beranda", R.drawable.ic_home),
@@ -35,7 +37,9 @@ enum class MovitTab(val label: String, @DrawableRes val icon: Int) {
 }
 
 @Composable
-fun MainScreen() {
+fun MainScreen(
+    onLogout: () -> Unit
+) {
     // Tab yang sedang dipilih. Berubah → layar digambar ulang
     var selectedTab by rememberSaveable { mutableStateOf(MovitTab.BERANDA) }
 
@@ -58,8 +62,7 @@ fun MainScreen() {
                 MovitTab.BERANDA -> HomeScreen()
                 MovitTab.LATIHAN -> Text("Daftar gerakan")
                 MovitTab.PROGRES -> Text("Grafik progres")
-                MovitTab.PROFIL -> Text("Profil saya")
-
+                MovitTab.PROFIL -> ProfileScreen(onLogout = onLogout)
             }
         }
     }
