@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -39,6 +40,8 @@ import com.example.movit.ui.theme.MovitTheme
 
 @Composable
 fun LoginPage(
+    isLoading: Boolean = false,
+    errorMessage: String? = null,
     onLoginClick: (email: String, password: String) -> Unit = { _, _ -> },
     onForgotClick: () -> Unit = {},
     onGoogleClick: () -> Unit = {},
@@ -132,25 +135,44 @@ fun LoginPage(
         )
 
         Spacer(Modifier.height(20.dp))
+        // --- PESAN ERROR (muncul hanya kalau ada) ---
+        if (errorMessage != null) {
+            Text(
+                text = errorMessage,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.error,
+            )
+            Spacer(Modifier.height(12.dp))
+        }
 
         // --- TOMBOL "Masuk" ---
         Button(
             onClick = { onLoginClick(email, password) },
+            enabled = !isLoading,
             shape = MaterialTheme.shapes.medium,
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.primary,
                 contentColor = MaterialTheme.colorScheme.onPrimary,
+                disabledContainerColor = MaterialTheme.colorScheme.primary,
+                disabledContentColor = MaterialTheme.colorScheme.onPrimary,
             ),
             modifier = Modifier
                 .fillMaxWidth()
                 .height(52.dp),
         ) {
-            Text(
-                text = MovitStrings.Common.login,
-                style = MaterialTheme.typography.titleMedium,
-            )
+            if (isLoading) {
+                CircularProgressIndicator(
+                    modifier = Modifier.size(22.dp),
+                    color = MaterialTheme.colorScheme.onPrimary,
+                    strokeWidth = 2.5.dp,
+                )
+            } else {
+                Text(
+                    text = MovitStrings.Common.login,
+                    style = MaterialTheme.typography.titleMedium,
+                )
+            }
         }
-
         Spacer(Modifier.height(16.dp))
 
         // --- PEMISAH "atau" ---

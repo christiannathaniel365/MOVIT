@@ -1,5 +1,6 @@
 package com.example.movit.ui.main
 
+import androidx.activity.compose.BackHandler
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -26,6 +27,8 @@ import androidx.compose.ui.unit.dp
 import com.example.movit.R
 import com.example.movit.ui.theme.MovitTheme
 import com.example.movit.ui.home.HomeScreen
+import com.example.movit.ui.profile.ProfileScreen
+
 // Daftar tab di bottom nav: label + ikon
 enum class MovitTab(val label: String, @DrawableRes val icon: Int) {
     BERANDA("Beranda", R.drawable.ic_home),
@@ -35,10 +38,14 @@ enum class MovitTab(val label: String, @DrawableRes val icon: Int) {
 }
 
 @Composable
-fun MainScreen() {
+fun MainScreen(
+    onLogout: () -> Unit
+) {
     // Tab yang sedang dipilih. Berubah → layar digambar ulang
     var selectedTab by rememberSaveable { mutableStateOf(MovitTab.BERANDA) }
-
+    BackHandler(enabled = selectedTab != MovitTab.BERANDA) {
+        selectedTab = MovitTab.BERANDA
+    }
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
         bottomBar = {

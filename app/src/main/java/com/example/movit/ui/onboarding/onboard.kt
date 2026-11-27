@@ -36,6 +36,7 @@ fun OnboardingPage(
     title: String,
     body: String,
     pageIndex: Int,
+    nextLabel: String = MovitStrings.Common.next,
     onSkipClick: () -> Unit = {},
     onNextClick: () -> Unit = {},
 ) {
@@ -122,7 +123,7 @@ fun OnboardingPage(
                 .height(52.dp),
         ) {
             Text(
-                text = MovitStrings.Common.next,
+                text = nextLabel,
                 style = MaterialTheme.typography.titleMedium,
             )
         }
