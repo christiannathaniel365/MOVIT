@@ -22,12 +22,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.movit.R
 import com.example.movit.ui.theme.MovitTheme
 import com.example.movit.ui.home.HomeScreen
 import com.example.movit.ui.profile.ProfileScreen
+import com.example.movit.ui.profile.UserProfile
 
 // Daftar tab di bottom nav: label + ikon
 enum class MovitTab(val label: String, @DrawableRes val icon: Int) {
@@ -75,7 +75,8 @@ fun MainScreen(
                         badges = 2,
                         programName = "Dasar Kekuatan",
                         dailyTargetMinutes = 15,
-                    )
+                    ),
+                    onLogoutClick = onLogout
                 )
 
             }

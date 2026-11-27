@@ -1,4 +1,4 @@
-package com.example.movit.ui.main
+package com.example.movit.ui.profile
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.BorderStroke
@@ -172,7 +172,7 @@ fun ProfileScreen(
         }
 
         // 5. Tombol keluar
-        LogoutButton(onClick = onLogoutClick)
+        LogoutButton(onLogout = onLogoutClick)
     }
 }
 
@@ -263,9 +263,9 @@ private fun ProfileMenuItem(
 
 // ───────────── TOMBOL KELUAR ─────────────
 @Composable
-private fun LogoutButton(onClick: () -> Unit) {
+private fun LogoutButton(onLogout: () -> Unit) {
     OutlinedButton(
-        onClick = onClick,
+        onClick = onLogout,
         modifier = Modifier
             .fillMaxWidth()
             .height(50.dp),
