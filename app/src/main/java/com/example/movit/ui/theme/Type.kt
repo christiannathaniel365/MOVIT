@@ -25,7 +25,6 @@ private fun style(size: Int, weight: FontWeight, lineHeight: Int = (size * 1.35)
 )
 
 /**
- * Ukuran mengikuti desain:
  * - judul layar 24-30 ExtraBold
  * - judul bagian 17 ExtraBold
  * - isi 15-16 Regular
