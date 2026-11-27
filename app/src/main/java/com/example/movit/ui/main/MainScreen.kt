@@ -58,7 +58,18 @@ fun MainScreen() {
                 MovitTab.BERANDA -> HomeScreen()
                 MovitTab.LATIHAN -> Text("Daftar gerakan")
                 MovitTab.PROGRES -> Text("Grafik progres")
-                MovitTab.PROFIL -> Text("Profil saya")
+                MovitTab.PROFIL -> ProfileScreen(
+                    profile = UserProfile(
+                        name = "Raka",
+                        level = "Pemula",
+                        joined = "November 2026",
+                        totalSessions = 18,
+                        streak = 6,
+                        badges = 2,
+                        programName = "Dasar Kekuatan",
+                        dailyTargetMinutes = 15,
+                    )
+                )
 
             }
         }

@@ -83,19 +83,8 @@ object MovitStrings {
         const val haveAccount = "Sudah punya akun?"
     }
 
-    // ===== 05 SETUP PROFIL =====
-    object Setup {
-        const val title = "Atur profil latihanmu"
-        const val subtitle = "Biar MOVIT bisa menyesuaikan program untukmu."
-        const val levelLabel = "Level kamu"
-        const val beginnerDesc = "Baru mulai atau jarang olahraga"
-        const val intermediateDesc = "Sudah rutin latihan 2–3x seminggu"
-        const val dailyTargetLabel = "Target latihan harian"
-        const val minutes = "menit"
-        const val injuryLabel = "Sedang sakit / cedera?"
-    }
 
-    // ===== 06 BERANDA =====
+    // ===== 05 BERANDA =====
     object Home {
         fun greeting(name: String) = "Halo, $name!"
         const val todayWorkout = "Latihan hari ini"
@@ -108,7 +97,7 @@ object MovitStrings {
         const val nextFocus = "Fokus berikutnya"
     }
 
-    // ===== 07 DAFTAR GERAKAN =====
+    // ===== 06 DAFTAR GERAKAN =====
     object Exercises {
         const val title = "Latihan"
         const val subtitle = "Pilih gerakan yang mau kamu latih."
@@ -119,7 +108,7 @@ object MovitStrings {
         const val programBanner = "Bingung mulai dari mana? Ikuti program latihan"
     }
 
-    // ===== 08 DETAIL GERAKAN =====
+    // ===== 07 DETAIL GERAKAN =====
     object Detail {
         const val howTo = "Cara melakukan"
         const val commonMistakes = "Kesalahan yang sering terjadi"
@@ -127,7 +116,7 @@ object MovitStrings {
         fun targetReps(sets: Int, reps: Int) = "$sets set × $reps rep"
     }
 
-    // ===== 09 PERSIAPAN KAMERA =====
+    // ===== 08 PERSIAPAN KAMERA =====
     object Camera {
         const val title = "Siapkan kamera"
         const val distance = "2–3 meter"
@@ -139,7 +128,7 @@ object MovitStrings {
         const val ready = "Saya siap"
     }
 
-    // ===== 10 LIVE DETECTION =====
+    // ===== 09 LIVE DETECTION =====
     object Live {
         fun setInfo(exercise: String, set: Int, total: Int) = "$exercise · Set $set dari $total"
         fun repTarget(target: Int) = "/ $target"
@@ -150,7 +139,7 @@ object MovitStrings {
         const val endSession = "Akhiri sesi"
     }
 
-    // ===== 11 HASIL SESI =====
+    // ===== 10 HASIL SESI =====
     object Result {
         fun title(name: String) = "Mantap, $name!"
         fun subtitle(exercise: String) = "Sesi $exercise selesai"
@@ -161,7 +150,7 @@ object MovitStrings {
         const val again = "Latihan lagi"
     }
 
-    // ===== 12-13 PROGRAM =====
+    // ===== 11 PROGRAM =====
     object Program {
         const val title = "Program latihan"
         const val following = "Sedang diikuti"
@@ -176,7 +165,7 @@ object MovitStrings {
         fun startDay(day: Int) = "Mulai Hari $day"
     }
 
-    // ===== 14 PROGRES =====
+    // ===== 12 PROGRES =====
     object Progress {
         const val title = "Progres"
         const val thisWeek = "Minggu ini"
@@ -188,7 +177,7 @@ object MovitStrings {
         const val history = "Riwayat sesi"
     }
 
-    // ===== 15 PENCAPAIAN =====
+    // ===== 13 PENCAPAIAN =====
     object Achievements {
         const val title = "Pencapaian"
         fun streakDays(days: Int) = "$days hari"
@@ -199,7 +188,7 @@ object MovitStrings {
         const val earned = "Didapat"
     }
 
-    // ===== 16 PROFIL =====
+    // ===== 14 PROFIL =====
     object Profile {
         const val title = "Profil"
         const val totalSessions = "Total sesi"
@@ -209,6 +198,9 @@ object MovitStrings {
         const val dailyTarget = "Target harian"
         const val settingsDesc = "Tema, bahasa, suara"
         const val logout = "Keluar"
+        fun subtitle(level: String, joined: String) = "$level · Bergabung $joined"
+        const val currentProgramName = "Dasar Kekuatan"
+        fun dailyTargetDesc(minutes: Int) = "$minutes menit per hari"
     }
 
     // ===== 17 PENGATURAN =====
