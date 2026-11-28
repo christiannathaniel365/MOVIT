@@ -1,47 +1,46 @@
 package com.example.movit
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.movit.ui.theme.MOVITTheme
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
+import com.example.movit.ui.MovitApp
+import com.example.movit.ui.auth.ForgotPasswordPage
+import com.example.movit.ui.auth.LoginPage
+import com.example.movit.ui.auth.LoginScreen
+import com.example.movit.ui.auth.RegisterPage
+import com.example.movit.ui.auth.RegisterScreen
+import com.example.movit.ui.main.MainScreen
+import com.example.movit.ui.onboarding.OnboardingPage
+import com.example.movit.ui.splash.SplashScreen
+import com.example.movit.ui.theme.MovitStrings
+import com.example.movit.ui.theme.MovitTheme
+
+enum class Screen {
+    SPLASH,
+    ONBOARD1,
+    ONBOARD2,
+    ONBOARD3,
+    LOGIN,
+    FORGOT,
+    REGISTER,
+    MAINSCREEN,
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MOVITTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+            MovitTheme {
+                MovitApp()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MOVITTheme {
-        Greeting("Android")
     }
 }
