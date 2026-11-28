@@ -1,0 +1,1501 @@
+sumber,path,kelas,split,labels,split_final,id
+qevd,QEVD-FIT-300k-Part-4/00228118.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_00006
+qevd,QEVD-FIT-300k-Part-4/00228185.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00007
+qevd,QEVD-FIT-300k-Part-4/00228190.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00008
+qevd,QEVD-FIT-300k-Part-4/00228302.mp4,Pushup,train,pushups - butt sinking,train,qevd_00012
+qevd,QEVD-FIT-300k-Part-4/00228361.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_00015
+qevd,QEVD-FIT-300k-Part-4/00228411.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00017
+qevd,QEVD-FIT-300k-Part-4/00228468.mp4,High_Plank,train,high plank - stopping early,test,qevd_00019
+qevd,QEVD-FIT-300k-Part-4/00228546.mp4,Pushup,train,pushups - child pose cheat,train,qevd_00023
+qevd,QEVD-FIT-300k-Part-4/00228556.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_00026
+qevd,QEVD-FIT-300k-Part-4/00228617.mp4,Pushup,train,pushups - early stopping,train,qevd_00029
+qevd,QEVD-FIT-300k-Part-4/00228683.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_00033
+qevd,QEVD-FIT-300k-Part-4/00228710.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_00037
+qevd,QEVD-FIT-300k-Part-4/00228734.mp4,High_Plank,train,high plank - hips too low,train,qevd_00039
+qevd,QEVD-FIT-300k-Part-4/00228778.mp4,High_Plank,train,high plank - average,train,qevd_00042
+qevd,QEVD-FIT-300k-Part-4/00228802.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00043
+qevd,QEVD-FIT-300k-Part-4/00228807.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_00044
+qevd,QEVD-FIT-300k-Part-4/00228813.mp4,Side_Plank,train,side plank - not visible | side plank - no obvious issue,train,qevd_00045
+qevd,QEVD-FIT-300k-Part-4/00228970.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_00051
+qevd,QEVD-FIT-300k-Part-4/00228984.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_00052
+qevd,QEVD-FIT-300k-Part-4/00229052.mp4,High_Plank,train,high plank - moving feet,train,qevd_00056
+qevd,QEVD-FIT-300k-Part-4/00229066.mp4,High_Plank,train,high plank - elbows bent,test,qevd_00058
+qevd,QEVD-FIT-300k-Part-4/00229110.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_00059
+qevd,QEVD-FIT-300k-Part-4/00229144.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_00061
+qevd,QEVD-FIT-300k-Part-4/00229161.mp4,Pushup,train,pushups - 90 degrees | pushups - narrow,train,qevd_00063
+qevd,QEVD-FIT-300k-Part-4/00229187.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00065
+qevd,QEVD-FIT-300k-Part-4/00229325.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_00069
+qevd,QEVD-FIT-300k-Part-4/00229429.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00073
+qevd,QEVD-FIT-300k-Part-4/00229505.mp4,High_Plank,train,high plank - knees on floor,train,qevd_00079
+qevd,QEVD-FIT-300k-Part-4/00229548.mp4,Pushup,train,pushups - waiting position,train,qevd_00080
+qevd,QEVD-FIT-300k-Part-4/00229574.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00084
+qevd,QEVD-FIT-300k-Part-4/00229656.mp4,Pushup,train,pushups - child pose cheat,train,qevd_00088
+qevd,QEVD-FIT-300k-Part-4/00229736.mp4,High_Plank,train,high plank - starting late,train,qevd_00091
+qevd,QEVD-FIT-300k-Part-4/00229803.mp4,Pushup,train,pushups - butt sinking | pushups - shallow | pushups - shoulder-width | pushups - sloppy,train,qevd_00095
+qevd,QEVD-FIT-300k-Part-4/00229855.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00096
+qevd,QEVD-FIT-300k-Part-4/00229872.mp4,High_Plank,train,high plank - looking up,train,qevd_00097
+qevd,QEVD-FIT-300k-Part-4/00229892.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_00099
+qevd,QEVD-FIT-300k-Part-4/00229897.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00100
+qevd,QEVD-FIT-300k-Part-4/00229942.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_00102
+qevd,QEVD-FIT-300k-Part-4/00229980.mp4,Pushup,train,pushups - side to side,train,qevd_00106
+qevd,QEVD-FIT-300k-Part-4/00230032.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_00107
+qevd,QEVD-FIT-300k-Part-4/00230052.mp4,Pushup,train,pushups - early stopping,train,qevd_00109
+qevd,QEVD-FIT-300k-Part-4/00230068.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00111
+qevd,QEVD-FIT-300k-Part-4/00230115.mp4,High_Plank,train,high plank - knees on floor,train,qevd_00113
+qevd,QEVD-FIT-300k-Part-4/00230244.mp4,High_Plank,train,high plank - moving feet,train,qevd_00122
+qevd,QEVD-FIT-300k-Part-4/00230403.mp4,High_Plank,train,high plank - knees bent,train,qevd_00131
+qevd,QEVD-FIT-300k-Part-4/00230411.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_00132
+qevd,QEVD-FIT-300k-Part-4/00230473.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00135
+qevd,QEVD-FIT-300k-Part-4/00230672.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_00144
+qevd,QEVD-FIT-300k-Part-4/00230783.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00151
+qevd,QEVD-FIT-300k-Part-4/00230859.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_00157
+qevd,QEVD-FIT-300k-Part-4/00231018.mp4,High_Plank,train,high plank - moving feet,train,qevd_00165
+qevd,QEVD-FIT-300k-Part-4/00231039.mp4,Pushup,train,pushups - child pose cheat,train,qevd_00167
+qevd,QEVD-FIT-300k-Part-4/00231115.mp4,Pushup,train,pushups - narrow | pushups - shallow,train,qevd_00168
+qevd,QEVD-FIT-300k-Part-4/00231150.mp4,High_Plank,train,high plank - average,train,qevd_00170
+qevd,QEVD-FIT-300k-Part-4/00231187.mp4,Pushup_on_Knees,train,pushups (on knees) - moving head | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_00174
+qevd,QEVD-FIT-300k-Part-4/00231251.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00179
+qevd,QEVD-FIT-300k-Part-4/00231279.mp4,High_Plank,train,high plank - hips too low,train,qevd_00180
+qevd,QEVD-FIT-300k-Part-4/00231333.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00183
+qevd,QEVD-FIT-300k-Part-4/00231449.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_00191
+qevd,QEVD-FIT-300k-Part-4/00231485.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - head down | pushups (on knees) - wide,train,qevd_00195
+qevd,QEVD-FIT-300k-Part-4/00231513.mp4,High_Plank,train,high plank - average,train,qevd_00199
+qevd,QEVD-FIT-300k-Part-4/00231581.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_00203
+qevd,QEVD-FIT-300k-Part-4/00231589.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00205
+qevd,QEVD-FIT-300k-Part-4/00231668.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_00208
+qevd,QEVD-FIT-300k-Part-4/00231777.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - wide,train,qevd_00214
+qevd,QEVD-FIT-300k-Part-4/00231900.mp4,Pushup,train,pushups - legs on the floor,train,qevd_00219
+qevd,QEVD-FIT-300k-Part-4/00231912.mp4,High_Plank,train,high plank - starting late,train,qevd_00221
+qevd,QEVD-FIT-300k-Part-4/00231964.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_00224
+qevd,QEVD-FIT-300k-Part-4/00232002.mp4,High_Plank,train,high plank - moving feet,train,qevd_00226
+qevd,QEVD-FIT-300k-Part-4/00232003.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_00227
+qevd,QEVD-FIT-300k-Part-4/00232018.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_00228
+qevd,QEVD-FIT-300k-Part-4/00232085.mp4,High_Plank,train,high plank - stopping early,train,qevd_00229
+qevd,QEVD-FIT-300k-Part-4/00232093.mp4,High_Plank,train,high plank - hips too low,test,qevd_00230
+qevd,QEVD-FIT-300k-Part-4/00232106.mp4,Side_Plank,train,side plank - elbow below head | side plank - both knees on floor,test,qevd_00231
+qevd,QEVD-FIT-300k-Part-4/00232141.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_00233
+qevd,QEVD-FIT-300k-Part-4/00232156.mp4,High_Plank,train,high plank - hips too high,train,qevd_00234
+qevd,QEVD-FIT-300k-Part-4/00232340.mp4,Side_Plank,train,side plank - elbow below head | side plank - both knees on floor,train,qevd_00239
+qevd,QEVD-FIT-300k-Part-4/00232360.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_00240
+qevd,QEVD-FIT-300k-Part-4/00232464.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_00245
+qevd,QEVD-FIT-300k-Part-4/00232488.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - very wide,train,qevd_00247
+qevd,QEVD-FIT-300k-Part-4/00232490.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_00248
+qevd,QEVD-FIT-300k-Part-4/00232535.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00251
+qevd,QEVD-FIT-300k-Part-4/00232552.mp4,Pushup,train,pushups - 90 degrees | pushups - elevated hips | pushups - head down | pushups - wide,train,qevd_00254
+qevd,QEVD-FIT-300k-Part-4/00232619.mp4,High_Plank,train,high plank - starting late,train,qevd_00261
+qevd,QEVD-FIT-300k-Part-4/00232731.mp4,High_Plank,train,high plank - looking up,train,qevd_00267
+qevd,QEVD-FIT-300k-Part-4/00232774.mp4,High_Plank,train,high plank - stopping early,train,qevd_00270
+qevd,QEVD-FIT-300k-Part-4/00232812.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00272
+qevd,QEVD-FIT-300k-Part-4/00232870.mp4,High_Plank,train,high plank - stopping early,test,qevd_00276
+qevd,QEVD-FIT-300k-Part-4/00232887.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00278
+qevd,QEVD-FIT-300k-Part-4/00232897.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - sloppy | pushups (on knees) - wide,train,qevd_00279
+qevd,QEVD-FIT-300k-Part-4/00232945.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00283
+qevd,QEVD-FIT-300k-Part-4/00232966.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00286
+qevd,QEVD-FIT-300k-Part-4/00233049.mp4,Pushup,train,pushups - fast,train,qevd_00290
+qevd,QEVD-FIT-300k-Part-4/00233063.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00291
+qevd,QEVD-FIT-300k-Part-4/00233084.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_00292
+qevd,QEVD-FIT-300k-Part-4/00233137.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_00293
+qevd,QEVD-FIT-300k-Part-4/00233195.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_00296
+qevd,QEVD-FIT-300k-Part-4/00233213.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_00297
+qevd,QEVD-FIT-300k-Part-4/00233217.mp4,High_Plank,train,high plank - hips too high,train,qevd_00298
+qevd,QEVD-FIT-300k-Part-4/00233302.mp4,High_Plank,train,high plank - average,train,qevd_00306
+qevd,QEVD-FIT-300k-Part-4/00233343.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00308
+qevd,QEVD-FIT-300k-Part-4/00233393.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00312
+qevd,QEVD-FIT-300k-Part-4/00233443.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_00315
+qevd,QEVD-FIT-300k-Part-4/00233485.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - butt sinking | pushups (on knees) - very wide,train,qevd_00319
+qevd,QEVD-FIT-300k-Part-4/00233582.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00322
+qevd,QEVD-FIT-300k-Part-4/00233601.mp4,High_Plank,train,high plank - moving arms,train,qevd_00323
+qevd,QEVD-FIT-300k-Part-4/00233607.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_00324
+qevd,QEVD-FIT-300k-Part-4/00233662.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_00326
+qevd,QEVD-FIT-300k-Part-4/00233724.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00330
+qevd,QEVD-FIT-300k-Part-4/00233752.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00332
+qevd,QEVD-FIT-300k-Part-4/00233774.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00333
+qevd,QEVD-FIT-300k-Part-4/00233837.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_00336
+qevd,QEVD-FIT-300k-Part-4/00233923.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_00346
+qevd,QEVD-FIT-300k-Part-4/00233939.mp4,High_Plank,train,high plank - stopping early,train,qevd_00349
+qevd,QEVD-FIT-300k-Part-4/00233954.mp4,Pushup,train,pushups - elevated hips | pushups - shallow | pushups - shoulder-width,train,qevd_00350
+qevd,QEVD-FIT-300k-Part-4/00233959.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00351
+qevd,QEVD-FIT-300k-Part-4/00234021.mp4,High_Plank,train,high plank - stopping early,train,qevd_00354
+qevd,QEVD-FIT-300k-Part-4/00234073.mp4,High_Plank,train,high plank - average,train,qevd_00358
+qevd,QEVD-FIT-300k-Part-4/00234117.mp4,High_Plank,train,high plank - stopping early,train,qevd_00361
+qevd,QEVD-FIT-300k-Part-4/00234221.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_00371
+qevd,QEVD-FIT-300k-Part-4/00234264.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_00373
+qevd,QEVD-FIT-300k-Part-4/00234342.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00376
+qevd,QEVD-FIT-300k-Part-4/00234417.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - head down | pushups (on knees) - very wide,train,qevd_00381
+qevd,QEVD-FIT-300k-Part-4/00234459.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,test,qevd_00383
+qevd,QEVD-FIT-300k-Part-4/00234510.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00387
+qevd,QEVD-FIT-300k-Part-4/00234609.mp4,Pushup,train,pushups - not visible,train,qevd_00393
+qevd,QEVD-FIT-300k-Part-4/00234754.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00401
+qevd,QEVD-FIT-300k-Part-4/00234915.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00410
+qevd,QEVD-FIT-300k-Part-4/00234972.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00414
+qevd,QEVD-FIT-300k-Part-4/00234992.mp4,High_Plank,train,high plank - moving arms,test,qevd_00416
+qevd,QEVD-FIT-300k-Part-4/00235033.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_00418
+qevd,QEVD-FIT-300k-Part-4/00235105.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_00422
+qevd,QEVD-FIT-300k-Part-4/00235189.mp4,Pushup,train,pushups - butt sinking | pushups - deep | pushups - very wide,train,qevd_00425
+qevd,QEVD-FIT-300k-Part-4/00235190.mp4,Pushup,train,pushups - child pose cheat,train,qevd_00426
+qevd,QEVD-FIT-300k-Part-4/00235195.mp4,High_Plank,train,high plank - moving feet,test,qevd_00427
+qevd,QEVD-FIT-300k-Part-4/00235325.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00432
+qevd,QEVD-FIT-300k-Part-4/00235372.mp4,High_Plank,train,high plank - average,train,qevd_00434
+qevd,QEVD-FIT-300k-Part-4/00235376.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00435
+qevd,QEVD-FIT-300k-Part-4/00235484.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_00437
+qevd,QEVD-FIT-300k-Part-4/00235488.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00438
+qevd,QEVD-FIT-300k-Part-4/00235519.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00439
+qevd,QEVD-FIT-300k-Part-4/00235582.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00443
+qevd,QEVD-FIT-300k-Part-4/00235646.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_00447
+qevd,QEVD-FIT-300k-Part-4/00235730.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_00452
+qevd,QEVD-FIT-300k-Part-4/00235731.mp4,Pushup,train,pushups - insufficient | pushups - shoulder-width,train,qevd_00453
+qevd,QEVD-FIT-300k-Part-4/00235790.mp4,Pushup,train,pushups - early stopping,train,qevd_00457
+qevd,QEVD-FIT-300k-Part-4/00235908.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,test,qevd_00463
+qevd,QEVD-FIT-300k-Part-4/00235918.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00465
+qevd,QEVD-FIT-300k-Part-4/00235974.mp4,Pushup,train,pushups - waiting position,train,qevd_00468
+qevd,QEVD-FIT-300k-Part-4/00235994.mp4,High_Plank,train,high plank - moving arms,test,qevd_00469
+qevd,QEVD-FIT-300k-Part-4/00236021.mp4,High_Plank,train,high plank - starting late,train,qevd_00471
+qevd,QEVD-FIT-300k-Part-4/00236029.mp4,High_Plank,train,high plank - elbows bent,test,qevd_00472
+qevd,QEVD-FIT-300k-Part-4/00236080.mp4,Pushup,train,pushups - fast,train,qevd_00473
+qevd,QEVD-FIT-300k-Part-4/00236205.mp4,Pushup,train,pushups - butt sinking | pushups - insufficient,train,qevd_00479
+qevd,QEVD-FIT-300k-Part-4/00236228.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_00480
+qevd,QEVD-FIT-300k-Part-4/00236246.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_00483
+qevd,QEVD-FIT-300k-Part-4/00236277.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00485
+qevd,QEVD-FIT-300k-Part-4/00236283.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_00486
+qevd,QEVD-FIT-300k-Part-4/00236366.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_00490
+qevd,QEVD-FIT-300k-Part-4/00236375.mp4,Pushup,train,pushups - narrow,train,qevd_00491
+qevd,QEVD-FIT-300k-Part-4/00236475.mp4,Pushup_on_Knees,train,pushups (on knees) - moving head | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_00495
+qevd,QEVD-FIT-300k-Part-4/00236602.mp4,Pushup,train,pushups - insufficient | pushups - shoulder-width,train,qevd_00497
+qevd,QEVD-FIT-300k-Part-4/00236633.mp4,Pushup,train,pushups - shallow | pushups - very wide,train,qevd_00501
+qevd,QEVD-FIT-300k-Part-4/00236682.mp4,High_Plank,train,high plank - stopping early,train,qevd_00503
+qevd,QEVD-FIT-300k-Part-4/00236728.mp4,Pushup,train,pushups - butt sinking | pushups - insufficient | pushups - wide,train,qevd_00505
+qevd,QEVD-FIT-300k-Part-4/00236739.mp4,High_Plank,train,high plank - starting late,test,qevd_00507
+qevd,QEVD-FIT-300k-Part-4/00236784.mp4,High_Plank,train,high plank - starting late,train,qevd_00511
+qevd,QEVD-FIT-300k-Part-4/00236842.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - no obvious issue,train,qevd_00516
+qevd,QEVD-FIT-300k-Part-4/00237079.mp4,High_Plank,train,high plank - knees on floor,train,qevd_00526
+qevd,QEVD-FIT-300k-Part-4/00237114.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00530
+qevd,QEVD-FIT-300k-Part-4/00237139.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_00534
+qevd,QEVD-FIT-300k-Part-4/00237167.mp4,High_Plank,train,high plank - average,train,qevd_00535
+qevd,QEVD-FIT-300k-Part-4/00237230.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_00538
+qevd,QEVD-FIT-300k-Part-4/00237365.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_00542
+qevd,QEVD-FIT-300k-Part-4/00237428.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_00544
+qevd,QEVD-FIT-300k-Part-4/00237466.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_00548
+qevd,QEVD-FIT-300k-Part-4/00237475.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_00549
+qevd,QEVD-FIT-300k-Part-4/00237523.mp4,Pushup,train,pushups - not visible,train,qevd_00553
+qevd,QEVD-FIT-300k-Part-4/00237550.mp4,High_Plank,train,high plank - moving arms,test,qevd_00554
+qevd,QEVD-FIT-300k-Part-4/00237584.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00555
+qevd,QEVD-FIT-300k-Part-4/00237728.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00566
+qevd,QEVD-FIT-300k-Part-4/00237929.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_00577
+qevd,QEVD-FIT-300k-Part-4/00237941.mp4,High_Plank,train,high plank - starting late,test,qevd_00579
+qevd,QEVD-FIT-300k-Part-4/00237970.mp4,High_Plank,train,high plank - knees on floor,train,qevd_00582
+qevd,QEVD-FIT-300k-Part-4/00238007.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_00584
+qevd,QEVD-FIT-300k-Part-4/00238013.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00585
+qevd,QEVD-FIT-300k-Part-4/00238036.mp4,Pushup,train,pushups - deep | pushups - narrow,train,qevd_00586
+qevd,QEVD-FIT-300k-Part-4/00238088.mp4,Pushup,train,pushups - 90 degrees | pushups - butt sinking | pushups - fast | pushups - wide,train,qevd_00589
+qevd,QEVD-FIT-300k-Part-4/00238090.mp4,High_Plank,train,high plank - starting late,train,qevd_00590
+qevd,QEVD-FIT-300k-Part-4/00238137.mp4,High_Plank,train,high plank - knees on floor,train,qevd_00592
+qevd,QEVD-FIT-300k-Part-4/00238305.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_00598
+qevd,QEVD-FIT-300k-Part-4/00238402.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_00599
+qevd,QEVD-FIT-300k-Part-4/00238441.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00601
+qevd,QEVD-FIT-300k-Part-4/00238487.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_00605
+qevd,QEVD-FIT-300k-Part-4/00238615.mp4,High_Plank,train,high plank - average,test,qevd_00610
+qevd,QEVD-FIT-300k-Part-4/00238762.mp4,High_Plank,train,high plank - hips too low,train,qevd_00618
+qevd,QEVD-FIT-300k-Part-4/00238877.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00624
+qevd,QEVD-FIT-300k-Part-4/00238947.mp4,Pushup,train,pushups - legs on the floor,train,qevd_00625
+qevd,QEVD-FIT-300k-Part-4/00238949.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_00626
+qevd,QEVD-FIT-300k-Part-4/00239110.mp4,High_Plank,train,high plank - stopping early,train,qevd_00636
+qevd,QEVD-FIT-300k-Part-4/00239161.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00639
+qevd,QEVD-FIT-300k-Part-4/00239197.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_00642
+qevd,QEVD-FIT-300k-Part-4/00239199.mp4,High_Plank,train,high plank - hips too low,test,qevd_00643
+qevd,QEVD-FIT-300k-Part-4/00239248.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_00648
+qevd,QEVD-FIT-300k-Part-4/00239371.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - shoulder-width | pushups - sloppy,train,qevd_00654
+qevd,QEVD-FIT-300k-Part-4/00239377.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_00655
+qevd,QEVD-FIT-300k-Part-4/00239517.mp4,High_Plank,train,high plank - stopping early,train,qevd_00665
+qevd,QEVD-FIT-300k-Part-4/00239633.mp4,Pushup,train,pushups - deep | pushups - narrow,train,qevd_00670
+qevd,QEVD-FIT-300k-Part-4/00239717.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - wide,train,qevd_00677
+qevd,QEVD-FIT-300k-Part-4/00239733.mp4,High_Plank,train,high plank - looking up,test,qevd_00678
+qevd,QEVD-FIT-300k-Part-4/00239756.mp4,High_Plank,train,high plank - starting late,test,qevd_00680
+qevd,QEVD-FIT-300k-Part-4/00239776.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00681
+qevd,QEVD-FIT-300k-Part-4/00239783.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_00683
+qevd,QEVD-FIT-300k-Part-4/00239921.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_00691
+qevd,QEVD-FIT-300k-Part-4/00240019.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_00696
+qevd,QEVD-FIT-300k-Part-4/00240080.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00701
+qevd,QEVD-FIT-300k-Part-4/00240086.mp4,High_Plank,train,high plank - moving feet,train,qevd_00702
+qevd,QEVD-FIT-300k-Part-4/00240098.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00705
+qevd,QEVD-FIT-300k-Part-4/00240120.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00707
+qevd,QEVD-FIT-300k-Part-4/00240173.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00711
+qevd,QEVD-FIT-300k-Part-4/00240205.mp4,Elbow_Plank,train,elbow plank - head down,train,qevd_00712
+qevd,QEVD-FIT-300k-Part-4/00240327.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_00721
+qevd,QEVD-FIT-300k-Part-4/00240335.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_00724
+qevd,QEVD-FIT-300k-Part-4/00240379.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00729
+qevd,QEVD-FIT-300k-Part-4/00240399.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_00730
+qevd,QEVD-FIT-300k-Part-4/00240434.mp4,Pushup,train,pushups - deep | pushups - legs on the floor | pushups - shoulder-width,train,qevd_00734
+qevd,QEVD-FIT-300k-Part-4/00240566.mp4,Pushup,train,pushups - waiting position,train,qevd_00742
+qevd,QEVD-FIT-300k-Part-4/00240579.mp4,High_Plank,train,high plank - moving arms,train,qevd_00743
+qevd,QEVD-FIT-300k-Part-4/00240656.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_00746
+qevd,QEVD-FIT-300k-Part-4/00240664.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_00747
+qevd,QEVD-FIT-300k-Part-4/00240669.mp4,Pushup,train,pushups - 90 degrees | pushups - shallow | pushups - sloppy | pushups - very wide,train,qevd_00748
+qevd,QEVD-FIT-300k-Part-4/00240709.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_00751
+qevd,QEVD-FIT-300k-Part-4/00240788.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - moving head | pushups (on knees) - very wide,train,qevd_00755
+qevd,QEVD-FIT-300k-Part-4/00240804.mp4,High_Plank,train,high plank - moving feet,train,qevd_00757
+qevd,QEVD-FIT-300k-Part-4/00240806.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_00758
+qevd,QEVD-FIT-300k-Part-4/00240908.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00763
+qevd,QEVD-FIT-300k-Part-4/00240913.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00764
+qevd,QEVD-FIT-300k-Part-4/00240919.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_00765
+qevd,QEVD-FIT-300k-Part-4/00241041.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_00776
+qevd,QEVD-FIT-300k-Part-4/00241088.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_00781
+qevd,QEVD-FIT-300k-Part-4/00241104.mp4,High_Plank,train,high plank - hips too low,train,qevd_00783
+qevd,QEVD-FIT-300k-Part-4/00241152.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_00787
+qevd,QEVD-FIT-300k-Part-4/00241160.mp4,High_Plank,train,high plank - moving arms,train,qevd_00788
+qevd,QEVD-FIT-300k-Part-4/00241161.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00789
+qevd,QEVD-FIT-300k-Part-4/00241177.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00790
+qevd,QEVD-FIT-300k-Part-4/00241232.mp4,Pushup,train,pushups - butt sinking | pushups - shallow | pushups - sloppy,train,qevd_00794
+qevd,QEVD-FIT-300k-Part-4/00241233.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor,train,qevd_00795
+qevd,QEVD-FIT-300k-Part-4/00241307.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_00798
+qevd,QEVD-FIT-300k-Part-4/00241342.mp4,Pushup,train,pushups - legs on the floor,train,qevd_00800
+qevd,QEVD-FIT-300k-Part-4/00241441.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00807
+qevd,QEVD-FIT-300k-Part-4/00241500.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_00809
+qevd,QEVD-FIT-300k-Part-4/00241580.mp4,High_Plank,train,high plank - hips too high,train,qevd_00810
+qevd,QEVD-FIT-300k-Part-4/00241604.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_00811
+qevd,QEVD-FIT-300k-Part-4/00241951.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00833
+qevd,QEVD-FIT-300k-Part-4/00242032.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00838
+qevd,QEVD-FIT-300k-Part-4/00242065.mp4,High_Plank,train,high plank - knees bent,train,qevd_00842
+qevd,QEVD-FIT-300k-Part-4/00242145.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_00848
+qevd,QEVD-FIT-300k-Part-4/00242209.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00856
+qevd,QEVD-FIT-300k-Part-4/00242220.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00857
+qevd,QEVD-FIT-300k-Part-4/00242324.mp4,High_Plank,train,high plank - knees bent,train,qevd_00865
+qevd,QEVD-FIT-300k-Part-4/00242346.mp4,High_Plank,train,high plank - stopping early,train,qevd_00866
+qevd,QEVD-FIT-300k-Part-4/00242359.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00867
+qevd,QEVD-FIT-300k-Part-4/00242382.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_00869
+qevd,QEVD-FIT-300k-Part-4/00242395.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_00871
+qevd,QEVD-FIT-300k-Part-4/00242442.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00875
+qevd,QEVD-FIT-300k-Part-4/00242445.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00877
+qevd,QEVD-FIT-300k-Part-4/00242496.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_00879
+qevd,QEVD-FIT-300k-Part-4/00242587.mp4,Pushup,train,pushups - butt sinking | pushups - deep | pushups - wide,train,qevd_00881
+qevd,QEVD-FIT-300k-Part-4/00242730.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_00889
+qevd,QEVD-FIT-300k-Part-4/00242821.mp4,Pushup,train,pushups - butt sinking | pushups - shallow | pushups - shoulder-width,train,qevd_00893
+qevd,QEVD-FIT-300k-Part-4/00242864.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_00896
+qevd,QEVD-FIT-300k-Part-4/00242875.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00897
+qevd,QEVD-FIT-300k-Part-4/00243003.mp4,High_Plank,train,high plank - hips too low,train,qevd_00902
+qevd,QEVD-FIT-300k-Part-4/00243004.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_00903
+qevd,QEVD-FIT-300k-Part-4/00243034.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_00907
+qevd,QEVD-FIT-300k-Part-4/00243109.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,test,qevd_00910
+qevd,QEVD-FIT-300k-Part-4/00243116.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_00911
+qevd,QEVD-FIT-300k-Part-4/00243117.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_00912
+qevd,QEVD-FIT-300k-Part-4/00243206.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_00914
+qevd,QEVD-FIT-300k-Part-4/00243214.mp4,Elbow_Plank,train,elbow plank - shaking,train,qevd_00915
+qevd,QEVD-FIT-300k-Part-4/00243327.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - high hips,train,qevd_00921
+qevd,QEVD-FIT-300k-Part-4/00243376.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,test,qevd_00925
+qevd,QEVD-FIT-300k-Part-4/00243405.mp4,High_Plank,train,high plank - hips too low,train,qevd_00926
+qevd,QEVD-FIT-300k-Part-4/00243501.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_00929
+qevd,QEVD-FIT-300k-Part-4/00243505.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_00930
+qevd,QEVD-FIT-300k-Part-4/00243524.mp4,High_Plank,train,high plank - hips too low,train,qevd_00932
+qevd,QEVD-FIT-300k-Part-4/00243609.mp4,High_Plank,train,high plank - average,train,qevd_00935
+qevd,QEVD-FIT-300k-Part-4/00243623.mp4,High_Plank,train,high plank - elbows bent,train,qevd_00937
+qevd,QEVD-FIT-300k-Part-4/00243679.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_00941
+qevd,QEVD-FIT-300k-Part-4/00243795.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_00944
+qevd,QEVD-FIT-300k-Part-4/00243942.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_00952
+qevd,QEVD-FIT-300k-Part-4/00243995.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_00960
+qevd,QEVD-FIT-300k-Part-4/00244112.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_00964
+qevd,QEVD-FIT-300k-Part-4/00244138.mp4,High_Plank,train,high plank - stopping early,train,qevd_00968
+qevd,QEVD-FIT-300k-Part-4/00244160.mp4,High_Plank,train,high plank - hips too low,train,qevd_00969
+qevd,QEVD-FIT-300k-Part-4/00244224.mp4,High_Plank,train,high plank - hips too low,train,qevd_00977
+qevd,QEVD-FIT-300k-Part-4/00244544.mp4,High_Plank,train,high plank - average,train,qevd_00997
+qevd,QEVD-FIT-300k-Part-4/00244558.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor,test,qevd_00998
+qevd,QEVD-FIT-300k-Part-4/00244606.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01002
+qevd,QEVD-FIT-300k-Part-4/00244963.mp4,High_Plank,train,high plank - looking up,train,qevd_01020
+qevd,QEVD-FIT-300k-Part-4/00245011.mp4,Pushup,train,pushups - waiting position,train,qevd_01022
+qevd,QEVD-FIT-300k-Part-4/00245052.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_01025
+qevd,QEVD-FIT-300k-Part-4/00245059.mp4,High_Plank,train,high plank - moving arms,train,qevd_01027
+qevd,QEVD-FIT-300k-Part-4/00245067.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - head down | pushups (on knees) - very wide,train,qevd_01029
+qevd,QEVD-FIT-300k-Part-4/00245076.mp4,Pushup,train,pushups - early stopping,train,qevd_01032
+qevd,QEVD-FIT-300k-Part-4/00245079.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_01033
+qevd,QEVD-FIT-300k-Part-4/00245192.mp4,High_Plank,train,high plank - looking up,train,qevd_01036
+qevd,QEVD-FIT-300k-Part-4/00245250.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,test,qevd_01038
+qevd,QEVD-FIT-300k-Part-4/00245259.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01039
+qevd,QEVD-FIT-300k-Part-4/00245335.mp4,High_Plank,train,high plank - moving arms,train,qevd_01041
+qevd,QEVD-FIT-300k-Part-4/00245367.mp4,Pushup,train,pushups - elevated hips | pushups - not visible | pushups - very wide,train,qevd_01044
+qevd,QEVD-FIT-300k-Part-4/00245393.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01046
+qevd,QEVD-FIT-300k-Part-4/00245397.mp4,Pushup,train,pushups - early stopping,train,qevd_01047
+qevd,QEVD-FIT-300k-Part-4/00245421.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01049
+qevd,QEVD-FIT-300k-Part-4/00245441.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01051
+qevd,QEVD-FIT-300k-Part-4/00245529.mp4,Pushup,train,pushups - narrow | pushups - shallow,train,qevd_01057
+qevd,QEVD-FIT-300k-Part-4/00245542.mp4,Side_Plank,train,side plank - elbow below head | side plank - both knees on floor,test,qevd_01058
+qevd,QEVD-FIT-300k-Part-4/00245778.mp4,Pushup,train,pushups - narrow,train,qevd_01071
+qevd,QEVD-FIT-300k-Part-4/00245801.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_01073
+qevd,QEVD-FIT-300k-Part-4/00245832.mp4,Pushup,train,pushups - deep | pushups - elevated hips | pushups - sloppy | pushups - wide,train,qevd_01074
+qevd,QEVD-FIT-300k-Part-4/00245843.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01075
+qevd,QEVD-FIT-300k-Part-4/00245995.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01084
+qevd,QEVD-FIT-300k-Part-4/00246007.mp4,Pushup,train,pushups - deep | pushups - sloppy | pushups - wide,train,qevd_01086
+qevd,QEVD-FIT-300k-Part-4/00246140.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01090
+qevd,QEVD-FIT-300k-Part-4/00246189.mp4,Pushup,train,pushups - moving head | pushups - shallow | pushups - wide,train,qevd_01094
+qevd,QEVD-FIT-300k-Part-4/00246219.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_01095
+qevd,QEVD-FIT-300k-Part-4/00246239.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_01097
+qevd,QEVD-FIT-300k-Part-4/00246330.mp4,High_Plank,train,high plank - average,train,qevd_01099
+qevd,QEVD-FIT-300k-Part-4/00246343.mp4,High_Plank,train,high plank - stopping early,train,qevd_01100
+qevd,QEVD-FIT-300k-Part-4/00246359.mp4,Pushup,train,pushups - early stopping,train,qevd_01101
+qevd,QEVD-FIT-300k-Part-4/00246390.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01102
+qevd,QEVD-FIT-300k-Part-4/00246397.mp4,Pushup,train,pushups - side to side,train,qevd_01103
+qevd,QEVD-FIT-300k-Part-4/00246423.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01106
+qevd,QEVD-FIT-300k-Part-4/00246490.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01113
+qevd,QEVD-FIT-300k-Part-4/00246518.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_01115
+qevd,QEVD-FIT-300k-Part-4/00246588.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01117
+qevd,QEVD-FIT-300k-Part-4/00246625.mp4,High_Plank,train,high plank - hips too low,train,qevd_01121
+qevd,QEVD-FIT-300k-Part-4/00246773.mp4,High_Plank,train,high plank - moving feet,train,qevd_01126
+qevd,QEVD-FIT-300k-Part-4/00246783.mp4,High_Plank,train,high plank - looking up,test,qevd_01127
+qevd,QEVD-FIT-300k-Part-4/00246793.mp4,High_Plank,train,high plank - hips too low,train,qevd_01128
+qevd,QEVD-FIT-300k-Part-4/00246800.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_01129
+qevd,QEVD-FIT-300k-Part-4/00247053.mp4,High_Plank,train,high plank - starting late,train,qevd_01144
+qevd,QEVD-FIT-300k-Part-4/00247260.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01158
+qevd,QEVD-FIT-300k-Part-4/00247303.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_01162
+qevd,QEVD-FIT-300k-Part-4/00247304.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_01163
+qevd,QEVD-FIT-300k-Part-4/00247312.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_01164
+qevd,QEVD-FIT-300k-Part-4/00247352.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01168
+qevd,QEVD-FIT-300k-Part-4/00247385.mp4,High_Plank,train,high plank - hips too low,test,qevd_01171
+qevd,QEVD-FIT-300k-Part-4/00247387.mp4,Pushup,train,pushups - waiting position,train,qevd_01173
+qevd,QEVD-FIT-300k-Part-4/00247444.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - moving head | pushups (on knees) - wide,train,qevd_01175
+qevd,QEVD-FIT-300k-Part-4/00247470.mp4,Pushup,train,pushups - early stopping,train,qevd_01176
+qevd,QEVD-FIT-300k-Part-4/00247530.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01181
+qevd,QEVD-FIT-300k-Part-4/00247581.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01183
+qevd,QEVD-FIT-300k-Part-4/00247665.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_01186
+qevd,QEVD-FIT-300k-Part-4/00247742.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01188
+qevd,QEVD-FIT-300k-Part-4/00247746.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01189
+qevd,QEVD-FIT-300k-Part-4/00247781.mp4,High_Plank,train,high plank - stopping early,train,qevd_01190
+qevd,QEVD-FIT-300k-Part-4/00247855.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_01194
+qevd,QEVD-FIT-300k-Part-4/00247900.mp4,Pushup,train,pushups - butt sinking | pushups - legs on the floor,train,qevd_01197
+qevd,QEVD-FIT-300k-Part-4/00247960.mp4,High_Plank,train,high plank - stopping early,train,qevd_01199
+qevd,QEVD-FIT-300k-Part-4/00247975.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_01200
+qevd,QEVD-FIT-300k-Part-4/00248018.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_01203
+qevd,QEVD-FIT-300k-Part-4/00248072.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_01204
+qevd,QEVD-FIT-300k-Part-4/00248103.mp4,High_Plank,train,high plank - stopping early,train,qevd_01206
+qevd,QEVD-FIT-300k-Part-4/00248137.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_01208
+qevd,QEVD-FIT-300k-Part-4/00248142.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_01209
+qevd,QEVD-FIT-300k-Part-4/00248201.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01212
+qevd,QEVD-FIT-300k-Part-4/00248265.mp4,Pushup,train,pushups - child pose cheat,train,qevd_01215
+qevd,QEVD-FIT-300k-Part-4/00248346.mp4,Pushup,train,pushups - child pose cheat,train,qevd_01219
+qevd,QEVD-FIT-300k-Part-4/00248382.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_01220
+qevd,QEVD-FIT-300k-Part-4/00248391.mp4,Pushup_on_Knees,train,pushups (on knees) - head down | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_01222
+qevd,QEVD-FIT-300k-Part-4/00248431.mp4,Pushup,train,pushups - deep | pushups - very wide,train,qevd_01224
+qevd,QEVD-FIT-300k-Part-4/00248454.mp4,High_Plank,train,high plank - elbows bent,test,qevd_01227
+qevd,QEVD-FIT-300k-Part-4/00248490.mp4,High_Plank,train,high plank - hips too high,train,qevd_01229
+qevd,QEVD-FIT-300k-Part-4/00248533.mp4,Pushup,train,pushups - legs on the floor,train,qevd_01231
+qevd,QEVD-FIT-300k-Part-4/00248612.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01235
+qevd,QEVD-FIT-300k-Part-4/00248685.mp4,High_Plank,train,high plank - knees bent,test,qevd_01237
+qevd,QEVD-FIT-300k-Part-4/00248738.mp4,High_Plank,train,high plank - moving feet,train,qevd_01241
+qevd,QEVD-FIT-300k-Part-4/00248755.mp4,Pushup,train,pushups - early stopping,train,qevd_01242
+qevd,QEVD-FIT-300k-Part-4/00248784.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01244
+qevd,QEVD-FIT-300k-Part-4/00248895.mp4,High_Plank,train,high plank - average,train,qevd_01251
+qevd,QEVD-FIT-300k-Part-4/00248936.mp4,Pushup,train,pushups - butt sinking | pushups - shallow | pushups - wide,train,qevd_01255
+qevd,QEVD-FIT-300k-Part-4/00249033.mp4,High_Plank,train,high plank - starting late,test,qevd_01259
+qevd,QEVD-FIT-300k-Part-4/00249070.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,train,qevd_01261
+qevd,QEVD-FIT-300k-Part-4/00249126.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,train,qevd_01264
+qevd,QEVD-FIT-300k-Part-4/00249152.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01268
+qevd,QEVD-FIT-300k-Part-4/00249232.mp4,Pushup,train,pushups - fast,train,qevd_01272
+qevd,QEVD-FIT-300k-Part-4/00249383.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor,train,qevd_01281
+qevd,QEVD-FIT-300k-Part-4/00249424.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_01283
+qevd,QEVD-FIT-300k-Part-4/00249559.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_01288
+qevd,QEVD-FIT-300k-Part-4/00249636.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_01292
+qevd,QEVD-FIT-300k-Part-4/00249681.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01295
+qevd,QEVD-FIT-300k-Part-4/00249806.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_01302
+qevd,QEVD-FIT-300k-Part-4/00250000.mp4,High_Plank,train,high plank - moving arms,test,qevd_01313
+qevd,QEVD-FIT-300k-Part-4/00250039.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01315
+qevd,QEVD-FIT-300k-Part-4/00250121.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01319
+qevd,QEVD-FIT-300k-Part-4/00250126.mp4,High_Plank,train,high plank - moving feet,train,qevd_01320
+qevd,QEVD-FIT-300k-Part-4/00250129.mp4,High_Plank,train,high plank - knees on floor,train,qevd_01321
+qevd,QEVD-FIT-300k-Part-4/00250134.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01322
+qevd,QEVD-FIT-300k-Part-4/00250190.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01323
+qevd,QEVD-FIT-300k-Part-4/00250307.mp4,High_Plank,train,high plank - starting late,train,qevd_01327
+qevd,QEVD-FIT-300k-Part-4/00250332.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01330
+qevd,QEVD-FIT-300k-Part-4/00250346.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01334
+qevd,QEVD-FIT-300k-Part-4/00250350.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01335
+qevd,QEVD-FIT-300k-Part-4/00250451.mp4,High_Plank,train,high plank - moving feet,train,qevd_01340
+qevd,QEVD-FIT-300k-Part-4/00250588.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_01345
+qevd,QEVD-FIT-300k-Part-4/00250654.mp4,Pushup,train,pushups - child pose cheat,train,qevd_01350
+qevd,QEVD-FIT-300k-Part-4/00250659.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01351
+qevd,QEVD-FIT-300k-Part-4/00250789.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01360
+qevd,QEVD-FIT-300k-Part-4/00250940.mp4,High_Plank,train,high plank - starting late,test,qevd_01370
+qevd,QEVD-FIT-300k-Part-4/00250973.mp4,High_Plank,train,high plank - knees bent,train,qevd_01373
+qevd,QEVD-FIT-300k-Part-4/00250974.mp4,Pushup,train,pushups - child pose cheat,train,qevd_01374
+qevd,QEVD-FIT-300k-Part-4/00251010.mp4,High_Plank,train,high plank - moving arms,train,qevd_01375
+qevd,QEVD-FIT-300k-Part-4/00251117.mp4,High_Plank,train,high plank - hips too high,train,qevd_01383
+qevd,QEVD-FIT-300k-Part-4/00251123.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_01385
+qevd,QEVD-FIT-300k-Part-4/00251163.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_01388
+qevd,QEVD-FIT-300k-Part-4/00251217.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_01391
+qevd,QEVD-FIT-300k-Part-4/00251258.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01392
+qevd,QEVD-FIT-300k-Part-4/00251259.mp4,Pushup,train,pushups - 90 degrees | pushups - fast | pushups - wide,train,qevd_01393
+qevd,QEVD-FIT-300k-Part-4/00251333.mp4,Pushup,train,pushups - deep | pushups - shallow | pushups - wide,train,qevd_01397
+qevd,QEVD-FIT-300k-Part-4/00251371.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01400
+qevd,QEVD-FIT-300k-Part-4/00251379.mp4,High_Plank,train,high plank - hips too low,train,qevd_01401
+qevd,QEVD-FIT-300k-Part-4/00251396.mp4,High_Plank,train,high plank - hips too high,test,qevd_01402
+qevd,QEVD-FIT-300k-Part-4/00251398.mp4,High_Plank,train,high plank - hips too high,test,qevd_01403
+qevd,QEVD-FIT-300k-Part-4/00251452.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_01407
+qevd,QEVD-FIT-300k-Part-4/00251530.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01411
+qevd,QEVD-FIT-300k-Part-4/00251576.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01412
+qevd,QEVD-FIT-300k-Part-4/00251646.mp4,High_Plank,train,high plank - stopping early,train,qevd_01416
+qevd,QEVD-FIT-300k-Part-4/00251673.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01419
+qevd,QEVD-FIT-300k-Part-4/00251730.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - wide,train,qevd_01420
+qevd,QEVD-FIT-300k-Part-4/00251733.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_01421
+qevd,QEVD-FIT-300k-Part-4/00251789.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01427
+qevd,QEVD-FIT-300k-Part-4/00251873.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01432
+qevd,QEVD-FIT-300k-Part-4/00251892.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01433
+qevd,QEVD-FIT-300k-Part-4/00251928.mp4,Elbow_Plank,train,elbow plank - arms facing inward and on knees,train,qevd_01437
+qevd,QEVD-FIT-300k-Part-4/00251941.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01438
+qevd,QEVD-FIT-300k-Part-4/00251961.mp4,High_Plank,train,high plank - moving arms,train,qevd_01439
+qevd,QEVD-FIT-300k-Part-4/00252004.mp4,High_Plank,train,high plank - moving feet,train,qevd_01442
+qevd,QEVD-FIT-300k-Part-4/00252057.mp4,High_Plank,train,high plank - knees bent,train,qevd_01447
+qevd,QEVD-FIT-300k-Part-4/00252072.mp4,Pushup,train,pushups - not visible,train,qevd_01448
+qevd,QEVD-FIT-300k-Part-4/00252164.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01454
+qevd,QEVD-FIT-300k-Part-4/00252194.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_01456
+qevd,QEVD-FIT-300k-Part-4/00252291.mp4,High_Plank,train,high plank - knees bent,train,qevd_01462
+qevd,QEVD-FIT-300k-Part-4/00252331.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,test,qevd_01467
+qevd,QEVD-FIT-300k-Part-4/00252357.mp4,High_Plank,train,high plank - moving feet,train,qevd_01469
+qevd,QEVD-FIT-300k-Part-4/00252403.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_01471
+qevd,QEVD-FIT-300k-Part-4/00252468.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_01477
+qevd,QEVD-FIT-300k-Part-4/00252573.mp4,Pushup,train,pushups - child pose cheat,train,qevd_01485
+qevd,QEVD-FIT-300k-Part-4/00252587.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01487
+qevd,QEVD-FIT-300k-Part-4/00252707.mp4,Pushup,train,pushups - early stopping,train,qevd_01491
+qevd,QEVD-FIT-300k-Part-4/00252815.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01498
+qevd,QEVD-FIT-300k-Part-4/00252874.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_01501
+qevd,QEVD-FIT-300k-Part-4/00252910.mp4,Pushup,train,pushups - 90 degrees | pushups - legs on the floor | pushups - wide,train,qevd_01503
+qevd,QEVD-FIT-300k-Part-4/00252920.mp4,High_Plank,train,high plank - hips too high,train,qevd_01505
+qevd,QEVD-FIT-300k-Part-4/00252923.mp4,High_Plank,train,high plank - moving feet,train,qevd_01506
+qevd,QEVD-FIT-300k-Part-4/00252949.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01509
+qevd,QEVD-FIT-300k-Part-4/00253025.mp4,Pushup,train,pushups - side to side,train,qevd_01514
+qevd,QEVD-FIT-300k-Part-4/00253082.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01519
+qevd,QEVD-FIT-300k-Part-4/00253094.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_01520
+qevd,QEVD-FIT-300k-Part-4/00253311.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01533
+qevd,QEVD-FIT-300k-Part-4/00253312.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01534
+qevd,QEVD-FIT-300k-Part-4/00253316.mp4,High_Plank,train,high plank - looking up,train,qevd_01535
+qevd,QEVD-FIT-300k-Part-4/00253329.mp4,High_Plank,train,high plank - moving arms,test,qevd_01536
+qevd,QEVD-FIT-300k-Part-4/00253365.mp4,High_Plank,train,high plank - starting late,test,qevd_01537
+qevd,QEVD-FIT-300k-Part-4/00253377.mp4,Pushup,train,pushups - shallow | pushups - shoulder-width,train,qevd_01538
+qevd,QEVD-FIT-300k-Part-4/00253379.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01539
+qevd,QEVD-FIT-300k-Part-4/00253411.mp4,High_Plank,train,high plank - hips too high,train,qevd_01541
+qevd,QEVD-FIT-300k-Part-4/00253445.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01544
+qevd,QEVD-FIT-300k-Part-4/00253489.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01548
+qevd,QEVD-FIT-300k-Part-4/00253498.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - high hips,train,qevd_01549
+qevd,QEVD-FIT-300k-Part-4/00253526.mp4,High_Plank,train,high plank - moving feet,train,qevd_01551
+qevd,QEVD-FIT-300k-Part-4/00253534.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01553
+qevd,QEVD-FIT-300k-Part-4/00253611.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01557
+qevd,QEVD-FIT-300k-Part-4/00253664.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01558
+qevd,QEVD-FIT-300k-Part-4/00253742.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_01566
+qevd,QEVD-FIT-300k-Part-4/00253745.mp4,High_Plank,train,high plank - average,train,qevd_01567
+qevd,QEVD-FIT-300k-Part-4/00253781.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01569
+qevd,QEVD-FIT-300k-Part-4/00253901.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01578
+qevd,QEVD-FIT-300k-Part-4/00253926.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01580
+qevd,QEVD-FIT-300k-Part-4/00253965.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_01583
+qevd,QEVD-FIT-300k-Part-4/00253998.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01586
+qevd,QEVD-FIT-300k-Part-4/00254206.mp4,High_Plank,train,high plank - moving arms,train,qevd_01593
+qevd,QEVD-FIT-300k-Part-4/00254267.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_01598
+qevd,QEVD-FIT-300k-Part-4/00254268.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_01599
+qevd,QEVD-FIT-300k-Part-4/00254361.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_01606
+qevd,QEVD-FIT-300k-Part-4/00254403.mp4,High_Plank,train,high plank - moving arms,test,qevd_01611
+qevd,QEVD-FIT-300k-Part-4/00254418.mp4,Pushup,train,pushups - not visible,train,qevd_01612
+qevd,QEVD-FIT-300k-Part-4/00254488.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01616
+qevd,QEVD-FIT-300k-Part-4/00254511.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_01617
+qevd,QEVD-FIT-300k-Part-4/00254618.mp4,High_Plank,train,high plank - knees bent,train,qevd_01628
+qevd,QEVD-FIT-300k-Part-4/00254639.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_01629
+qevd,QEVD-FIT-300k-Part-4/00254667.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01630
+qevd,QEVD-FIT-300k-Part-4/00254716.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01632
+qevd,QEVD-FIT-300k-Part-4/00254764.mp4,Pushup,train,pushups - early stopping,train,qevd_01634
+qevd,QEVD-FIT-300k-Part-4/00254823.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_01643
+qevd,QEVD-FIT-300k-Part-4/00254872.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - shoulder-width,train,qevd_01650
+qevd,QEVD-FIT-300k-Part-4/00254888.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01652
+qevd,QEVD-FIT-300k-Part-4/00254974.mp4,High_Plank,train,high plank - hips too high,train,qevd_01657
+qevd,QEVD-FIT-300k-Part-4/00255040.mp4,High_Plank,train,high plank - starting late,train,qevd_01661
+qevd,QEVD-FIT-300k-Part-4/00255069.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_01662
+qevd,QEVD-FIT-300k-Part-4/00255137.mp4,High_Plank,train,high plank - hips too high,train,qevd_01665
+qevd,QEVD-FIT-300k-Part-4/00255165.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01666
+qevd,QEVD-FIT-300k-Part-4/00255227.mp4,High_Plank,train,high plank - hips too high,test,qevd_01671
+qevd,QEVD-FIT-300k-Part-4/00255234.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_01672
+qevd,QEVD-FIT-300k-Part-4/00255527.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_01691
+qevd,QEVD-FIT-300k-Part-4/00255531.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_01694
+qevd,QEVD-FIT-300k-Part-4/00255555.mp4,High_Plank,train,high plank - knees on floor,train,qevd_01697
+qevd,QEVD-FIT-300k-Part-4/00255573.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01699
+qevd,QEVD-FIT-300k-Part-4/00255577.mp4,High_Plank,train,high plank - hips too high,train,qevd_01700
+qevd,QEVD-FIT-300k-Part-4/00255614.mp4,Pushup,train,pushups - early stopping,train,qevd_01702
+qevd,QEVD-FIT-300k-Part-4/00255656.mp4,High_Plank,train,high plank - looking up,train,qevd_01706
+qevd,QEVD-FIT-300k-Part-4/00255851.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01717
+qevd,QEVD-FIT-300k-Part-4/00255905.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01718
+qevd,QEVD-FIT-300k-Part-4/00255941.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01720
+qevd,QEVD-FIT-300k-Part-4/00256022.mp4,High_Plank,train,high plank - average,test,qevd_01723
+qevd,QEVD-FIT-300k-Part-4/00256108.mp4,High_Plank,train,high plank - moving arms,train,qevd_01726
+qevd,QEVD-FIT-300k-Part-4/00256129.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_01728
+qevd,QEVD-FIT-300k-Part-4/00256134.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_01730
+qevd,QEVD-FIT-300k-Part-4/00256234.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01735
+qevd,QEVD-FIT-300k-Part-4/00256323.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_01740
+qevd,QEVD-FIT-300k-Part-4/00256390.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_01745
+qevd,QEVD-FIT-300k-Part-4/00256413.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_01747
+qevd,QEVD-FIT-300k-Part-4/00256417.mp4,High_Plank,train,high plank - stopping early,train,qevd_01748
+qevd,QEVD-FIT-300k-Part-4/00256452.mp4,High_Plank,train,high plank - hips too low,train,qevd_01749
+qevd,QEVD-FIT-300k-Part-4/00256545.mp4,Pushup,train,pushups - waiting position,train,qevd_01755
+qevd,QEVD-FIT-300k-Part-4/00256557.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_01756
+qevd,QEVD-FIT-300k-Part-4/00256633.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_01760
+qevd,QEVD-FIT-300k-Part-4/00256692.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_01765
+qevd,QEVD-FIT-300k-Part-4/00256779.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg | side plank - high hips,train,qevd_01769
+qevd,QEVD-FIT-300k-Part-4/00256783.mp4,Pushup,train,pushups - early stopping,train,qevd_01770
+qevd,QEVD-FIT-300k-Part-4/00256868.mp4,High_Plank,train,high plank - starting late,train,qevd_01773
+qevd,QEVD-FIT-300k-Part-4/00257041.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01777
+qevd,QEVD-FIT-300k-Part-4/00257043.mp4,High_Plank,train,high plank - knees on floor,train,qevd_01778
+qevd,QEVD-FIT-300k-Part-4/00257116.mp4,Pushup,train,pushups - elevated hips | pushups - shallow | pushups - sloppy | pushups - wide,train,qevd_01780
+qevd,QEVD-FIT-300k-Part-4/00257135.mp4,Side_Plank,train,side plank - elbow below head | side plank - one knee on floor,train,qevd_01781
+qevd,QEVD-FIT-300k-Part-4/00257139.mp4,High_Plank,train,high plank - knees on floor,train,qevd_01782
+qevd,QEVD-FIT-300k-Part-4/00257176.mp4,High_Plank,train,high plank - elbows bent,test,qevd_01783
+qevd,QEVD-FIT-300k-Part-4/00257217.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_01786
+qevd,QEVD-FIT-300k-Part-4/00257538.mp4,High_Plank,train,high plank - knees on floor,test,qevd_01807
+qevd,QEVD-FIT-300k-Part-4/00257539.mp4,High_Plank,train,high plank - knees bent,test,qevd_01808
+qevd,QEVD-FIT-300k-Part-4/00257593.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_01815
+qevd,QEVD-FIT-300k-Part-4/00257653.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_01817
+qevd,QEVD-FIT-300k-Part-4/00257741.mp4,Pushup,train,pushups - butt sinking | pushups - shallow,train,qevd_01820
+qevd,QEVD-FIT-300k-Part-4/00257790.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - head down | pushups (on knees) - wide,train,qevd_01822
+qevd,QEVD-FIT-300k-Part-4/00257819.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - losing balance | side plank - low hips,train,qevd_01829
+qevd,QEVD-FIT-300k-Part-4/00257894.mp4,High_Plank,train,high plank - starting late,train,qevd_01836
+qevd,QEVD-FIT-300k-Part-4/00257928.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_01837
+qevd,QEVD-FIT-300k-Part-4/00257979.mp4,Pushup_on_Knees,train,pushups (on knees) - head down | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_01840
+qevd,QEVD-FIT-300k-Part-4/00258078.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - no obvious issue,train,qevd_01848
+qevd,QEVD-FIT-300k-Part-4/00258270.mp4,High_Plank,train,high plank - elbows bent,train,qevd_01858
+qevd,QEVD-FIT-300k-Part-4/00258339.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_01859
+qevd,QEVD-FIT-300k-Part-4/00258350.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_01860
+qevd,QEVD-FIT-300k-Part-4/00258443.mp4,Pushup,train,pushups - deep | pushups - fast | pushups - shoulder-width,train,qevd_01862
+qevd,QEVD-FIT-300k-Part-4/00258472.mp4,Pushup,train,pushups - shallow | pushups - shoulder-width,train,qevd_01864
+qevd,QEVD-FIT-300k-Part-4/00258510.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01867
+qevd,QEVD-FIT-300k-Part-4/00258525.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01869
+qevd,QEVD-FIT-300k-Part-4/00258541.mp4,High_Plank,train,high plank - moving feet,train,qevd_01870
+qevd,QEVD-FIT-300k-Part-4/00258556.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_01871
+qevd,QEVD-FIT-300k-Part-4/00258586.mp4,Pushup,train,pushups - side to side,train,qevd_01874
+qevd,QEVD-FIT-300k-Part-4/00258610.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_01876
+qevd,QEVD-FIT-300k-Part-4/00258621.mp4,Pushup,train,pushups - waiting position,train,qevd_01877
+qevd,QEVD-FIT-300k-Part-4/00258709.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_01879
+qevd,QEVD-FIT-300k-Part-4/00258800.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_01886
+qevd,QEVD-FIT-300k-Part-4/00258846.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_01888
+qevd,QEVD-FIT-300k-Part-4/00258857.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_01890
+qevd,QEVD-FIT-300k-Part-4/00258885.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_01893
+qevd,QEVD-FIT-300k-Part-4/00259109.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_01902
+qevd,QEVD-FIT-300k-Part-4/00259167.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01907
+qevd,QEVD-FIT-300k-Part-4/00259258.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_01917
+qevd,QEVD-FIT-300k-Part-4/00259280.mp4,High_Plank,train,high plank - starting late,train,qevd_01918
+qevd,QEVD-FIT-300k-Part-4/00259294.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_01921
+qevd,QEVD-FIT-300k-Part-4/00259361.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_01924
+qevd,QEVD-FIT-300k-Part-4/00259478.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_01937
+qevd,QEVD-FIT-300k-Part-4/00259547.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_01941
+qevd,QEVD-FIT-300k-Part-4/00259606.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_01945
+qevd,QEVD-FIT-300k-Part-4/00259653.mp4,High_Plank,train,high plank - moving feet,train,qevd_01948
+qevd,QEVD-FIT-300k-Part-4/00259705.mp4,High_Plank,train,high plank - hips too high,train,qevd_01954
+qevd,QEVD-FIT-300k-Part-4/00259736.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_01958
+qevd,QEVD-FIT-300k-Part-4/00259820.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_01961
+qevd,QEVD-FIT-300k-Part-4/00259833.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_01962
+qevd,QEVD-FIT-300k-Part-4/00259842.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_01964
+qevd,QEVD-FIT-300k-Part-4/00259852.mp4,Pushup,train,pushups - elevated hips | pushups - shallow | pushups - shoulder-width,train,qevd_01965
+qevd,QEVD-FIT-300k-Part-4/00259857.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_01967
+qevd,QEVD-FIT-300k-Part-4/00259897.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_01971
+qevd,QEVD-FIT-300k-Part-4/00259934.mp4,High_Plank,train,high plank - moving feet,train,qevd_01977
+qevd,QEVD-FIT-300k-Part-4/00260030.mp4,Pushup_on_Knees,train,pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_01988
+qevd,QEVD-FIT-300k-Part-4/00260073.mp4,High_Plank,train,high plank - hips too high,test,qevd_01991
+qevd,QEVD-FIT-300k-Part-4/00260124.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_01992
+qevd,QEVD-FIT-300k-Part-4/00260180.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_01995
+qevd,QEVD-FIT-300k-Part-4/00260281.mp4,Pushup,train,pushups - deep | pushups - fast | pushups - wide,train,qevd_02002
+qevd,QEVD-FIT-300k-Part-4/00260327.mp4,High_Plank,train,high plank - stopping early,train,qevd_02006
+qevd,QEVD-FIT-300k-Part-4/00260463.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,test,qevd_02016
+qevd,QEVD-FIT-300k-Part-4/00260526.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02022
+qevd,QEVD-FIT-300k-Part-4/00260564.mp4,Pushup,train,pushups - side to side,train,qevd_02024
+qevd,QEVD-FIT-300k-Part-4/00260581.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02025
+qevd,QEVD-FIT-300k-Part-4/00260620.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02029
+qevd,QEVD-FIT-300k-Part-4/00260655.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_02031
+qevd,QEVD-FIT-300k-Part-4/00260681.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02034
+qevd,QEVD-FIT-300k-Part-4/00260692.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,test,qevd_02036
+qevd,QEVD-FIT-300k-Part-4/00260735.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_02039
+qevd,QEVD-FIT-300k-Part-4/00260775.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_02042
+qevd,QEVD-FIT-300k-Part-4/00260784.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_02043
+qevd,QEVD-FIT-300k-Part-4/00260808.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02045
+qevd,QEVD-FIT-300k-Part-4/00260951.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02053
+qevd,QEVD-FIT-300k-Part-4/00261047.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02057
+qevd,QEVD-FIT-300k-Part-4/00261074.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_02059
+qevd,QEVD-FIT-300k-Part-4/00261153.mp4,Pushup,train,pushups - not visible,train,qevd_02067
+qevd,QEVD-FIT-300k-Part-4/00261257.mp4,High_Plank,train,high plank - elbows bent,test,qevd_02071
+qevd,QEVD-FIT-300k-Part-4/00261277.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_02072
+qevd,QEVD-FIT-300k-Part-4/00261638.mp4,Pushup,train,pushups - side to side,train,qevd_02093
+qevd,QEVD-FIT-300k-Part-4/00261642.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02095
+qevd,QEVD-FIT-300k-Part-4/00261652.mp4,High_Plank,train,high plank - average,test,qevd_02097
+qevd,QEVD-FIT-300k-Part-4/00261677.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02099
+qevd,QEVD-FIT-300k-Part-4/00261680.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_02100
+qevd,QEVD-FIT-300k-Part-4/00261715.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02103
+qevd,QEVD-FIT-300k-Part-4/00261719.mp4,High_Plank,train,high plank - knees bent,train,qevd_02104
+qevd,QEVD-FIT-300k-Part-4/00261758.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_02107
+qevd,QEVD-FIT-300k-Part-4/00261814.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_02110
+qevd,QEVD-FIT-300k-Part-4/00261866.mp4,Pushup,train,pushups - shallow | pushups - shoulder-width,train,qevd_02114
+qevd,QEVD-FIT-300k-Part-4/00261885.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02115
+qevd,QEVD-FIT-300k-Part-4/00261908.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02118
+qevd,QEVD-FIT-300k-Part-4/00261966.mp4,High_Plank,train,high plank - hips too high,train,qevd_02121
+qevd,QEVD-FIT-300k-Part-4/00261981.mp4,High_Plank,train,high plank - stopping early,test,qevd_02123
+qevd,QEVD-FIT-300k-Part-4/00261986.mp4,High_Plank,train,high plank - starting late,train,qevd_02124
+qevd,QEVD-FIT-300k-Part-4/00262055.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_02131
+qevd,QEVD-FIT-300k-Part-4/00262061.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02133
+qevd,QEVD-FIT-300k-Part-4/00262072.mp4,Pushup,train,pushups - not visible,train,qevd_02135
+qevd,QEVD-FIT-300k-Part-4/00262107.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_02138
+qevd,QEVD-FIT-300k-Part-4/00262182.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_02142
+qevd,QEVD-FIT-300k-Part-4/00262195.mp4,High_Plank,train,high plank - hips too high,train,qevd_02144
+qevd,QEVD-FIT-300k-Part-4/00262233.mp4,High_Plank,train,high plank - hips too high,train,qevd_02146
+qevd,QEVD-FIT-300k-Part-4/00262337.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02153
+qevd,QEVD-FIT-300k-Part-4/00262341.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_02154
+qevd,QEVD-FIT-300k-Part-4/00262432.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,test,qevd_02163
+qevd,QEVD-FIT-300k-Part-4/00262458.mp4,Pushup,train,pushups - early stopping,train,qevd_02164
+qevd,QEVD-FIT-300k-Part-4/00262481.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02168
+qevd,QEVD-FIT-300k-Part-4/00262491.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_02170
+qevd,QEVD-FIT-300k-Part-4/00262618.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_02177
+qevd,QEVD-FIT-300k-Part-4/00262691.mp4,High_Plank,train,high plank - moving arms,train,qevd_02185
+qevd,QEVD-FIT-300k-Part-4/00262713.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_02187
+qevd,QEVD-FIT-300k-Part-4/00262827.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02194
+qevd,QEVD-FIT-300k-Part-4/00262842.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02195
+qevd,QEVD-FIT-300k-Part-4/00262875.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02197
+qevd,QEVD-FIT-300k-Part-4/00263031.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02209
+qevd,QEVD-FIT-300k-Part-4/00263036.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_02210
+qevd,QEVD-FIT-300k-Part-4/00263166.mp4,Pushup,train,pushups - deep | pushups - very wide,train,qevd_02223
+qevd,QEVD-FIT-300k-Part-4/00263211.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02227
+qevd,QEVD-FIT-300k-Part-4/00263214.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_02228
+qevd,QEVD-FIT-300k-Part-4/00263218.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_02229
+qevd,QEVD-FIT-300k-Part-4/00263350.mp4,High_Plank,train,high plank - looking up,train,qevd_02239
+qevd,QEVD-FIT-300k-Part-4/00263372.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_02240
+qevd,QEVD-FIT-300k-Part-4/00263459.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02251
+qevd,QEVD-FIT-300k-Part-4/00263482.mp4,Pushup,train,pushups - legs on the floor,train,qevd_02252
+qevd,QEVD-FIT-300k-Part-4/00263492.mp4,Pushup,train,pushups - not visible,train,qevd_02254
+qevd,QEVD-FIT-300k-Part-4/00263559.mp4,High_Plank,train,high plank - moving arms,train,qevd_02259
+qevd,QEVD-FIT-300k-Part-4/00263619.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02263
+qevd,QEVD-FIT-300k-Part-4/00263768.mp4,High_Plank,train,high plank - starting late,test,qevd_02271
+qevd,QEVD-FIT-300k-Part-4/00263834.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02273
+qevd,QEVD-FIT-300k-Part-4/00263870.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_02275
+qevd,QEVD-FIT-300k-Part-4/00263888.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_02276
+qevd,QEVD-FIT-300k-Part-4/00263900.mp4,High_Plank,train,high plank - looking up,train,qevd_02277
+qevd,QEVD-FIT-300k-Part-4/00263966.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_02287
+qevd,QEVD-FIT-300k-Part-4/00263999.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_02291
+qevd,QEVD-FIT-300k-Part-4/00264070.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02298
+qevd,QEVD-FIT-300k-Part-4/00264071.mp4,High_Plank,train,high plank - moving arms,train,qevd_02299
+qevd,QEVD-FIT-300k-Part-4/00264120.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02303
+qevd,QEVD-FIT-300k-Part-4/00264128.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_02306
+qevd,QEVD-FIT-300k-Part-4/00264249.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02316
+qevd,QEVD-FIT-300k-Part-4/00264273.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - shoulder-width,train,qevd_02318
+qevd,QEVD-FIT-300k-Part-4/00264285.mp4,High_Plank,train,high plank - moving feet,train,qevd_02319
+qevd,QEVD-FIT-300k-Part-4/00264352.mp4,Pushup,train,pushups - 90 degrees | pushups - moving head | pushups - very wide,train,qevd_02321
+qevd,QEVD-FIT-300k-Part-4/00264413.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - head down | pushups (on knees) - wide,train,qevd_02329
+qevd,QEVD-FIT-300k-Part-4/00264428.mp4,High_Plank,train,high plank - starting late,train,qevd_02331
+qevd,QEVD-FIT-300k-Part-4/00264529.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_02339
+qevd,QEVD-FIT-300k-Part-4/00264555.mp4,High_Plank,train,high plank - knees bent,train,qevd_02340
+qevd,QEVD-FIT-300k-Part-4/00264561.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_02342
+qevd,QEVD-FIT-300k-Part-4/00264597.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02346
+qevd,QEVD-FIT-300k-Part-4/00264612.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02347
+qevd,QEVD-FIT-300k-Part-4/00264677.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_02351
+qevd,QEVD-FIT-300k-Part-4/00264693.mp4,High_Plank,train,high plank - moving feet,train,qevd_02355
+qevd,QEVD-FIT-300k-Part-4/00264834.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_02364
+qevd,QEVD-FIT-300k-Part-4/00264850.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_02366
+qevd,QEVD-FIT-300k-Part-4/00264955.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02369
+qevd,QEVD-FIT-300k-Part-4/00264978.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02372
+qevd,QEVD-FIT-300k-Part-4/00264994.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_02373
+qevd,QEVD-FIT-300k-Part-4/00264997.mp4,High_Plank,train,high plank - average,train,qevd_02374
+qevd,QEVD-FIT-300k-Part-4/00265004.mp4,High_Plank,train,high plank - average,train,qevd_02375
+qevd,QEVD-FIT-300k-Part-4/00265038.mp4,Pushup,train,pushups - legs on the floor,train,qevd_02380
+qevd,QEVD-FIT-300k-Part-4/00265050.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_02384
+qevd,QEVD-FIT-300k-Part-4/00265057.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - shoulder-width,train,qevd_02387
+qevd,QEVD-FIT-300k-Part-4/00265061.mp4,Pushup,train,pushups - butt sinking,train,qevd_02388
+qevd,QEVD-FIT-300k-Part-4/00265066.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_02389
+qevd,QEVD-FIT-300k-Part-4/00265266.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02402
+qevd,QEVD-FIT-300k-Part-4/00265300.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_02405
+qevd,QEVD-FIT-300k-Part-4/00265312.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02406
+qevd,QEVD-FIT-300k-Part-4/00265324.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02407
+qevd,QEVD-FIT-300k-Part-4/00265345.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_02409
+qevd,QEVD-FIT-300k-Part-4/00265346.mp4,High_Plank,train,high plank - knees on floor,train,qevd_02410
+qevd,QEVD-FIT-300k-Part-4/00265365.mp4,Pushup,train,pushups - not visible,train,qevd_02412
+qevd,QEVD-FIT-300k-Part-4/00265391.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_02414
+qevd,QEVD-FIT-300k-Part-4/00265414.mp4,High_Plank,train,high plank - knees on floor,train,qevd_02417
+qevd,QEVD-FIT-300k-Part-4/00265446.mp4,Pushup,train,pushups - elevated hips | pushups - moving head | pushups - shallow | pushups - wide,train,qevd_02418
+qevd,QEVD-FIT-300k-Part-4/00265463.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_02419
+qevd,QEVD-FIT-300k-Part-4/00265466.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02420
+qevd,QEVD-FIT-300k-Part-4/00265651.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02437
+qevd,QEVD-FIT-300k-Part-4/00265672.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_02440
+qevd,QEVD-FIT-300k-Part-4/00265696.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02441
+qevd,QEVD-FIT-300k-Part-4/00265737.mp4,Pushup_on_Knees,train,pushups (on knees) - moving head | pushups (on knees) - shallow | pushups (on knees) - shoulder-width | pushups (on knees) - sloppy,train,qevd_02447
+qevd,QEVD-FIT-300k-Part-4/00265760.mp4,Pushup_on_Knees,train,pushups (on knees) - head down | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_02450
+qevd,QEVD-FIT-300k-Part-4/00265828.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_02456
+qevd,QEVD-FIT-300k-Part-4/00265877.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_02457
+qevd,QEVD-FIT-300k-Part-4/00265900.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_02458
+qevd,QEVD-FIT-300k-Part-4/00265901.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - high hips,train,qevd_02459
+qevd,QEVD-FIT-300k-Part-4/00265940.mp4,Elbow_Plank,train,elbow plank - shaking,train,qevd_02463
+qevd,QEVD-FIT-300k-Part-4/00265941.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - wide,train,qevd_02464
+qevd,QEVD-FIT-300k-Part-4/00265950.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_02465
+qevd,QEVD-FIT-300k-Part-4/00266086.mp4,High_Plank,train,high plank - stopping early,train,qevd_02473
+qevd,QEVD-FIT-300k-Part-4/00266105.mp4,High_Plank,train,high plank - hips too high,train,qevd_02474
+qevd,QEVD-FIT-300k-Part-4/00266116.mp4,Side_Plank,train,side plank - elbow below head | side plank - one knee on floor,train,qevd_02477
+qevd,QEVD-FIT-300k-Part-4/00266156.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - moving head | pushups (on knees) - wide,train,qevd_02480
+qevd,QEVD-FIT-300k-Part-4/00266213.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02486
+qevd,QEVD-FIT-300k-Part-4/00266237.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_02487
+qevd,QEVD-FIT-300k-Part-4/00266241.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_02488
+qevd,QEVD-FIT-300k-Part-4/00266292.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_02495
+qevd,QEVD-FIT-300k-Part-4/00266316.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02499
+qevd,QEVD-FIT-300k-Part-4/00266318.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_02501
+qevd,QEVD-FIT-300k-Part-4/00266352.mp4,High_Plank,train,high plank - elbows bent,test,qevd_02505
+qevd,QEVD-FIT-300k-Part-4/00266387.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_02509
+qevd,QEVD-FIT-300k-Part-4/00266421.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - very wide,train,qevd_02512
+qevd,QEVD-FIT-300k-Part-4/00266442.mp4,Side_Plank,train,side plank - elbow below head | side plank - both knees on floor,train,qevd_02513
+qevd,QEVD-FIT-300k-Part-4/00266460.mp4,Pushup,train,pushups - child pose cheat,train,qevd_02516
+qevd,QEVD-FIT-300k-Part-4/00266468.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_02517
+qevd,QEVD-FIT-300k-Part-4/00266478.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02519
+qevd,QEVD-FIT-300k-Part-4/00266506.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_02522
+qevd,QEVD-FIT-300k-Part-4/00266513.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02523
+qevd,QEVD-FIT-300k-Part-4/00266593.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - shoulder-width,train,qevd_02531
+qevd,QEVD-FIT-300k-Part-4/00266618.mp4,High_Plank,train,high plank - hips too high,train,qevd_02532
+qevd,QEVD-FIT-300k-Part-4/00266730.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_02543
+qevd,QEVD-FIT-300k-Part-4/00266806.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02549
+qevd,QEVD-FIT-300k-Part-4/00266855.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_02552
+qevd,QEVD-FIT-300k-Part-4/00266872.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_02554
+qevd,QEVD-FIT-300k-Part-4/00266876.mp4,High_Plank,train,high plank - hips too high,test,qevd_02555
+qevd,QEVD-FIT-300k-Part-4/00267023.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02571
+qevd,QEVD-FIT-300k-Part-4/00267049.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02574
+qevd,QEVD-FIT-300k-Part-4/00267074.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_02576
+qevd,QEVD-FIT-300k-Part-4/00267076.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_02577
+qevd,QEVD-FIT-300k-Part-4/00267121.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02582
+qevd,QEVD-FIT-300k-Part-4/00267143.mp4,High_Plank,train,high plank - hips too low,train,qevd_02586
+qevd,QEVD-FIT-300k-Part-4/00267303.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_02600
+qevd,QEVD-FIT-300k-Part-4/00267326.mp4,Pushup,train,pushups - narrow | pushups - shallow,train,qevd_02602
+qevd,QEVD-FIT-300k-Part-4/00267327.mp4,High_Plank,train,high plank - stopping early,train,qevd_02603
+qevd,QEVD-FIT-300k-Part-4/00267353.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02605
+qevd,QEVD-FIT-300k-Part-4/00267359.mp4,High_Plank,train,high plank - looking up,train,qevd_02606
+qevd,QEVD-FIT-300k-Part-4/00267405.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_02610
+qevd,QEVD-FIT-300k-Part-4/00267480.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02620
+qevd,QEVD-FIT-300k-Part-4/00267503.mp4,Pushup,train,pushups - not visible,train,qevd_02622
+qevd,QEVD-FIT-300k-Part-4/00267580.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02627
+qevd,QEVD-FIT-300k-Part-4/00267697.mp4,Pushup,train,pushups - child pose cheat,train,qevd_02633
+qevd,QEVD-FIT-300k-Part-4/00267755.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_02640
+qevd,QEVD-FIT-300k-Part-4/00267805.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_02646
+qevd,QEVD-FIT-300k-Part-4/00267934.mp4,Elbow_Plank,train,elbow plank - arms facing inward and on knees,train,qevd_02655
+qevd,QEVD-FIT-300k-Part-4/00267938.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_02656
+qevd,QEVD-FIT-300k-Part-4/00267974.mp4,Pushup,train,pushups - side to side,train,qevd_02658
+qevd,QEVD-FIT-300k-Part-4/00268025.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_02668
+qevd,QEVD-FIT-300k-Part-4/00268057.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02670
+qevd,QEVD-FIT-300k-Part-4/00268093.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02673
+qevd,QEVD-FIT-300k-Part-4/00268173.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02680
+qevd,QEVD-FIT-300k-Part-4/00268240.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_02683
+qevd,QEVD-FIT-300k-Part-4/00268267.mp4,High_Plank,train,high plank - knees bent,train,qevd_02686
+qevd,QEVD-FIT-300k-Part-4/00268281.mp4,Pushup,train,pushups - child pose cheat,train,qevd_02687
+qevd,QEVD-FIT-300k-Part-4/00268296.mp4,High_Plank,train,high plank - looking up,train,qevd_02688
+qevd,QEVD-FIT-300k-Part-4/00268305.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02689
+qevd,QEVD-FIT-300k-Part-4/00268401.mp4,Pushup,train,pushups - deep | pushups - sloppy | pushups - wide,train,qevd_02700
+qevd,QEVD-FIT-300k-Part-4/00268452.mp4,High_Plank,train,high plank - moving arms,train,qevd_02705
+qevd,QEVD-FIT-300k-Part-4/00268459.mp4,High_Plank,train,high plank - moving arms,train,qevd_02706
+qevd,QEVD-FIT-300k-Part-4/00268545.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_02714
+qevd,QEVD-FIT-300k-Part-4/00268653.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,train,qevd_02725
+qevd,QEVD-FIT-300k-Part-4/00268665.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02727
+qevd,QEVD-FIT-300k-Part-4/00268758.mp4,High_Plank,train,high plank - rounded shoulders,train,qevd_02742
+qevd,QEVD-FIT-300k-Part-4/00268844.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02753
+qevd,QEVD-FIT-300k-Part-4/00268856.mp4,High_Plank,train,high plank - hips too low,test,qevd_02754
+qevd,QEVD-FIT-300k-Part-4/00268861.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_02755
+qevd,QEVD-FIT-300k-Part-4/00268900.mp4,Pushup,train,pushups - early stopping,train,qevd_02760
+qevd,QEVD-FIT-300k-Part-4/00268962.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_02765
+qevd,QEVD-FIT-300k-Part-4/00269040.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_02775
+qevd,QEVD-FIT-300k-Part-4/00269109.mp4,High_Plank,train,high plank - hips too high,train,qevd_02787
+qevd,QEVD-FIT-300k-Part-4/00269117.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_02789
+qevd,QEVD-FIT-300k-Part-4/00269174.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,test,qevd_02791
+qevd,QEVD-FIT-300k-Part-4/00269221.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02794
+qevd,QEVD-FIT-300k-Part-4/00269281.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_02802
+qevd,QEVD-FIT-300k-Part-4/00269283.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02803
+qevd,QEVD-FIT-300k-Part-4/00269284.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - moving head | pushups (on knees) - very wide,train,qevd_02804
+qevd,QEVD-FIT-300k-Part-4/00269291.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_02805
+qevd,QEVD-FIT-300k-Part-4/00269386.mp4,High_Plank,train,high plank - moving arms,train,qevd_02818
+qevd,QEVD-FIT-300k-Part-4/00269584.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_02834
+qevd,QEVD-FIT-300k-Part-4/00269699.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_02843
+qevd,QEVD-FIT-300k-Part-4/00269739.mp4,Pushup,train,pushups - legs on the floor,train,qevd_02845
+qevd,QEVD-FIT-300k-Part-4/00269753.mp4,High_Plank,train,high plank - looking up,train,qevd_02847
+qevd,QEVD-FIT-300k-Part-4/00269771.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_02850
+qevd,QEVD-FIT-300k-Part-4/00269873.mp4,Pushup,train,pushups - insufficient | pushups - wide,train,qevd_02858
+qevd,QEVD-FIT-300k-Part-4/00269959.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_02862
+qevd,QEVD-FIT-300k-Part-4/00270005.mp4,High_Plank,train,high plank - moving feet,train,qevd_02867
+qevd,QEVD-FIT-300k-Part-4/00270068.mp4,High_Plank,train,high plank - moving arms,test,qevd_02873
+qevd,QEVD-FIT-300k-Part-4/00270072.mp4,Pushup,train,pushups - narrow,train,qevd_02874
+qevd,QEVD-FIT-300k-Part-4/00270081.mp4,Pushup,train,pushups - 90 degrees | pushups - narrow,train,qevd_02877
+qevd,QEVD-FIT-300k-Part-4/00270092.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_02881
+qevd,QEVD-FIT-300k-Part-4/00270097.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_02882
+qevd,QEVD-FIT-300k-Part-4/00270175.mp4,Pushup,train,pushups - butt sinking | pushups - shallow | pushups - wide,train,qevd_02890
+qevd,QEVD-FIT-300k-Part-4/00270209.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02894
+qevd,QEVD-FIT-300k-Part-4/00270210.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_02895
+qevd,QEVD-FIT-300k-Part-4/00270247.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_02899
+qevd,QEVD-FIT-300k-Part-4/00270296.mp4,Pushup,train,pushups - 90 degrees | pushups - butt sinking | pushups - shoulder-width,train,qevd_02903
+qevd,QEVD-FIT-300k-Part-4/00270309.mp4,Pushup,train,pushups - not visible,train,qevd_02905
+qevd,QEVD-FIT-300k-Part-4/00270315.mp4,High_Plank,train,high plank - looking up,train,qevd_02906
+qevd,QEVD-FIT-300k-Part-4/00270334.mp4,High_Plank,train,high plank - knees on floor,train,qevd_02910
+qevd,QEVD-FIT-300k-Part-4/00270387.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - shoulder-width,train,qevd_02916
+qevd,QEVD-FIT-300k-Part-4/00270395.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02917
+qevd,QEVD-FIT-300k-Part-4/00270473.mp4,Pushup,train,pushups - fast | pushups - shallow | pushups - wide,train,qevd_02929
+qevd,QEVD-FIT-300k-Part-4/00270499.mp4,High_Plank,train,high plank - stopping early,train,qevd_02932
+qevd,QEVD-FIT-300k-Part-4/00270610.mp4,High_Plank,train,high plank - hips too low,train,qevd_02943
+qevd,QEVD-FIT-300k-Part-4/00270629.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_02944
+qevd,QEVD-FIT-300k-Part-4/00270647.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_02948
+qevd,QEVD-FIT-300k-Part-4/00270711.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_02954
+qevd,QEVD-FIT-300k-Part-4/00270726.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_02957
+qevd,QEVD-FIT-300k-Part-4/00270799.mp4,Pushup,train,pushups - legs on the floor,train,qevd_02968
+qevd,QEVD-FIT-300k-Part-4/00270838.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_02972
+qevd,QEVD-FIT-300k-Part-4/00271049.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_02995
+qevd,QEVD-FIT-300k-Part-4/00271067.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_02998
+qevd,QEVD-FIT-300k-Part-4/00271069.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - insufficient | pushups (on knees) - wide,train,qevd_03000
+qevd,QEVD-FIT-300k-Part-4/00271082.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03001
+qevd,QEVD-FIT-300k-Part-4/00271089.mp4,High_Plank,train,high plank - elbows bent,train,qevd_03003
+qevd,QEVD-FIT-300k-Part-4/00271155.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_03007
+qevd,QEVD-FIT-300k-Part-4/00271182.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_03010
+qevd,QEVD-FIT-300k-Part-4/00271252.mp4,High_Plank,train,high plank - stopping early,train,qevd_03018
+qevd,QEVD-FIT-300k-Part-4/00271271.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_03022
+qevd,QEVD-FIT-300k-Part-4/00271285.mp4,Pushup,train,pushups - not visible,train,qevd_03024
+qevd,QEVD-FIT-300k-Part-4/00271304.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_03026
+qevd,QEVD-FIT-300k-Part-4/00271335.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03032
+qevd,QEVD-FIT-300k-Part-4/00271353.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_03033
+qevd,QEVD-FIT-300k-Part-4/00271386.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_03035
+qevd,QEVD-FIT-300k-Part-4/00271447.mp4,High_Plank,train,high plank - looking up,train,qevd_03044
+qevd,QEVD-FIT-300k-Part-4/00271470.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_03049
+qevd,QEVD-FIT-300k-Part-4/00271527.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,test,qevd_03053
+qevd,QEVD-FIT-300k-Part-4/00271579.mp4,Pushup,train,pushups - early stopping,train,qevd_03062
+qevd,QEVD-FIT-300k-Part-4/00271670.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03076
+qevd,QEVD-FIT-300k-Part-4/00271736.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03080
+qevd,QEVD-FIT-300k-Part-4/00271770.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head | side plank - low hips,train,qevd_03085
+qevd,QEVD-FIT-300k-Part-4/00271794.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_03088
+qevd,QEVD-FIT-300k-Part-4/00271811.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03089
+qevd,QEVD-FIT-300k-Part-4/00271815.mp4,High_Plank,train,high plank - hips too high,train,qevd_03090
+qevd,QEVD-FIT-300k-Part-4/00271825.mp4,High_Plank,train,high plank - stopping early,test,qevd_03091
+qevd,QEVD-FIT-300k-Part-4/00271910.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_03103
+qevd,QEVD-FIT-300k-Part-4/00271947.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_03105
+qevd,QEVD-FIT-300k-Part-4/00272034.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03119
+qevd,QEVD-FIT-300k-Part-4/00272048.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_03123
+qevd,QEVD-FIT-300k-Part-4/00272079.mp4,Pushup,train,pushups - 90 degrees | pushups - butt sinking | pushups - shoulder-width,train,qevd_03125
+qevd,QEVD-FIT-300k-Part-4/00272080.mp4,High_Plank,train,high plank - looking up,test,qevd_03126
+qevd,QEVD-FIT-300k-Part-4/00272087.mp4,High_Plank,train,high plank - knees on floor,train,qevd_03127
+qevd,QEVD-FIT-300k-Part-4/00272116.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03133
+qevd,QEVD-FIT-300k-Part-4/00272143.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_03137
+qevd,QEVD-FIT-300k-Part-4/00272147.mp4,High_Plank,train,high plank - starting late,train,qevd_03138
+qevd,QEVD-FIT-300k-Part-4/00272177.mp4,Pushup,train,pushups - deep | pushups - elevated hips | pushups - sloppy | pushups - wide,train,qevd_03143
+qevd,QEVD-FIT-300k-Part-4/00272182.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03145
+qevd,QEVD-FIT-300k-Part-4/00272222.mp4,High_Plank,train,high plank - rounded shoulders,test,qevd_03153
+qevd,QEVD-FIT-300k-Part-4/00272227.mp4,Pushup,train,pushups - legs on the floor,train,qevd_03154
+qevd,QEVD-FIT-300k-Part-4/00272267.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_03159
+qevd,QEVD-FIT-300k-Part-4/00272344.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_03167
+qevd,QEVD-FIT-300k-Part-4/00272434.mp4,High_Plank,train,high plank - knees on floor,train,qevd_03176
+qevd,QEVD-FIT-300k-Part-4/00272467.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_03181
+qevd,QEVD-FIT-300k-Part-4/00272494.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03182
+qevd,QEVD-FIT-300k-Part-4/00272534.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_03185
+qevd,QEVD-FIT-300k-Part-4/00272588.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_03193
+qevd,QEVD-FIT-300k-Part-4/00272607.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_03195
+qevd,QEVD-FIT-300k-Part-4/00272613.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_03197
+qevd,QEVD-FIT-300k-Part-4/00272615.mp4,High_Plank,train,high plank - starting late,train,qevd_03199
+qevd,QEVD-FIT-300k-Part-4/00272651.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03207
+qevd,QEVD-FIT-300k-Part-4/00272657.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03209
+qevd,QEVD-FIT-300k-Part-4/00272668.mp4,High_Plank,train,high plank - elbows bent,train,qevd_03211
+qevd,QEVD-FIT-300k-Part-4/00272692.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_03214
+qevd,QEVD-FIT-300k-Part-4/00272738.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03220
+qevd,QEVD-FIT-300k-Part-4/00272891.mp4,Pushup,train,pushups - narrow,train,qevd_03240
+qevd,QEVD-FIT-300k-Part-4/00272933.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - moving head | pushups (on knees) - very wide,train,qevd_03243
+qevd,QEVD-FIT-300k-Part-4/00272935.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03244
+qevd,QEVD-FIT-300k-Part-4/00272938.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03245
+qevd,QEVD-FIT-300k-Part-4/00272945.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03246
+qevd,QEVD-FIT-300k-Part-4/00273021.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03252
+qevd,QEVD-FIT-300k-Part-4/00273030.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03253
+qevd,QEVD-FIT-300k-Part-4/00273047.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03254
+qevd,QEVD-FIT-300k-Part-4/00273076.mp4,High_Plank,train,high plank - starting late,train,qevd_03258
+qevd,QEVD-FIT-300k-Part-4/00273097.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_03263
+qevd,QEVD-FIT-300k-Part-4/00273098.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - low hips,train,qevd_03264
+qevd,QEVD-FIT-300k-Part-4/00273134.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_03268
+qevd,QEVD-FIT-300k-Part-4/00273160.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_03274
+qevd,QEVD-FIT-300k-Part-4/00273181.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,test,qevd_03279
+qevd,QEVD-FIT-300k-Part-4/00273205.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_03282
+qevd,QEVD-FIT-300k-Part-4/00273219.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_03285
+qevd,QEVD-FIT-300k-Part-4/00273322.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_03306
+qevd,QEVD-FIT-300k-Part-4/00273324.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_03307
+qevd,QEVD-FIT-300k-Part-4/00273389.mp4,Pushup,train,pushups - shallow | pushups - wide,train,qevd_03315
+qevd,QEVD-FIT-300k-Part-4/00273443.mp4,Pushup,train,pushups - not visible,train,qevd_03322
+qevd,QEVD-FIT-300k-Part-4/00273550.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_03339
+qevd,QEVD-FIT-300k-Part-4/00273615.mp4,Pushup,train,pushups - 90 degrees | pushups - elevated hips | pushups - wide,train,qevd_03349
+qevd,QEVD-FIT-300k-Part-4/00273636.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_03353
+qevd,QEVD-FIT-300k-Part-4/00273662.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_03355
+qevd,QEVD-FIT-300k-Part-4/00273678.mp4,Pushup,train,pushups - butt sinking | pushups - deep | pushups - wide,train,qevd_03358
+qevd,QEVD-FIT-300k-Part-4/00273710.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_03360
+qevd,QEVD-FIT-300k-Part-4/00273713.mp4,Pushup,train,pushups - deep | pushups - very wide,train,qevd_03361
+qevd,QEVD-FIT-300k-Part-4/00273770.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03370
+qevd,QEVD-FIT-300k-Part-4/00273801.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_03375
+qevd,QEVD-FIT-300k-Part-4/00273813.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_03378
+qevd,QEVD-FIT-300k-Part-4/00273847.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,train,qevd_03382
+qevd,QEVD-FIT-300k-Part-4/00273869.mp4,Pushup,train,pushups - 90 degrees | pushups - moving head | pushups - wide,train,qevd_03383
+qevd,QEVD-FIT-300k-Part-4/00273898.mp4,Pushup,train,pushups - waiting position,train,qevd_03386
+qevd,QEVD-FIT-300k-Part-4/00273907.mp4,High_Plank,train,high plank - stopping early,train,qevd_03388
+qevd,QEVD-FIT-300k-Part-4/00273946.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - high hips,test,qevd_03393
+qevd,QEVD-FIT-300k-Part-4/00273988.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03400
+qevd,QEVD-FIT-300k-Part-4/00273998.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03403
+qevd,QEVD-FIT-300k-Part-4/00274020.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_03408
+qevd,QEVD-FIT-300k-Part-4/00274074.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03411
+qevd,QEVD-FIT-300k-Part-4/00274079.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,test,qevd_03412
+qevd,QEVD-FIT-300k-Part-4/00274084.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_03413
+qevd,QEVD-FIT-300k-Part-4/00274088.mp4,Pushup,train,pushups - butt sinking | pushups - deep | pushups - early stopping | pushups - shoulder-width,train,qevd_03414
+qevd,QEVD-FIT-300k-Part-4/00274111.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03418
+qevd,QEVD-FIT-300k-Part-4/00274208.mp4,High_Plank,train,high plank - knees on floor,train,qevd_03427
+qevd,QEVD-FIT-300k-Part-4/00274238.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_03434
+qevd,QEVD-FIT-300k-Part-4/00274262.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03435
+qevd,QEVD-FIT-300k-Part-4/00274345.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,train,qevd_03450
+qevd,QEVD-FIT-300k-Part-4/00274376.mp4,Pushup,train,pushups - shallow | pushups - shoulder-width,train,qevd_03454
+qevd,QEVD-FIT-300k-Part-4/00274402.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - wide,train,qevd_03458
+qevd,QEVD-FIT-300k-Part-4/00274454.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_03464
+qevd,QEVD-FIT-300k-Part-4/00274505.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03471
+qevd,QEVD-FIT-300k-Part-4/00274522.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_03477
+qevd,QEVD-FIT-300k-Part-4/00274528.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_03479
+qevd,QEVD-FIT-300k-Part-4/00274557.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_03484
+qevd,QEVD-FIT-300k-Part-4/00274573.mp4,Pushup,train,pushups - child pose cheat,train,qevd_03489
+qevd,QEVD-FIT-300k-Part-4/00274579.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_03491
+qevd,QEVD-FIT-300k-Part-4/00274591.mp4,Elbow_Plank,train,elbow plank - head down,train,qevd_03492
+qevd,QEVD-FIT-300k-Part-4/00274592.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03493
+qevd,QEVD-FIT-300k-Part-4/00274593.mp4,Pushup,train,pushups - child pose cheat,train,qevd_03494
+qevd,QEVD-FIT-300k-Part-4/00274648.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03501
+qevd,QEVD-FIT-300k-Part-4/00274702.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - narrow,train,qevd_03505
+qevd,QEVD-FIT-300k-Part-4/00274735.mp4,Pushup,train,pushups - side to side,train,qevd_03509
+qevd,QEVD-FIT-300k-Part-4/00274751.mp4,Pushup,train,pushups - legs on the floor,train,qevd_03513
+qevd,QEVD-FIT-300k-Part-4/00274778.mp4,Pushup_on_Knees,train,pushups (on knees) - narrow | pushups (on knees) - shallow,train,qevd_03516
+qevd,QEVD-FIT-300k-Part-4/00274801.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_03520
+qevd,QEVD-FIT-300k-Part-4/00274831.mp4,Pushup_on_Knees,train,pushups (on knees) - not visible,train,qevd_03527
+qevd,QEVD-FIT-300k-Part-4/00274872.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03536
+qevd,QEVD-FIT-300k-Part-4/00274927.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_03542
+qevd,QEVD-FIT-300k-Part-4/00274934.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03544
+qevd,QEVD-FIT-300k-Part-4/00275147.mp4,Elbow_Plank,train,elbow plank - head down,train,qevd_03573
+qevd,QEVD-FIT-300k-Part-4/00275180.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_03578
+qevd,QEVD-FIT-300k-Part-4/00275276.mp4,Pushup,train,pushups - not visible,train,qevd_03589
+qevd,QEVD-FIT-300k-Part-4/00275294.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03590
+qevd,QEVD-FIT-300k-Part-4/00275349.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_03601
+qevd,QEVD-FIT-300k-Part-4/00275502.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - no obvious issue,train,qevd_03619
+qevd,QEVD-FIT-300k-Part-4/00275515.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_03621
+qevd,QEVD-FIT-300k-Part-4/00275532.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03625
+qevd,QEVD-FIT-300k-Part-4/00275699.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03648
+qevd,QEVD-FIT-300k-Part-4/00275708.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_03653
+qevd,QEVD-FIT-300k-Part-4/00275728.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03659
+qevd,QEVD-FIT-300k-Part-4/00275733.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_03661
+qevd,QEVD-FIT-300k-Part-4/00275780.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03667
+qevd,QEVD-FIT-300k-Part-4/00275792.mp4,High_Plank,train,high plank - looking up,train,qevd_03670
+qevd,QEVD-FIT-300k-Part-4/00275841.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - very wide,train,qevd_03678
+qevd,QEVD-FIT-300k-Part-4/00275863.mp4,Pushup_on_Knees,train,pushups (on knees) - shoulder-width,train,qevd_03685
+qevd,QEVD-FIT-300k-Part-4/00275901.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03691
+qevd,QEVD-FIT-300k-Part-4/00275965.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_03700
+qevd,QEVD-FIT-300k-Part-4/00275992.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_03704
+qevd,QEVD-FIT-300k-Part-4/00275998.mp4,High_Plank,train,high plank - knees on floor,train,qevd_03708
+qevd,QEVD-FIT-300k-Part-4/00276044.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_03715
+qevd,QEVD-FIT-300k-Part-4/00276092.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_03722
+qevd,QEVD-FIT-300k-Part-4/00276166.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03734
+qevd,QEVD-FIT-300k-Part-4/00276250.mp4,Side_Plank,train,side plank - elbow below head | side plank - both knees on floor,train,qevd_03745
+qevd,QEVD-FIT-300k-Part-4/00276266.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_03750
+qevd,QEVD-FIT-300k-Part-4/00276279.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_03753
+qevd,QEVD-FIT-300k-Part-4/00276298.mp4,High_Plank,train,high plank - stopping early,test,qevd_03755
+qevd,QEVD-FIT-300k-Part-4/00276313.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_03757
+qevd,QEVD-FIT-300k-Part-4/00276351.mp4,Pushup,train,pushups - waiting position,train,qevd_03759
+qevd,QEVD-FIT-300k-Part-4/00276469.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - head down | pushups (on knees) - wide,train,qevd_03773
+qevd,QEVD-FIT-300k-Part-4/00276512.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03784
+qevd,QEVD-FIT-300k-Part-4/00276513.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03785
+qevd,QEVD-FIT-300k-Part-4/00276560.mp4,High_Plank,train,high plank - starting late,train,qevd_03795
+qevd,QEVD-FIT-300k-Part-4/00276586.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - moving head | pushups (on knees) - wide,train,qevd_03800
+qevd,QEVD-FIT-300k-Part-4/00276588.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_03801
+qevd,QEVD-FIT-300k-Part-4/00276609.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - wide,train,qevd_03803
+qevd,QEVD-FIT-300k-Part-4/00276627.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - narrow,train,qevd_03805
+qevd,QEVD-FIT-300k-Part-4/00276695.mp4,High_Plank,train,high plank - stopping early,test,qevd_03814
+qevd,QEVD-FIT-300k-Part-4/00276748.mp4,High_Plank,train,high plank - average,train,qevd_03821
+qevd,QEVD-FIT-300k-Part-4/00276813.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_03834
+qevd,QEVD-FIT-300k-Part-4/00276853.mp4,High_Plank,train,high plank - looking up,train,qevd_03838
+qevd,QEVD-FIT-300k-Part-4/00276860.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_03842
+qevd,QEVD-FIT-300k-Part-4/00276868.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03844
+qevd,QEVD-FIT-300k-Part-4/00276889.mp4,High_Plank,train,high plank - looking up,train,qevd_03846
+qevd,QEVD-FIT-300k-Part-4/00276892.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03848
+qevd,QEVD-FIT-300k-Part-4/00276965.mp4,High_Plank,train,high plank - hips too high,train,qevd_03860
+qevd,QEVD-FIT-300k-Part-4/00276990.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_03865
+qevd,QEVD-FIT-300k-Part-4/00277008.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03866
+qevd,QEVD-FIT-300k-Part-4/00277012.mp4,High_Plank,train,high plank - looking up,train,qevd_03867
+qevd,QEVD-FIT-300k-Part-4/00277029.mp4,Pushup,train,pushups - legs on the floor,train,qevd_03870
+qevd,QEVD-FIT-300k-Part-4/00277057.mp4,Pushup,train,pushups - legs on the floor,train,qevd_03874
+qevd,QEVD-FIT-300k-Part-4/00277089.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_03882
+qevd,QEVD-FIT-300k-Part-4/00277090.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03883
+qevd,QEVD-FIT-300k-Part-4/00277105.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - no obvious issue,test,qevd_03886
+qevd,QEVD-FIT-300k-Part-4/00277112.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_03887
+qevd,QEVD-FIT-300k-Part-4/00277124.mp4,High_Plank,train,high plank - looking up,train,qevd_03889
+qevd,QEVD-FIT-300k-Part-4/00277132.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03891
+qevd,QEVD-FIT-300k-Part-4/00277154.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_03895
+qevd,QEVD-FIT-300k-Part-4/00277155.mp4,High_Plank,train,high plank - stopping early,train,qevd_03896
+qevd,QEVD-FIT-300k-Part-4/00277160.mp4,High_Plank,train,high plank - stopping early,train,qevd_03899
+qevd,QEVD-FIT-300k-Part-4/00277168.mp4,Pushup,train,pushups - child pose cheat,train,qevd_03901
+qevd,QEVD-FIT-300k-Part-4/00277181.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03904
+qevd,QEVD-FIT-300k-Part-4/00277196.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03906
+qevd,QEVD-FIT-300k-Part-4/00277201.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_03909
+qevd,QEVD-FIT-300k-Part-4/00277208.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03910
+qevd,QEVD-FIT-300k-Part-4/00277260.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_03922
+qevd,QEVD-FIT-300k-Part-4/00277302.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,train,qevd_03927
+qevd,QEVD-FIT-300k-Part-4/00277320.mp4,Elbow_Plank,train,elbow plank - arms facing inward and legs and hips on the floor,train,qevd_03931
+qevd,QEVD-FIT-300k-Part-4/00277324.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03932
+qevd,QEVD-FIT-300k-Part-4/00277355.mp4,High_Plank,train,high plank - stopping early,train,qevd_03937
+qevd,QEVD-FIT-300k-Part-4/00277359.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_03938
+qevd,QEVD-FIT-300k-Part-4/00277379.mp4,Pushup,train,pushups - not visible,train,qevd_03940
+qevd,QEVD-FIT-300k-Part-4/00277407.mp4,High_Plank,train,high plank - hips too high,train,qevd_03945
+qevd,QEVD-FIT-300k-Part-4/00277418.mp4,Pushup,train,pushups - side to side,train,qevd_03948
+qevd,QEVD-FIT-300k-Part-4/00277420.mp4,High_Plank,train,high plank - moving feet,train,qevd_03949
+qevd,QEVD-FIT-300k-Part-4/00277469.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03954
+qevd,QEVD-FIT-300k-Part-4/00277527.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_03967
+qevd,QEVD-FIT-300k-Part-4/00277563.mp4,Pushup,train,pushups - child pose cheat,train,qevd_03975
+qevd,QEVD-FIT-300k-Part-4/00277567.mp4,Pushup,train,pushups - waiting position,train,qevd_03976
+qevd,QEVD-FIT-300k-Part-4/00277588.mp4,High_Plank,train,high plank - stopping early,train,qevd_03979
+qevd,QEVD-FIT-300k-Part-4/00277599.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_03980
+qevd,QEVD-FIT-300k-Part-4/00277638.mp4,Pushup,train,pushups - narrow | pushups - shallow,train,qevd_03985
+qevd,QEVD-FIT-300k-Part-4/00277648.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_03986
+qevd,QEVD-FIT-300k-Part-4/00277699.mp4,High_Plank,train,high plank - average,test,qevd_03997
+qevd,QEVD-FIT-300k-Part-4/00277712.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_03998
+qevd,QEVD-FIT-300k-Part-4/00277782.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04010
+qevd,QEVD-FIT-300k-Part-4/00277783.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04011
+qevd,QEVD-FIT-300k-Part-4/00277818.mp4,High_Plank,train,high plank - looking up,train,qevd_04017
+qevd,QEVD-FIT-300k-Part-4/00277871.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04021
+qevd,QEVD-FIT-300k-Part-4/00277909.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04027
+qevd,QEVD-FIT-300k-Part-4/00277922.mp4,High_Plank,train,high plank - stopping early,train,qevd_04031
+qevd,QEVD-FIT-300k-Part-4/00277926.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_04034
+qevd,QEVD-FIT-300k-Part-4/00277927.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_04035
+qevd,QEVD-FIT-300k-Part-4/00277966.mp4,Pushup,train,pushups - deep | pushups - fast | pushups - shoulder-width,train,qevd_04041
+qevd,QEVD-FIT-300k-Part-4/00277983.mp4,High_Plank,train,high plank - stopping early,train,qevd_04043
+qevd,QEVD-FIT-300k-Part-4/00278037.mp4,Pushup,train,pushups - 90 degrees | pushups - wide,train,qevd_04048
+qevd,QEVD-FIT-300k-Part-4/00278041.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_04050
+qevd,QEVD-FIT-300k-Part-4/00278043.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_04051
+qevd,QEVD-FIT-300k-Part-4/00278099.mp4,Pushup,train,pushups - sloppy,train,qevd_04058
+qevd,QEVD-FIT-300k-Part-4/00278102.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_04060
+qevd,QEVD-FIT-300k-Part-4/00278133.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_04065
+qevd,QEVD-FIT-300k-Part-4/00278155.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04068
+qevd,QEVD-FIT-300k-Part-4/00278176.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,test,qevd_04073
+qevd,QEVD-FIT-300k-Part-4/00278266.mp4,High_Plank,train,high plank - looking up,train,qevd_04087
+qevd,QEVD-FIT-300k-Part-4/00278278.mp4,Pushup,train,pushups - head moving in an out of frame,train,qevd_04089
+qevd,QEVD-FIT-300k-Part-4/00278305.mp4,Pushup,train,pushups - child pose cheat,train,qevd_04093
+qevd,QEVD-FIT-300k-Part-4/00278306.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04094
+qevd,QEVD-FIT-300k-Part-4/00278378.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04108
+qevd,QEVD-FIT-300k-Part-4/00278379.mp4,High_Plank,train,high plank - starting late,train,qevd_04109
+qevd,QEVD-FIT-300k-Part-4/00278626.mp4,High_Plank,train,high plank - average,train,qevd_04141
+qevd,QEVD-FIT-300k-Part-4/00278684.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - very wide,train,qevd_04152
+qevd,QEVD-FIT-300k-Part-4/00278756.mp4,Pushup,train,pushups - deep | pushups - elevated hips | pushups - shoulder-width | pushups - sloppy,train,qevd_04161
+qevd,QEVD-FIT-300k-Part-4/00278762.mp4,High_Plank,train,high plank - starting late,train,qevd_04163
+qevd,QEVD-FIT-300k-Part-4/00278798.mp4,Pushup,train,pushups - legs on the floor,train,qevd_04165
+qevd,QEVD-FIT-300k-Part-4/00278880.mp4,High_Plank,train,high plank - elbows bent,train,qevd_04173
+qevd,QEVD-FIT-300k-Part-4/00278883.mp4,Pushup,train,pushups - early stopping,train,qevd_04174
+qevd,QEVD-FIT-300k-Part-4/00278924.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04181
+qevd,QEVD-FIT-300k-Part-4/00278947.mp4,High_Plank,train,high plank - looking up,train,qevd_04183
+qevd,QEVD-FIT-300k-Part-4/00278995.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04188
+qevd,QEVD-FIT-300k-Part-4/00279039.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_04195
+qevd,QEVD-FIT-300k-Part-4/00279178.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_04215
+qevd,QEVD-FIT-300k-Part-4/00279180.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - wide,train,qevd_04216
+qevd,QEVD-FIT-300k-Part-4/00279182.mp4,Pushup_on_Knees,train,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,train,qevd_04217
+qevd,QEVD-FIT-300k-Part-4/00279210.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_04221
+qevd,QEVD-FIT-300k-Part-4/00279287.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_04228
+qevd,QEVD-FIT-300k-Part-4/00279288.mp4,Pushup,train,pushups - early stopping,train,qevd_04229
+qevd,QEVD-FIT-300k-Part-4/00279367.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04235
+qevd,QEVD-FIT-300k-Part-4/00279371.mp4,High_Plank,train,high plank - looking up,train,qevd_04236
+qevd,QEVD-FIT-300k-Part-4/00279385.mp4,High_Plank,train,high plank - looking up,train,qevd_04238
+qevd,QEVD-FIT-300k-Part-4/00279388.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_04239
+qevd,QEVD-FIT-300k-Part-4/00279389.mp4,Pushup,train,pushups - early stopping,train,qevd_04240
+qevd,QEVD-FIT-300k-Part-4/00279444.mp4,Pushup,train,pushups - legs on the floor,train,qevd_04248
+qevd,QEVD-FIT-300k-Part-4/00279453.mp4,High_Plank,train,high plank - hips too high,train,qevd_04251
+qevd,QEVD-FIT-300k-Part-4/00279472.mp4,Pushup,train,pushups - side to side,train,qevd_04253
+qevd,QEVD-FIT-300k-Part-4/00279559.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04262
+qevd,QEVD-FIT-300k-Part-4/00279582.mp4,Pushup_on_Knees,train,pushups (on knees) - waiting position,train,qevd_04265
+qevd,QEVD-FIT-300k-Part-4/00279639.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04270
+qevd,QEVD-FIT-300k-Part-4/00279649.mp4,High_Plank,train,high plank - stopping early,test,qevd_04271
+qevd,QEVD-FIT-300k-Part-4/00279652.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_04273
+qevd,QEVD-FIT-300k-Part-4/00279660.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_04274
+qevd,QEVD-FIT-300k-Part-4/00279667.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_04275
+qevd,QEVD-FIT-300k-Part-4/00279690.mp4,Pushup,train,pushups - 90 degrees | pushups - very wide,train,qevd_04279
+qevd,QEVD-FIT-300k-Part-4/00279721.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - low hips,test,qevd_04285
+qevd,QEVD-FIT-300k-Part-4/00279764.mp4,High_Plank,train,high plank - knees bent,test,qevd_04294
+qevd,QEVD-FIT-300k-Part-4/00279765.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - shoulder-width,train,qevd_04295
+qevd,QEVD-FIT-300k-Part-4/00279792.mp4,High_Plank,train,high plank - looking up,train,qevd_04299
+qevd,QEVD-FIT-300k-Part-4/00279816.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_04302
+qevd,QEVD-FIT-300k-Part-4/00279826.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_04305
+qevd,QEVD-FIT-300k-Part-4/00279841.mp4,Elbow_Plank,train,elbow plank - butt sinking,train,qevd_04307
+qevd,QEVD-FIT-300k-Part-4/00279921.mp4,Elbow_Plank,train,elbow plank - shaking,train,qevd_04317
+qevd,QEVD-FIT-300k-Part-4/00279947.mp4,Pushup,train,pushups - deep | pushups - early stopping | pushups - wide,train,qevd_04321
+qevd,QEVD-FIT-300k-Part-4/00279996.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - high hips,train,qevd_04330
+qevd,QEVD-FIT-300k-Part-4/00280008.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width,train,qevd_04333
+qevd,QEVD-FIT-300k-Part-4/00280014.mp4,High_Plank,train,high plank - stopping early,train,qevd_04334
+qevd,QEVD-FIT-300k-Part-4/00280034.mp4,High_Plank,train,high plank - starting late,train,qevd_04339
+qevd,QEVD-FIT-300k-Part-4/00280043.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04342
+qevd,QEVD-FIT-300k-Part-4/00280051.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04343
+qevd,QEVD-FIT-300k-Part-4/00280073.mp4,Elbow_Plank,train,elbow plank - arms too wide,train,qevd_04347
+qevd,QEVD-FIT-300k-Part-4/00280173.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,train,qevd_04362
+qevd,QEVD-FIT-300k-Part-4/00280238.mp4,High_Plank,train,high plank - knees on floor,train,qevd_04371
+qevd,QEVD-FIT-300k-Part-4/00280296.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04378
+qevd,QEVD-FIT-300k-Part-4/00280322.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,train,qevd_04382
+qevd,QEVD-FIT-300k-Part-4/00280397.mp4,Pushup,train,pushups - deep | pushups - shoulder-width,train,qevd_04388
+qevd,QEVD-FIT-300k-Part-4/00280406.mp4,Side_Plank,train,side plank - elbow below head | side plank - no obvious issue,train,qevd_04390
+qevd,QEVD-FIT-300k-Part-4/00280409.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,test,qevd_04391
+qevd,QEVD-FIT-300k-Part-4/00280438.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_04395
+qevd,QEVD-FIT-300k-Part-4/00280476.mp4,High_Plank,train,high plank - stopping early,train,qevd_04398
+qevd,QEVD-FIT-300k-Part-4/00280478.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04399
+qevd,QEVD-FIT-300k-Part-4/00280485.mp4,Pushup,train,pushups - side to side,train,qevd_04401
+qevd,QEVD-FIT-300k-Part-4/00280526.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - high hips,train,qevd_04406
+qevd,QEVD-FIT-300k-Part-4/00280547.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04410
+qevd,QEVD-FIT-300k-Part-4/00280549.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04411
+qevd,QEVD-FIT-300k-Part-4/00280572.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_04414
+qevd,QEVD-FIT-300k-Part-4/00280581.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04417
+qevd,QEVD-FIT-300k-Part-4/00280588.mp4,Side_Plank,train,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04418
+qevd,QEVD-FIT-300k-Part-4/00280611.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04424
+qevd,QEVD-FIT-300k-Part-4/00280654.mp4,High_Plank,train,high plank - stopping early,train,qevd_04427
+qevd,QEVD-FIT-300k-Part-4/00280670.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04430
+qevd,QEVD-FIT-300k-Part-4/00280671.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_04431
+qevd,QEVD-FIT-300k-Part-4/00280720.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04437
+qevd,QEVD-FIT-300k-Part-4/00280726.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04439
+qevd,QEVD-FIT-300k-Part-4/00280838.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04458
+qevd,QEVD-FIT-300k-Part-4/00280899.mp4,Pushup,train,pushups - deep | pushups - legs on the floor | pushups - sloppy | pushups - wide,train,qevd_04464
+qevd,QEVD-FIT-300k-Part-4/00280926.mp4,High_Plank,train,high plank - stopping early,train,qevd_04467
+qevd,QEVD-FIT-300k-Part-4/00280947.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04471
+qevd,QEVD-FIT-300k-Part-4/00280979.mp4,Pushup,train,pushups - waiting position,train,qevd_04481
+qevd,QEVD-FIT-300k-Part-4/00280982.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04482
+qevd,QEVD-FIT-300k-Part-4/00280990.mp4,High_Plank,train,high plank - looking up,train,qevd_04483
+qevd,QEVD-FIT-300k-Part-4/00280991.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - very wide,train,qevd_04484
+qevd,QEVD-FIT-300k-Part-4/00281001.mp4,High_Plank,train,high plank - moving feet,test,qevd_04487
+qevd,QEVD-FIT-300k-Part-4/00281045.mp4,High_Plank,train,high plank - moving feet,test,qevd_04497
+qevd,QEVD-FIT-300k-Part-4/00281054.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04498
+qevd,QEVD-FIT-300k-Part-4/00281068.mp4,High_Plank,train,high plank - hips too low,train,qevd_04502
+qevd,QEVD-FIT-300k-Part-4/00281086.mp4,Elbow_Plank,train,elbow plank - high hips,train,qevd_04507
+qevd,QEVD-FIT-300k-Part-4/00281116.mp4,High_Plank,train,high plank - knees on floor,train,qevd_04512
+qevd,QEVD-FIT-300k-Part-4/00281131.mp4,Pushup,train,pushups - elevated hips | pushups - insufficient | pushups - narrow,train,qevd_04516
+qevd,QEVD-FIT-300k-Part-4/00281146.mp4,High_Plank,train,high plank - looking up,test,qevd_04519
+qevd,QEVD-FIT-300k-Part-4/00281152.mp4,High_Plank,train,high plank - knees bent,train,qevd_04522
+qevd,QEVD-FIT-300k-Part-4/00281155.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04524
+qevd,QEVD-FIT-300k-Part-4/00281161.mp4,High_Plank,train,high plank - looking up,test,qevd_04526
+qevd,QEVD-FIT-300k-Part-4/00281172.mp4,High_Plank,train,high plank - stopping early,test,qevd_04529
+qevd,QEVD-FIT-300k-Part-4/00281194.mp4,Pushup,train,pushups - deep | pushups - wide,train,qevd_04534
+qevd,QEVD-FIT-300k-Part-4/00281220.mp4,Elbow_Plank,train,elbow plank - arms facing inward and on knees,train,qevd_04540
+qevd,QEVD-FIT-300k-Part-4/00281240.mp4,High_Plank,train,high plank - knees on floor,train,qevd_04543
+qevd,QEVD-FIT-300k-Part-4/00281248.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_04546
+qevd,QEVD-FIT-300k-Part-4/00281250.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04547
+qevd,QEVD-FIT-300k-Part-4/00281260.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04550
+qevd,QEVD-FIT-300k-Part-4/00281300.mp4,High_Plank,train,high plank - starting late,train,qevd_04554
+qevd,QEVD-FIT-300k-Part-4/00281309.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04556
+qevd,QEVD-FIT-300k-Part-4/00281331.mp4,Elbow_Plank,train,elbow plank - arms facing inward,train,qevd_04562
+qevd,QEVD-FIT-300k-Part-4/00281341.mp4,High_Plank,train,high plank - knees on floor,train,qevd_04567
+qevd,QEVD-FIT-300k-Part-4/00281342.mp4,High_Plank,train,high plank - looking up,train,qevd_04568
+qevd,QEVD-FIT-300k-Part-4/00281352.mp4,High_Plank,train,high plank - looking up,train,qevd_04572
+qevd,QEVD-FIT-300k-Part-4/00281367.mp4,High_Plank,train,high plank - hips too low,train,qevd_04579
+qevd,QEVD-FIT-300k-Part-4/00281376.mp4,High_Plank,train,high plank - hips too low,train,qevd_04584
+qevd,QEVD-FIT-300k-Part-4/00281382.mp4,High_Plank,train,high plank - knees bent,train,qevd_04587
+qevd,QEVD-FIT-300k-Part-4/00281385.mp4,High_Plank,train,high plank - moving feet,train,qevd_04589
+qevd,QEVD-FIT-300k-Part-4/00281387.mp4,Elbow_Plank,train,elbow plank - arms facing inward and on knees,train,qevd_04590
+qevd,QEVD-FIT-300k-Part-4/00281399.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04594
+qevd,QEVD-FIT-300k-Part-4/00281412.mp4,High_Plank,train,high plank - knees on floor,train,qevd_04600
+qevd,QEVD-FIT-300k-Part-4/00281437.mp4,High_Plank,train,high plank - stopping early,test,qevd_04606
+qevd,QEVD-FIT-300k-Part-4/00281438.mp4,Pushup_on_Knees,train,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - wide,train,qevd_04607
+qevd,QEVD-FIT-300k-Part-4/00281440.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04608
+qevd,QEVD-FIT-300k-Part-4/00281458.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04616
+qevd,QEVD-FIT-300k-Part-4/00281463.mp4,High_Plank,train,high plank - stopping early,train,qevd_04618
+qevd,QEVD-FIT-300k-Part-4/00281495.mp4,Pushup,train,pushups - deep | pushups - legs on the floor | pushups - sloppy | pushups - very wide,train,qevd_04629
+qevd,QEVD-FIT-300k-Part-4/00281501.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04633
+qevd,QEVD-FIT-300k-Part-4/00281515.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04639
+qevd,QEVD-FIT-300k-Part-4/00281517.mp4,Elbow_Plank,train,elbow plank - stopping early,train,qevd_04640
+qevd,QEVD-FIT-300k-Part-4/00281523.mp4,High_Plank,train,high plank - starting late,train,qevd_04641
+qevd,QEVD-FIT-300k-Part-4/00281530.mp4,Pushup,train,pushups - insufficient | pushups - sloppy | pushups - very wide,train,qevd_04644
+qevd,QEVD-FIT-300k-Part-4/00281556.mp4,Elbow_Plank,train,elbow plank - shoulders shrugged up toward the ears,train,qevd_04651
+qevd,QEVD-FIT-300k-Part-4/00281562.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04653
+qevd,QEVD-FIT-300k-Part-4/00281592.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04660
+qevd,QEVD-FIT-300k-Part-4/00281608.mp4,Elbow_Plank,train,elbow plank - average,train,qevd_04666
+qevd,QEVD-FIT-300k-Part-4/00281626.mp4,Elbow_Plank,train,elbow plank - on knees,train,qevd_04672
+qevd,QEVD-FIT-300k-Part-4/00281644.mp4,Elbow_Plank,train,elbow plank - legs and hips on the floor,train,qevd_04675
+qevd,QEVD-FIT-300k-Part-4/00281646.mp4,Pushup_on_Knees,train,pushups (on knees) - shallow | pushups (on knees) - sloppy | pushups (on knees) - very wide,train,qevd_04676
+qevd,QEVD-FIT-300k-Part-4/00281651.mp4,Elbow_Plank,train,elbow plank - head up,train,qevd_04678
+qevd,QEVD-FIT-300k-Part-4/00281653.mp4,Pushup_on_Knees,train,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,train,qevd_04679
+qevd,QEVD-FIT-300k-Part-4/00281695.mp4,Pushup,test,pushups - deep | pushups - very wide,test,qevd_04680
+qevd,QEVD-FIT-300k-Part-4/00281704.mp4,Elbow_Plank,test,elbow plank - high hips,test,qevd_04681
+qevd,QEVD-FIT-300k-Part-4/00281781.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04683
+qevd,QEVD-FIT-300k-Part-4/00281789.mp4,Elbow_Plank,test,elbow plank - head down,test,qevd_04684
+qevd,QEVD-FIT-300k-Part-4/00281802.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04685
+qevd,QEVD-FIT-300k-Part-4/00281820.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_04686
+qevd,QEVD-FIT-300k-Part-4/00281845.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04688
+qevd,QEVD-FIT-300k-Part-4/00281928.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,test,qevd_04692
+qevd,QEVD-FIT-300k-Part-4/00281942.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04694
+qevd,QEVD-FIT-300k-Part-4/00281962.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_04695
+qevd,QEVD-FIT-300k-Part-4/00281971.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,test,qevd_04696
+qevd,QEVD-FIT-300k-Part-4/00281993.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - high hips,train,qevd_04697
+qevd,QEVD-FIT-300k-Part-4/00282061.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04699
+qevd,QEVD-FIT-300k-Part-4/00282085.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04700
+qevd,QEVD-FIT-300k-Part-4/00282136.mp4,Elbow_Plank,test,elbow plank - head down,test,qevd_04702
+qevd,QEVD-FIT-300k-Part-4/00282174.mp4,Pushup,test,pushups - deep | pushups - very wide,test,qevd_04703
+qevd,QEVD-FIT-300k-Part-4/00282179.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04704
+qevd,QEVD-FIT-300k-Part-4/00282192.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - low hips,train,qevd_04705
+qevd,QEVD-FIT-300k-Part-4/00282201.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04706
+qevd,QEVD-FIT-300k-Part-4/00282224.mp4,Pushup,test,pushups - waiting position,test,qevd_04707
+qevd,QEVD-FIT-300k-Part-4/00282226.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,test,qevd_04708
+qevd,QEVD-FIT-300k-Part-4/00282253.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04709
+qevd,QEVD-FIT-300k-Part-4/00282260.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_04710
+qevd,QEVD-FIT-300k-Part-4/00282270.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04711
+qevd,QEVD-FIT-300k-Part-4/00282274.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,test,qevd_04712
+qevd,QEVD-FIT-300k-Part-4/00282308.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04713
+qevd,QEVD-FIT-300k-Part-4/00282314.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_04714
+qevd,QEVD-FIT-300k-Part-4/00282331.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04715
+qevd,QEVD-FIT-300k-Part-4/00282395.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,test,qevd_04718
+qevd,QEVD-FIT-300k-Part-4/00282443.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04720
+qevd,QEVD-FIT-300k-Part-4/00282505.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04724
+qevd,QEVD-FIT-300k-Part-4/00282524.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04725
+qevd,QEVD-FIT-300k-Part-4/00282530.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04726
+qevd,QEVD-FIT-300k-Part-4/00282548.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04727
+qevd,QEVD-FIT-300k-Part-4/00282576.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04728
+qevd,QEVD-FIT-300k-Part-4/00282635.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04730
+qevd,QEVD-FIT-300k-Part-4/00282745.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04733
+qevd,QEVD-FIT-300k-Part-4/00282830.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,test,qevd_04739
+qevd,QEVD-FIT-300k-Part-4/00282991.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04743
+qevd,QEVD-FIT-300k-Part-4/00283048.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04747
+qevd,QEVD-FIT-300k-Part-4/00283061.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_04748
+qevd,QEVD-FIT-300k-Part-4/00283108.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - low hips,train,qevd_04751
+qevd,QEVD-FIT-300k-Part-4/00283182.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04755
+qevd,QEVD-FIT-300k-Part-4/00283184.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - high hips,test,qevd_04756
+qevd,QEVD-FIT-300k-Part-4/00283204.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04757
+qevd,QEVD-FIT-300k-Part-4/00283219.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04758
+qevd,QEVD-FIT-300k-Part-4/00283244.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04759
+qevd,QEVD-FIT-300k-Part-4/00283248.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04760
+qevd,QEVD-FIT-300k-Part-4/00283265.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04761
+qevd,QEVD-FIT-300k-Part-4/00283274.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04762
+qevd,QEVD-FIT-300k-Part-4/00283294.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - high hips,train,qevd_04764
+qevd,QEVD-FIT-300k-Part-4/00283296.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04765
+qevd,QEVD-FIT-300k-Part-4/00283312.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04766
+qevd,QEVD-FIT-300k-Part-4/00283321.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04768
+qevd,QEVD-FIT-300k-Part-4/00283331.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04769
+qevd,QEVD-FIT-300k-Part-4/00283371.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,test,qevd_04770
+qevd,QEVD-FIT-300k-Part-4/00283442.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - low hips,train,qevd_04773
+qevd,QEVD-FIT-300k-Part-4/00283450.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04774
+qevd,QEVD-FIT-300k-Part-4/00283456.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04775
+qevd,QEVD-FIT-300k-Part-4/00283471.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04776
+qevd,QEVD-FIT-300k-Part-4/00283537.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04778
+qevd,QEVD-FIT-300k-Part-4/00283586.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04781
+qevd,QEVD-FIT-300k-Part-4/00283592.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,test,qevd_04782
+qevd,QEVD-FIT-300k-Part-4/00283652.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04784
+qevd,QEVD-FIT-300k-Part-4/00283660.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_04785
+qevd,QEVD-FIT-300k-Part-4/00283720.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,test,qevd_04786
+qevd,QEVD-FIT-300k-Part-4/00283742.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04790
+qevd,QEVD-FIT-300k-Part-4/00283787.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_04791
+qevd,QEVD-FIT-300k-Part-4/00283788.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,test,qevd_04792
+qevd,QEVD-FIT-300k-Part-4/00283827.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_04794
+qevd,QEVD-FIT-300k-Part-4/00283887.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04796
+qevd,QEVD-FIT-300k-Part-4/00283892.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04797
+qevd,QEVD-FIT-300k-Part-4/00283926.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_04800
+qevd,QEVD-FIT-300k-Part-4/00283951.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04801
+qevd,QEVD-FIT-300k-Part-4/00283994.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04802
+qevd,QEVD-FIT-300k-Part-4/00284009.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04803
+qevd,QEVD-FIT-300k-Part-4/00284024.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04804
+qevd,QEVD-FIT-300k-Part-4/00284094.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04805
+qevd,QEVD-FIT-300k-Part-4/00284111.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04807
+qevd,QEVD-FIT-300k-Part-4/00284141.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04809
+qevd,QEVD-FIT-300k-Part-4/00284173.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04811
+qevd,QEVD-FIT-300k-Part-4/00284235.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04813
+qevd,QEVD-FIT-300k-Part-4/00284244.mp4,Elbow_Plank,test,elbow plank - head down,test,qevd_04814
+qevd,QEVD-FIT-300k-Part-4/00284258.mp4,Elbow_Plank,test,elbow plank - arms too wide,test,qevd_04815
+qevd,QEVD-FIT-300k-Part-4/00284263.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04816
+qevd,QEVD-FIT-300k-Part-4/00284280.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04817
+qevd,QEVD-FIT-300k-Part-4/00284282.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04818
+qevd,QEVD-FIT-300k-Part-4/00284356.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04820
+qevd,QEVD-FIT-300k-Part-4/00284378.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_04821
+qevd,QEVD-FIT-300k-Part-4/00284384.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - low hips,train,qevd_04822
+qevd,QEVD-FIT-300k-Part-4/00284393.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,test,qevd_04823
+qevd,QEVD-FIT-300k-Part-4/00284443.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04824
+qevd,QEVD-FIT-300k-Part-4/00284543.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04829
+qevd,QEVD-FIT-300k-Part-4/00284618.mp4,Pushup,test,pushups - deep | pushups - narrow,test,qevd_04832
+qevd,QEVD-FIT-300k-Part-4/00284638.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04833
+qevd,QEVD-FIT-300k-Part-4/00284691.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04836
+qevd,QEVD-FIT-300k-Part-4/00284761.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_04841
+qevd,QEVD-FIT-300k-Part-4/00284827.mp4,Elbow_Plank,test,elbow plank - head up,test,qevd_04842
+qevd,QEVD-FIT-300k-Part-4/00284884.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04844
+qevd,QEVD-FIT-300k-Part-4/00284905.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04845
+qevd,QEVD-FIT-300k-Part-4/00284911.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04846
+qevd,QEVD-FIT-300k-Part-4/00284914.mp4,Elbow_Plank,test,elbow plank - high hips,test,qevd_04847
+qevd,QEVD-FIT-300k-Part-4/00284993.mp4,Pushup,test,pushups - narrow,test,qevd_04848
+qevd,QEVD-FIT-300k-Part-4/00285124.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04853
+qevd,QEVD-FIT-300k-Part-4/00285141.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_04855
+qevd,QEVD-FIT-300k-Part-4/00285168.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04856
+qevd,QEVD-FIT-300k-Part-4/00285225.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04857
+qevd,QEVD-FIT-300k-Part-4/00285233.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04858
+qevd,QEVD-FIT-300k-Part-4/00285321.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04860
+qevd,QEVD-FIT-300k-Part-4/00285339.mp4,Pushup,test,pushups - deep | pushups - very wide,test,qevd_04861
+qevd,QEVD-FIT-300k-Part-4/00285457.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04865
+qevd,QEVD-FIT-300k-Part-4/00285459.mp4,Elbow_Plank,test,elbow plank - legs and hips on the floor,test,qevd_04866
+qevd,QEVD-FIT-300k-Part-4/00285464.mp4,Elbow_Plank,test,elbow plank - high hips,test,qevd_04868
+qevd,QEVD-FIT-300k-Part-4/00285642.mp4,Pushup,test,pushups - 90 degrees | pushups - wide,test,qevd_04874
+qevd,QEVD-FIT-300k-Part-4/00285715.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04879
+qevd,QEVD-FIT-300k-Part-4/00285778.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04882
+qevd,QEVD-FIT-300k-Part-4/00285822.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04885
+qevd,QEVD-FIT-300k-Part-4/00285923.mp4,Pushup,test,pushups - narrow,test,qevd_04890
+qevd,QEVD-FIT-300k-Part-4/00285951.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04892
+qevd,QEVD-FIT-300k-Part-4/00285991.mp4,Pushup,test,pushups - 90 degrees | pushups - butt sinking | pushups - very wide,test,qevd_04894
+qevd,QEVD-FIT-300k-Part-4/00286016.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_04895
+qevd,QEVD-FIT-300k-Part-4/00286033.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04896
+qevd,QEVD-FIT-300k-Part-4/00286045.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04897
+qevd,QEVD-FIT-300k-Part-4/00286057.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04898
+qevd,QEVD-FIT-300k-Part-4/00286063.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04900
+qevd,QEVD-FIT-300k-Part-4/00286092.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04901
+qevd,QEVD-FIT-300k-Part-4/00286113.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04904
+qevd,QEVD-FIT-300k-Part-4/00286177.mp4,Pushup,test,pushups - shallow | pushups - wide,test,qevd_04906
+qevd,QEVD-FIT-300k-Part-4/00286186.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04907
+qevd,QEVD-FIT-300k-Part-4/00286207.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - high hips,train,qevd_04909
+qevd,QEVD-FIT-300k-Part-4/00286216.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04910
+qevd,QEVD-FIT-300k-Part-4/00286237.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04913
+qevd,QEVD-FIT-300k-Part-4/00286394.mp4,Pushup,test,pushups - shallow | pushups - shoulder-width,test,qevd_04918
+qevd,QEVD-FIT-300k-Part-4/00286420.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,test,qevd_04920
+qevd,QEVD-FIT-300k-Part-4/00286529.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_04926
+qevd,QEVD-FIT-300k-Part-4/00286552.mp4,Pushup,test,pushups - shallow | pushups - wide,test,qevd_04928
+qevd,QEVD-FIT-300k-Part-4/00286605.mp4,Pushup,test,pushups - narrow | pushups - shallow,test,qevd_04930
+qevd,QEVD-FIT-300k-Part-4/00286655.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04932
+qevd,QEVD-FIT-300k-Part-4/00286717.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04935
+qevd,QEVD-FIT-300k-Part-4/00286719.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04936
+qevd,QEVD-FIT-300k-Part-4/00286747.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - low hips,test,qevd_04937
+qevd,QEVD-FIT-300k-Part-4/00286790.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_04938
+qevd,QEVD-FIT-300k-Part-4/00286817.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04940
+qevd,QEVD-FIT-300k-Part-4/00286835.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_04942
+qevd,QEVD-FIT-300k-Part-4/00286872.mp4,Pushup,test,pushups - 90 degrees | pushups - butt sinking | pushups - fast | pushups - very wide,test,qevd_04944
+qevd,QEVD-FIT-300k-Part-4/00286951.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_04947
+qevd,QEVD-FIT-300k-Part-4/00287066.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_04949
+qevd,QEVD-FIT-300k-Part-4/00287098.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,test,qevd_04950
+qevd,QEVD-FIT-300k-Part-4/00287141.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04952
+qevd,QEVD-FIT-300k-Part-4/00287193.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,test,qevd_04955
+qevd,QEVD-FIT-300k-Part-4/00287217.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04956
+qevd,QEVD-FIT-300k-Part-4/00287223.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_04958
+qevd,QEVD-FIT-300k-Part-4/00287285.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,test,qevd_04961
+qevd,QEVD-FIT-300k-Part-4/00287299.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_04962
+qevd,QEVD-FIT-300k-Part-4/00287310.mp4,Pushup,test,pushups - deep | pushups - shoulder-width,test,qevd_04963
+qevd,QEVD-FIT-300k-Part-4/00287404.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_04965
+qevd,QEVD-FIT-300k-Part-4/00287571.mp4,Elbow_Plank,test,elbow plank - head down,test,qevd_04974
+qevd,QEVD-FIT-300k-Part-4/00287758.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_04980
+qevd,QEVD-FIT-300k-Part-4/00287779.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_04981
+qevd,QEVD-FIT-300k-Part-4/00287787.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04982
+qevd,QEVD-FIT-300k-Part-4/00287869.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_04985
+qevd,QEVD-FIT-300k-Part-4/00288031.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_04994
+qevd,QEVD-FIT-300k-Part-4/00288087.mp4,Pushup,test,pushups - shallow | pushups - wide,test,qevd_04996
+qevd,QEVD-FIT-300k-Part-4/00288285.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05000
+qevd,QEVD-FIT-300k-Part-4/00288330.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05003
+qevd,QEVD-FIT-300k-Part-4/00288400.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_05006
+qevd,QEVD-FIT-300k-Part-4/00288465.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,train,qevd_05007
+qevd,QEVD-FIT-300k-Part-4/00288677.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_05013
+qevd,QEVD-FIT-300k-Part-4/00288724.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_05014
+qevd,QEVD-FIT-300k-Part-4/00288821.mp4,Pushup,test,pushups - side to side,test,qevd_05019
+qevd,QEVD-FIT-300k-Part-4/00288840.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_05021
+qevd,QEVD-FIT-300k-Part-4/00288849.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_05023
+qevd,QEVD-FIT-300k-Part-4/00288921.mp4,Elbow_Plank,test,elbow plank - high hips,test,qevd_05026
+qevd,QEVD-FIT-300k-Part-4/00288946.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05029
+qevd,QEVD-FIT-300k-Part-4/00288974.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_05030
+qevd,QEVD-FIT-300k-Part-4/00289044.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05032
+qevd,QEVD-FIT-300k-Part-4/00289135.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_05038
+qevd,QEVD-FIT-300k-Part-4/00289203.mp4,Pushup,test,pushups - deep | pushups - fast | pushups - wide,test,qevd_05040
+qevd,QEVD-FIT-300k-Part-4/00289225.mp4,Pushup,test,pushups - legs on the floor,test,qevd_05042
+qevd,QEVD-FIT-300k-Part-4/00289258.mp4,Pushup,test,pushups - deep | pushups - early stopping | pushups - very wide,test,qevd_05045
+qevd,QEVD-FIT-300k-Part-4/00289264.mp4,Pushup_on_Knees,test,pushups (on knees) - shoulder-width,test,qevd_05046
+qevd,QEVD-FIT-300k-Part-4/00289342.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_05048
+qevd,QEVD-FIT-300k-Part-4/00289476.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - elevated hips | pushups (on knees) - moving head | pushups (on knees) - wide,test,qevd_05057
+qevd,QEVD-FIT-300k-Part-4/00289556.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05062
+qevd,QEVD-FIT-300k-Part-4/00289591.mp4,Elbow_Plank,test,elbow plank - average,test,qevd_05064
+qevd,QEVD-FIT-300k-Part-4/00289748.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05071
+qevd,QEVD-FIT-300k-Part-4/00289790.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_05074
+qevd,QEVD-FIT-300k-Part-4/00289811.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - leaning forward,test,qevd_05077
+qevd,QEVD-FIT-300k-Part-4/00289833.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_05079
+qevd,QEVD-FIT-300k-Part-4/00289943.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_05081
+qevd,QEVD-FIT-300k-Part-4/00289952.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,test,qevd_05082
+qevd,QEVD-FIT-300k-Part-4/00290005.mp4,Pushup_on_Knees,test,pushups (on knees) - shallow | pushups (on knees) - wide,test,qevd_05083
+qevd,QEVD-FIT-300k-Part-4/00290056.mp4,Elbow_Plank,test,elbow plank - butt sinking,test,qevd_05087
+qevd,QEVD-FIT-300k-Part-4/00290122.mp4,Pushup,test,pushups - shallow | pushups - shoulder-width,test,qevd_05091
+qevd,QEVD-FIT-300k-Part-4/00290132.mp4,Pushup,test,pushups - early stopping,test,qevd_05092
+qevd,QEVD-FIT-300k-Part-4/00290278.mp4,Elbow_Plank,test,elbow plank - arms facing inward and on knees,test,qevd_05098
+qevd,QEVD-FIT-300k-Part-4/00290428.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_05106
+qevd,QEVD-FIT-300k-Part-4/00290457.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05108
+qevd,QEVD-FIT-300k-Part-4/00290461.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_05109
+qevd,QEVD-FIT-300k-Part-4/00290499.mp4,Pushup,test,pushups - butt sinking | pushups - deep | pushups - wide,test,qevd_05111
+qevd,QEVD-FIT-300k-Part-4/00290545.mp4,Pushup,test,pushups - narrow | pushups - shallow,test,qevd_05115
+qevd,QEVD-FIT-300k-Part-4/00290578.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,test,qevd_05117
+qevd,QEVD-FIT-300k-Part-4/00290584.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,test,qevd_05118
+qevd,QEVD-FIT-300k-Part-4/00290597.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_05119
+qevd,QEVD-FIT-300k-Part-4/00290618.mp4,Elbow_Plank,test,elbow plank - average,test,qevd_05121
+qevd,QEVD-FIT-300k-Part-4/00290659.mp4,Pushup,test,pushups - deep | pushups - narrow,test,qevd_05123
+qevd,QEVD-FIT-300k-Part-4/00290703.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - no obvious issue,train,qevd_05125
+qevd,QEVD-FIT-300k-Part-4/00290728.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_05126
+qevd,QEVD-FIT-300k-Part-4/00290734.mp4,Elbow_Plank,test,elbow plank - arms facing inward and legs and hips on the floor,test,qevd_05127
+qevd,QEVD-FIT-300k-Part-4/00290782.mp4,Pushup_on_Knees,test,pushups (on knees) - waiting position,test,qevd_05131
+qevd,QEVD-FIT-300k-Part-4/00290783.mp4,Elbow_Plank,test,elbow plank - average,test,qevd_05132
+qevd,QEVD-FIT-300k-Part-4/00290792.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05133
+qevd,QEVD-FIT-300k-Part-4/00290816.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05135
+qevd,QEVD-FIT-300k-Part-4/00290832.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - no obvious issue,train,qevd_05137
+qevd,QEVD-FIT-300k-Part-4/00290984.mp4,Pushup,test,pushups - early stopping,test,qevd_05142
+qevd,QEVD-FIT-300k-Part-4/00291173.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05146
+qevd,QEVD-FIT-300k-Part-4/00291224.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05149
+qevd,QEVD-FIT-300k-Part-4/00291322.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_05158
+qevd,QEVD-FIT-300k-Part-4/00291483.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_05165
+qevd,QEVD-FIT-300k-Part-4/00291493.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05166
+qevd,QEVD-FIT-300k-Part-4/00291567.mp4,Pushup,test,pushups - butt sinking | pushups - deep | pushups - wide,test,qevd_05170
+qevd,QEVD-FIT-300k-Part-4/00291813.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,test,qevd_05179
+qevd,QEVD-FIT-300k-Part-4/00292052.mp4,Pushup,test,pushups - shallow | pushups - wide,test,qevd_05188
+qevd,QEVD-FIT-300k-Part-4/00292089.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05192
+qevd,QEVD-FIT-300k-Part-4/00292231.mp4,Pushup_on_Knees,test,pushups (on knees) - shallow | pushups (on knees) - shoulder-width,test,qevd_05195
+qevd,QEVD-FIT-300k-Part-4/00292279.mp4,Pushup,test,pushups - butt sinking | pushups - deep | pushups - shoulder-width,test,qevd_05197
+qevd,QEVD-FIT-300k-Part-4/00292351.mp4,Pushup,test,pushups - legs on the floor,test,qevd_05203
+qevd,QEVD-FIT-300k-Part-4/00292368.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05204
+qevd,QEVD-FIT-300k-Part-4/00292427.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,test,qevd_05206
+qevd,QEVD-FIT-300k-Part-4/00292513.mp4,Side_Plank,test,side plank - elbow below head | side plank - no obvious issue,train,qevd_05208
+qevd,QEVD-FIT-300k-Part-4/00292537.mp4,Elbow_Plank,test,elbow plank - shoulders shrugged up toward the ears,test,qevd_05209
+qevd,QEVD-FIT-300k-Part-4/00292549.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,train,qevd_05210
+qevd,QEVD-FIT-300k-Part-4/00292787.mp4,Pushup_on_Knees,test,pushups (on knees) - waiting position,test,qevd_05221
+qevd,QEVD-FIT-300k-Part-4/00292789.mp4,Pushup,test,pushups - narrow,test,qevd_05222
+qevd,QEVD-FIT-300k-Part-4/00292813.mp4,Pushup_on_Knees,test,pushups (on knees) - waiting position,test,qevd_05224
+qevd,QEVD-FIT-300k-Part-4/00292862.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_05227
+qevd,QEVD-FIT-300k-Part-4/00292911.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_05230
+qevd,QEVD-FIT-300k-Part-4/00293041.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05239
+qevd,QEVD-FIT-300k-Part-4/00293201.mp4,Pushup,test,pushups - shallow | pushups - wide,test,qevd_05246
+qevd,QEVD-FIT-300k-Part-4/00293244.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05250
+qevd,QEVD-FIT-300k-Part-4/00293271.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05251
+qevd,QEVD-FIT-300k-Part-4/00293539.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,test,qevd_05263
+qevd,QEVD-FIT-300k-Part-4/00293542.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,test,qevd_05264
+qevd,QEVD-FIT-300k-Part-4/00293774.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05271
+qevd,QEVD-FIT-300k-Part-4/00293782.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - wide,test,qevd_05272
+qevd,QEVD-FIT-300k-Part-4/00293837.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_05277
+qevd,QEVD-FIT-300k-Part-4/00293871.mp4,Elbow_Plank,test,elbow plank - butt sinking,test,qevd_05278
+qevd,QEVD-FIT-300k-Part-4/00293901.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - very wide,test,qevd_05281
+qevd,QEVD-FIT-300k-Part-4/00293992.mp4,Pushup,test,pushups - child pose cheat,test,qevd_05288
+qevd,QEVD-FIT-300k-Part-4/00293996.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - no obvious issue,test,qevd_05289
+qevd,QEVD-FIT-300k-Part-4/00293999.mp4,Elbow_Plank,test,elbow plank - arms facing inward,test,qevd_05290
+qevd,QEVD-FIT-300k-Part-4/00294010.mp4,Elbow_Plank,test,elbow plank - arms facing inward,test,qevd_05292
+qevd,QEVD-FIT-300k-Part-4/00294042.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05295
+qevd,QEVD-FIT-300k-Part-4/00294090.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,test,qevd_05300
+qevd,QEVD-FIT-300k-Part-4/00294148.mp4,Elbow_Plank,test,elbow plank - head up,test,qevd_05305
+qevd,QEVD-FIT-300k-Part-4/00294169.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05306
+qevd,QEVD-FIT-300k-Part-4/00294198.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,train,qevd_05307
+qevd,QEVD-FIT-300k-Part-4/00294213.mp4,Pushup_on_Knees,test,pushups (on knees) - deep | pushups (on knees) - elevated hips | pushups (on knees) - very wide,test,qevd_05309
+qevd,QEVD-FIT-300k-Part-4/00294361.mp4,Pushup,test,pushups - deep | pushups - very wide,test,qevd_05320
+qevd,QEVD-FIT-300k-Part-4/00294465.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05324
+qevd,QEVD-FIT-300k-Part-4/00294485.mp4,Elbow_Plank,test,elbow plank - arms facing inward and legs and hips on the floor,test,qevd_05326
+qevd,QEVD-FIT-300k-Part-4/00294498.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05327
+qevd,QEVD-FIT-300k-Part-4/00294661.mp4,Pushup,test,pushups - 90 degrees | pushups - wide,test,qevd_05335
+qevd,QEVD-FIT-300k-Part-4/00294700.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_05337
+qevd,QEVD-FIT-300k-Part-4/00294816.mp4,Pushup,test,pushups - deep | pushups - early stopping | pushups - shoulder-width,test,qevd_05340
+qevd,QEVD-FIT-300k-Part-4/00294858.mp4,Pushup,test,pushups - legs on the floor,test,qevd_05342
+qevd,QEVD-FIT-300k-Part-4/00294957.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05346
+qevd,QEVD-FIT-300k-Part-4/00295091.mp4,Pushup,test,pushups - early stopping,test,qevd_05350
+qevd,QEVD-FIT-300k-Part-4/00295120.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,test,qevd_05351
+qevd,QEVD-FIT-300k-Part-4/00295140.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,test,qevd_05353
+qevd,QEVD-FIT-300k-Part-4/00295188.mp4,Elbow_Plank,test,elbow plank - head up,test,qevd_05355
+qevd,QEVD-FIT-300k-Part-4/00295296.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - drooping head | side plank - low hips,train,qevd_05359
+qevd,QEVD-FIT-300k-Part-4/00295334.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - low hips,train,qevd_05361
+qevd,QEVD-FIT-300k-Part-4/00295473.mp4,Pushup,test,pushups - deep | pushups - fast | pushups - wide,test,qevd_05366
+qevd,QEVD-FIT-300k-Part-4/00295536.mp4,Pushup,test,pushups - child pose cheat,test,qevd_05369
+qevd,QEVD-FIT-300k-Part-4/00295589.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,test,qevd_05372
+qevd,QEVD-FIT-300k-Part-4/00295659.mp4,Pushup_on_Knees,test,pushups (on knees) - elevated hips | pushups (on knees) - shallow | pushups (on knees) - wide,test,qevd_05375
+qevd,QEVD-FIT-300k-Part-4/00295669.mp4,Pushup,test,pushups - child pose cheat,test,qevd_05376
+qevd,QEVD-FIT-300k-Part-4/00295716.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05378
+qevd,QEVD-FIT-300k-Part-4/00295769.mp4,Pushup,test,pushups - 90 degrees | pushups - head down | pushups - shallow | pushups - shoulder-width,test,qevd_05380
+qevd,QEVD-FIT-300k-Part-4/00295773.mp4,Elbow_Plank,test,elbow plank - head down,test,qevd_05381
+qevd,QEVD-FIT-300k-Part-4/00295805.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05382
+qevd,QEVD-FIT-300k-Part-4/00295875.mp4,Pushup,test,pushups - side to side,test,qevd_05384
+qevd,QEVD-FIT-300k-Part-4/00296016.mp4,Pushup,test,pushups - 90 degrees | pushups - elevated hips | pushups - wide,test,qevd_05389
+qevd,QEVD-FIT-300k-Part-4/00296267.mp4,Pushup,test,pushups - child pose cheat,test,qevd_05400
+qevd,QEVD-FIT-300k-Part-4/00296287.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,train,qevd_05404
+qevd,QEVD-FIT-300k-Part-4/00296345.mp4,Pushup,test,pushups - deep | pushups - very wide,test,qevd_05406
+qevd,QEVD-FIT-300k-Part-4/00296372.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - balance on leg,train,qevd_05407
+qevd,QEVD-FIT-300k-Part-4/00296391.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - high hips,train,qevd_05408
+qevd,QEVD-FIT-300k-Part-4/00296408.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shallow | pushups (on knees) - wide,test,qevd_05409
+qevd,QEVD-FIT-300k-Part-4/00296412.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - high hips,train,qevd_05410
+qevd,QEVD-FIT-300k-Part-4/00296417.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_05411
+qevd,QEVD-FIT-300k-Part-4/00296419.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - drooping head,train,qevd_05412
+qevd,QEVD-FIT-300k-Part-4/00296499.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - wide,test,qevd_05413
+qevd,QEVD-FIT-300k-Part-4/00296585.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,train,qevd_05417
+qevd,QEVD-FIT-300k-Part-4/00296636.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - no obvious issue,train,qevd_05421
+qevd,QEVD-FIT-300k-Part-4/00296729.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - wide,test,qevd_05427
+qevd,QEVD-FIT-300k-Part-4/00297037.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - high hips,test,qevd_05444
+qevd,QEVD-FIT-300k-Part-4/00297225.mp4,Elbow_Plank,test,elbow plank - high hips,test,qevd_05451
+qevd,QEVD-FIT-300k-Part-4/00297288.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,test,qevd_05454
+qevd,QEVD-FIT-300k-Part-4/00297378.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,train,qevd_05459
+qevd,QEVD-FIT-300k-Part-4/00297535.mp4,Side_Plank,test,side plank - elbow below head | side plank - both knees on floor,train,qevd_05469
+qevd,QEVD-FIT-300k-Part-4/00297589.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - both knees on floor | side plank - leaning forward,test,qevd_05471
+qevd,QEVD-FIT-300k-Part-4/00297628.mp4,Side_Plank,test,side plank - elbow below shoulder | side plank - arm in air | side plank - both knees on floor | side plank - low hips,train,qevd_05475
+qevd,QEVD-FIT-300k-Part-4/00297675.mp4,Pushup,test,pushups - waiting position,test,qevd_05477
+qevd,QEVD-FIT-300k-Part-4/00297749.mp4,Pushup,test,pushups - waiting position,test,qevd_05482
+qevd,QEVD-FIT-300k-Part-4/00297763.mp4,Pushup,test,pushups - deep | pushups - wide,test,qevd_05484
+qevd,QEVD-FIT-300k-Part-4/00297790.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide,test,qevd_05486
+qevd,QEVD-FIT-300k-Part-4/00297869.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - wide,test,qevd_05489
+qevd,QEVD-FIT-300k-Part-4/00297936.mp4,Elbow_Plank,test,elbow plank - on knees,test,qevd_05493
+qevd,QEVD-FIT-300k-Part-4/00297951.mp4,Pushup_on_Knees,test,pushups (on knees) - 90 degrees | pushups (on knees) - shoulder-width | pushups (on knees) - wide | pushups (on knees) - elevated hips,test,qevd_05496

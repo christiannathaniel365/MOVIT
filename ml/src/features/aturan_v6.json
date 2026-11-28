@@ -1,0 +1,310 @@
+{
+  "fitur_versi": "v6",
+  "mode_kualitas": {
+    "Elbow_Plank": "aturan",
+    "High_Plank": "aturan",
+    "Pushup": "aturan",
+    "Pushup_on_Knees": "aturan",
+    "Side_Plank": "aturan"
+  },
+  "aturan": {
+    "Pushup": [
+      {
+        "id": "PINGGUL_TURUN",
+        "metrik": "dev_pinggul",
+        "arah": ">",
+        "ambang": 0.16455160498619079,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "PINGGUL_NAIK",
+        "metrik": "dev_pinggul",
+        "arah": "<",
+        "ambang": -0.27563499331474306,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "LUTUT_TEKUK",
+        "metrik": "lutut",
+        "arah": "<",
+        "ambang": 120.62242126464844,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KURANG_DALAM",
+        "metrik": "siku_bawah",
+        "arah": ">",
+        "ambang": 111.27000427246094,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "KURANG_LURUS",
+        "metrik": "siku_atas",
+        "arah": "<",
+        "ambang": 122.279052734375,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "TANGAN_LEBAR",
+        "metrik": "lebar_tangan",
+        "arah": ">",
+        "ambang": 1.9994518756866455,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "KEPALA_TURUN",
+        "metrik": "dev_kepala",
+        "arah": ">",
+        "ambang": 0.28848536729812624,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_NAIK",
+        "metrik": "dev_kepala",
+        "arah": "<",
+        "ambang": -0.07746235698461533,
+        "aktif": true,
+        "sumber": "batas normal good"
+      }
+    ],
+    "Pushup_on_Knees": [
+      {
+        "id": "PINGGUL_TURUN",
+        "metrik": "dev_pinggul",
+        "arah": ">",
+        "ambang": 0.1299964380264282,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "PINGGUL_NAIK",
+        "metrik": "dev_pinggul",
+        "arah": "<",
+        "ambang": -0.07668782815337181,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KURANG_DALAM",
+        "metrik": "siku_bawah",
+        "arah": ">",
+        "ambang": 129.83643341064453,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KURANG_LURUS",
+        "metrik": "siku_atas",
+        "arah": "<",
+        "ambang": 138.926513671875,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "TANGAN_LEBAR",
+        "metrik": "lebar_tangan",
+        "arah": ">",
+        "ambang": 2.1157758235931396,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "KEPALA_TURUN",
+        "metrik": "dev_kepala",
+        "arah": ">",
+        "ambang": 0.1934398305416107,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_NAIK",
+        "metrik": "dev_kepala",
+        "arah": "<",
+        "ambang": -0.09787823677062989,
+        "aktif": true,
+        "sumber": "batas normal good"
+      }
+    ],
+    "High_Plank": [
+      {
+        "id": "PINGGUL_TURUN",
+        "metrik": "dev_pinggul",
+        "arah": ">",
+        "ambang": 0.035424648299813274,
+        "aktif": false,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "PINGGUL_NAIK",
+        "metrik": "dev_pinggul",
+        "arah": "<",
+        "ambang": -0.7066403818130493,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "LUTUT_TEKUK",
+        "metrik": "lutut",
+        "arah": "<",
+        "ambang": 125.99003601074219,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "SIKU_TEKUK",
+        "metrik": "siku_rata",
+        "arah": "<",
+        "ambang": 144.19708251953125,
+        "aktif": false,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_TURUN",
+        "metrik": "dev_kepala",
+        "arah": ">",
+        "ambang": 0.11331690520048142,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_NAIK",
+        "metrik": "dev_kepala",
+        "arah": "<",
+        "ambang": -0.07383605092763901,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "KAKI_BERGERAK",
+        "metrik": "gerak_kaki",
+        "arah": ">",
+        "ambang": 0.026518920436501503,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "TANGAN_BERGERAK",
+        "metrik": "gerak_tangan",
+        "arah": ">",
+        "ambang": 0.019053997471928596,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      }
+    ],
+    "Elbow_Plank": [
+      {
+        "id": "PINGGUL_TURUN",
+        "metrik": "dev_pinggul",
+        "arah": ">",
+        "ambang": 0.07210448056459427,
+        "aktif": false,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "PINGGUL_NAIK",
+        "metrik": "dev_pinggul",
+        "arah": "<",
+        "ambang": -0.12022091448307037,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "LUTUT_TEKUK",
+        "metrik": "lutut",
+        "arah": "<",
+        "ambang": 117.55384063720703,
+        "aktif": false,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "SIKU_KECIL",
+        "metrik": "siku_rata",
+        "arah": "<",
+        "ambang": 107.07357025146484,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "SIKU_BESAR",
+        "metrik": "siku_rata",
+        "arah": ">",
+        "ambang": 163.967529296875,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "LENGAN_KE_DALAM",
+        "metrik": "tangan_vs_siku",
+        "arah": "<",
+        "ambang": 0.6568405628204346,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      },
+      {
+        "id": "LENGAN_LEBAR",
+        "metrik": "lebar_siku",
+        "arah": ">",
+        "ambang": 1.6415894985198975,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_TURUN",
+        "metrik": "dev_kepala",
+        "arah": ">",
+        "ambang": 0.1255585965514183,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_NAIK",
+        "metrik": "dev_kepala",
+        "arah": "<",
+        "ambang": -0.22405870676040648,
+        "aktif": true,
+        "sumber": "batas normal good"
+      }
+    ],
+    "Side_Plank": [
+      {
+        "id": "PINGGUL_TURUN",
+        "metrik": "dev_pinggul",
+        "arah": ">",
+        "ambang": 0.058263320922851566,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "PINGGUL_NAIK",
+        "metrik": "dev_pinggul",
+        "arah": "<",
+        "ambang": -0.04754094265401364,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "LUTUT_TEKUK",
+        "metrik": "lutut",
+        "arah": "<",
+        "ambang": 150.72744750976562,
+        "aktif": true,
+        "sumber": "batas normal good"
+      },
+      {
+        "id": "KEPALA_TURUN",
+        "metrik": "dev_kepala",
+        "arah": ">",
+        "ambang": 0.12748348712921143,
+        "aktif": true,
+        "sumber": "titik terbaik (aturan kuat)"
+      }
+    ]
+  }
+}
